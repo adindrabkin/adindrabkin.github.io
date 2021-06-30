@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cve on Adin Drabkin</title>
+    <link>https://adindrabkin.com/categories/cve/</link>
+    <description>Recent content in cve on Adin Drabkin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 09 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/categories/cve/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Abusing Templates and Inheritance – Why CVE-2019-8341 Works (Flask/Jinja2 2.10)</title>
+      <link>https://adindrabkin.com/posts/csec-380-blog-cve-2019-8341/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/posts/csec-380-blog-cve-2019-8341/</guid>
+      <description>note: this blog was originally written for CSEC 380 (Principles of Web Application Security) @ RIT</description>
+    </item>
+    
+  </channel>
+</rss>
