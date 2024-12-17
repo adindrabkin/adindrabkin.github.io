@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Adin Drabkin">
+    <meta name="description" content="Quick Navigation
+Week 1 \ Week 3 \ Week 4 Nothing to See Here Challenge description:">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Set Solutions CTF 2021 Week 2"/>
+<meta name="twitter:description" content="Quick Navigation
+Week 1 \ Week 3 \ Week 4 Nothing to See Here Challenge description:"/>
+
+    <meta property="og:title" content="Set Solutions CTF 2021 Week 2" />
+<meta property="og:description" content="Quick Navigation
+Week 1 \ Week 3 \ Week 4 Nothing to See Here Challenge description:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adindrabkin.com/blog/set-solutions-ctf-2021-week2/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-11-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-11-27T00:00:00+00:00" />
+
+
+    <title>
+  Set Solutions CTF 2021 Week 2 · Adin Drabkin
+</title>
+
+    
+      <link rel="canonical" href="https://adindrabkin.com/blog/set-solutions-ctf-2021-week2/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.7b314bd953f9bf97050dc5a58a3bc9cea394b9438d373447ddfe7365d5efe091.css" integrity="sha256-ezFL2VP5v5cFDcWlijvJzqOUuUONNzRH3f5zZdXv4JE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.111.3">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Adin Drabkin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/" >Home</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/" >About</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/" >Blog</a>
+          </li>
+        
+      
+        
+    </ul>
+  
+</section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://adindrabkin.com/blog/set-solutions-ctf-2021-week2/">
+          Set Solutions CTF 2021 Week 2
+        </a>
+      </h1>
+    </header>
+
+    <p><strong>Quick Navigation</strong><br>
+<a href="/blog/set-solutions-ctf-2021-week1">Week 1</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week3">Week 3</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week4">Week 4</a>
+</p>
+<h1 id="nothing-to-see-here">
+  Nothing to See Here
+  <a class="heading-link" href="#nothing-to-see-here">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>Nothing to See Here<br>
+<br>
+Move along&hellip;</p>
+</blockquote>
+<p>Challenge attachment: <code>thedata.pcap</code></p>
+<p>Week 2 started off relatively easy with a PCAP challenge. The first 495 packets mostly consisted of already established, encrypted TCP sessions. Starting at packet 499, a plaintext HTTP GET for the image <code>nothing2see.jpg</code> can be observed.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/NothingGetImage.jpg"/>
+</figure>
+
+<p>To view and export the contained HTTP objects, I selected File -&gt; Export Objects -&gt; HTTP, which revealed that <code>nothing2see.jpg</code> was the only HTTP object in the capture.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/NothingHTTPObjectList.jpg"/>
+</figure>
+
+<p>I saved and opened <code>nothing2see.jpg</code>, whose name and image implied a stenography challenge.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/nothing2see.png"/>
+</figure>
+
+<p>Hoping for an easy stenography challenge, I ran <code>zsteg</code> on <code>nothing2see.jpg</code>, and the flag appeared!</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/Nothing2SeeFlag.jpg"/>
+</figure>
+
+<h1 id="what-is-x-12">
+  What is X-12?
+  <a class="heading-link" href="#what-is-x-12">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>There is an asset near the Epsilon satellite referred to only as &ldquo;X-12&rdquo;. Chan does not have the security clearance to see what it is.</p>
+</blockquote>
+<p>The challenge page for <code>What is X-12</code> contained a button titled &ldquo;Reveal Intelligence&rdquo;. Upon clicking &ldquo;Reveal Intelligence&rdquo;, the message &ldquo;You lack the clearance to access this intel brief :-(&rdquo; appeared.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/X12RevealData.jpg"/>
+</figure>
+
+<p>Inspection of the HTTP request for &ldquo;Reveal Intelligence&rdquo; revealed that <code>isCommander</code> was set to <code>false</code>. I needed to increase my clearence level by setting <code>isCommander</code> to <code>True</code>!</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/X12DataRequest.jpg"/>
+</figure>
+
+<p>Since the request was only a GET request, I appended <code>isCommander=True</code> to the Reveal Intelligence endpoint. Given my corrected level of clearence, the flag was revealed!</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/X12IntelligenceRevealed.jpg"/>
+</figure>
+
+<h1 id="forgotten-password">
+  Forgotten Password
+  <a class="heading-link" href="#forgotten-password">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>A nation-state APT group has managed to hack the admin account for our server. Unfortunately, the commander no longer remembers the password, so we can&rsquo;t reset it. Perhaps we can look through the attack traffic to find it.</p>
+</blockquote>
+<p>Challenge attachment: <code>capture.pcap</code></p>
+<p>The challenge description mentions that the attached 4.1 MB <code>capture.pcap</code> may contain the commander&rsquo;s lost logon password. Opening <code>capture.pcap</code> with wireshark reveals dozens of HTTP basic authentication authorization failures (response code 401).</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/Forgotten401.jpg"/>
+</figure>
+
+<p>Given that the challenge asks for the correct password, we can filter for <code>http.response.code == 200</code>, which signifies that the page was returned normally, meaning that authentication was successful (if authentication was required). Once applied, the filter revealed a single packet with a 200 response code packet.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/Forgotten200.jpg"/>
+</figure>
+
+<p>To view the password which resulted in the 200 response code, I right clicked on the HTTP response -&gt; follow -&gt; HTTP stream.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/ForgottenHTTPStream.jpg"/>
+</figure>
+
+<p>The base64-encrypted authentication credentials appeared as <code>Basic YWRtaW46SEF0TlVSeGhXdmk1NFEza1pOWnF3M2hHcUFkenZaM2M=</code>. Base64 decoding <code>YWRtaW46SEF0TlVSeGhXdmk1NFEza1pOWnF3M2hHcUFkenZaM2M=</code> using the command <code>pbpaste | base64 -d</code> revealed the username password combination of <code>admin:HAtNURxhWvi54Q3kZNZqw3hGqAdzvZ3c</code>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/ForgottenBase64Decode.jpg"/>
+</figure>
+
+<h2 id="breaking-and-entering">
+  Breaking and Entering
+  <a class="heading-link" href="#breaking-and-entering">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Challenge description:</p>
+<blockquote>
+<p>Lunar shadows</p>
+</blockquote>
+<p>Challenge attachment: <code>file1</code>, <code>file2</code></p>
+<p>Breaking and Entering provided two files with no additional context. Viewing file1 and file2 revealed that they were excerpts of the Unix <code>/etc/passwd/</code> and <code>/etc/shadow</code> files, respectively.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/BreakingFile1File2.jpg"/>
+</figure>
+
+<p>Although not needed for this challenge, I experimented with the Unix tool <code>unshadow</code> to merge the files.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/BreakingUnshadowed.jpg"/>
+</figure>
+
+<p>Utilizing the hash-cracking tool <em>John the Ripper</em>, I provided the wordlist <em>rockyou.txt</em> and the merged password file (file2 by itself would have also worked). I used the command <code>john --wordlist=/usr/share/wordlists/rockyou.txt passwd.txt</code> to begin the hash cracking process.</p>
+<p>John finished cracking <code>$1$jLO/aYrO$wsuFfVHPizyOCyfKhBfFE1</code> in six seconds, and <code>john --show passwd.txt</code> revealed the password <code>didgeridoo</code> (<code>flag:didgeridoo:..</code>)</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/BreakingCracked.jpg"/>
+</figure>
+
+<h1 id="smarts-vs-strength">
+  Smarts vs Strength
+  <a class="heading-link" href="#smarts-vs-strength">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>We think this might be Key to getting into the moonbase. Either you work this out xor we have to use the wrenches</p>
+</blockquote>
+<p>Challenge attachment: SmartsVsStrength</p>
+<p>Smarts vs Strength contained a 5 KB attachment which the Unix command <code>file</code> was unable to identify. However, the challenge description contained two hints, being the word <em>Key</em> (capitalized) and the word <em>xor</em>.</p>
+<p>I uploaded <em>SmartsVsStrength</em> to cyberchef and selected XOR brute force, given the <em>xor</em> hint in the challenge description. The key length defaulted to 1, and I arbitrarily chose 100 as the sample length.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/SmartsXOR100Length.jpg"/>
+</figure>
+
+<p>I searched the content of XOR&rsquo;d output for the word &ldquo;flag&rdquo; and found a few results, which seemed to be cut off. I doubled the sample length to 200 and could now comprehend the flag-related message:</p>
+<p>&ldquo;Key = 53: &hellip;&hellip; the key that showed you this message is the character at index 0 of the flag&hellip;&rdquo;</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/SmartsIndex53.jpg"/>
+</figure>
+
+<p>53 is hex representation of &ldquo;S&rdquo;, and given that other flags have been formatted as <code>SSI{..}</code>, it made sense that the same format would apply here.</p>
+<p>After increasing the sample length by 100 a few times and noticing that some keys were still cut off, I raised sample length to <code>4958</code>, being the size of the <code>SmartsVsStrength</code> file. I downloaded XOR results from cyberchef, which totaled 1.3 MB.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/SmartsXORBrute.jpg"/>
+</figure>
+
+<p>I created a python script that utilizes <code>regex</code> to locate each mention of &ldquo;the character at index &hellip;&rdquo;, parse the index, and resolve the hexadecimal value to plaintext.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">import</span> regex <span style="color:#fff;font-weight:bold">as</span> re
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">def</span> main():
+</span></span><span style="display:flex;"><span>    flag_map = {}
+</span></span><span style="display:flex;"><span>    idx_regex = re.compile(<span style="color:#0ff;font-weight:bold">rb</span><span style="color:#0ff;font-weight:bold">&#34; character at index ([0-9]{1,2}) &#34;</span>)
+</span></span><span style="display:flex;"><span>    key_regex = re.compile(<span style="color:#0ff;font-weight:bold">rb</span><span style="color:#0ff;font-weight:bold">&#34;Key = ([0-9a-f]{1,2}):&#34;</span>)
+</span></span><span style="display:flex;"><span>    dat = [i <span style="color:#fff;font-weight:bold">for</span> i in <span style="color:#fff;font-weight:bold">open</span>(<span style="color:#0ff;font-weight:bold">&#34;download.dat&#34;</span>, <span style="color:#0ff;font-weight:bold">&#34;rb&#34;</span>)]
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> line in dat:
+</span></span><span style="display:flex;"><span>        <span style="color:#fff;font-weight:bold">for</span> idx in re.findall(idx_regex, line):  <span style="color:#007f7f"># find the index in the flag</span>
+</span></span><span style="display:flex;"><span>            hex_key = re.findall(key_regex, line)[<span style="color:#ff0;font-weight:bold">0</span>]  <span style="color:#007f7f"># find the key(s) corresponding to the index</span>
+</span></span><span style="display:flex;"><span>            flag_map[<span style="color:#fff;font-weight:bold">int</span>(idx)] = <span style="color:#fff;font-weight:bold">bytes</span>.fromhex(<span style="color:#fff;font-weight:bold">str</span>(hex_key)[<span style="color:#ff0;font-weight:bold">2</span>:<span style="color:#ff0;font-weight:bold">4</span>])  <span style="color:#007f7f"># map the index to the key</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">f</span><span style="color:#0ff;font-weight:bold">&#34;</span><span style="color:#0ff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">str</span>(idx)[<span style="color:#ff0;font-weight:bold">2</span>:-<span style="color:#ff0;font-weight:bold">1</span>]<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold"> = </span><span style="color:#0ff;font-weight:bold">{</span><span style="color:#fff;font-weight:bold">str</span>(flag_map[<span style="color:#fff;font-weight:bold">int</span>(idx)])[<span style="color:#ff0;font-weight:bold">2</span>:-<span style="color:#ff0;font-weight:bold">1</span>]<span style="color:#0ff;font-weight:bold">}</span><span style="color:#0ff;font-weight:bold">&#34;</span>)
+</span></span><span style="display:flex;"><span>    flag = <span style="color:#0ff;font-weight:bold">b</span><span style="color:#0ff;font-weight:bold">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">for</span> i in <span style="color:#fff;font-weight:bold">range</span>(<span style="color:#fff;font-weight:bold">len</span>(flag_map)):
+</span></span><span style="display:flex;"><span>        flag += flag_map[i]
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#0ff;font-weight:bold">&#34;Flag parsed:&#34;</span>)
+</span></span><span style="display:flex;"><span>    <span style="color:#fff;font-weight:bold">print</span>(<span style="color:#fff;font-weight:bold">str</span>(flag)[<span style="color:#ff0;font-weight:bold">2</span>:-<span style="color:#ff0;font-weight:bold">1</span>])
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#fff;font-weight:bold">if</span> __name__ == <span style="color:#0ff;font-weight:bold">&#39;__main__&#39;</span>:
+</span></span><span style="display:flex;"><span>    main()
+</span></span></code></pre></div><p>Here is a photo of the script parsing each character and outputting the flag:</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/SmartsScriptFlag.jpg"/>
+</figure>
+
+<h1 id="command-and-control">
+  Command and Control
+  <a class="heading-link" href="#command-and-control">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>Data being sent to a Chinese IP address from the International Space Station has been intercepted. It appears to be some kind of code.</p>
+</blockquote>
+<p>Challenge attachment: <code>transmission</code></p>
+<p>Command and Control had a 71 KB attachment which contained non-human readable code:</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/CommandTransmissionSample.jpg"/>
+</figure>
+
+<p>After multiple failed attempts of trying to explain the contents of <code>transmission</code> to google, I pasted various portions of the code directly into the google search bar. The string <code>&gt;+ +++ &gt;++ +++ &gt;+</code> yielded information about the programming language from the early 1990s dubbed &ldquo;BrainF*ck&rdquo;.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/CommandBrainFkGoogle.jpg"/>
+</figure>
+
+<p>I pasted the content of <code>transmission</code> into a BrainF*ck interpreter<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, which translated the contents to characters which appeared to be for the bash shell.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/CommandBrainFkTranslate.jpg"/>
+</figure>
+
+<p>Upon pasting the translated content into Kali&rsquo;s ZSH, I received the error &ldquo;zsh: no such word in event&rdquo;.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/CommandZSHPaste.jpg"/>
+</figure>
+
+<p>After too much time spent on debugging, I launched a standard bash shell by executing <code>/bin/bash</code> and pasted the translated message again.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek2/CommandBinBashPaste.jpg"/>
+</figure>
+
+<p>To my surprise, the shell did not throw an error, and the flag was printed!</p>
+<p>Week 2 reflection: Overall, week 2 was more solid than week 1. Fully understanding the scope of the CTF helped with avoiding complete rabbit holes.</p>
+<p><strong>Quick Navigation</strong><br>
+<a href="/blog/set-solutions-ctf-2021-week1">Week 1</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week3">Week 3</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week4">Week 4</a>
+</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://sange.fi/esoteric/brainfuck/impl/interp/i.html" target="_blank" rel="noreferrer noopener">https://sange.fi/esoteric/brainfuck/impl/interp/i.html</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Adin Drabkin 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

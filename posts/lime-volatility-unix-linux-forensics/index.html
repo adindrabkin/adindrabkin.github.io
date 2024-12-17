@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Adin Drabkin">
+    <meta name="description" content="Introduction    Volatility 2 is a powerful python volatile memory extraction utility framework.">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="LiME and Volatility 2 Setup for Unix and Linux Forensics"/>
+<meta name="twitter:description" content="Introduction    Volatility 2 is a powerful python volatile memory extraction utility framework."/>
+
+    <meta property="og:title" content="LiME and Volatility 2 Setup for Unix and Linux Forensics" />
+<meta property="og:description" content="Introduction    Volatility 2 is a powerful python volatile memory extraction utility framework." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adindrabkin.com/posts/lime-volatility-unix-linux-forensics/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2021-09-13T00:00:00+00:00" />
+
+
+
+    <title>
+  LiME and Volatility 2 Setup for Unix and Linux Forensics · Adin Drabkin
+</title>
+
+    
+      <link rel="canonical" href="https://adindrabkin.com/posts/lime-volatility-unix-linux-forensics/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.7b314bd953f9bf97050dc5a58a3bc9cea394b9438d373447ddfe7365d5efe091.css" integrity="sha256-ezFL2VP5v5cFDcWlijvJzqOUuUONNzRH3f5zZdXv4JE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.88.1" />
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Adin Drabkin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/" >Home</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/" >About</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/posts/" >Blog</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://useful.adindrabkin.com" target="_blank" >Sec Notes</a>
+          </li>
+        
+      
+        
+    </ul>
+  
+</section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://adindrabkin.com/posts/lime-volatility-unix-linux-forensics/">
+              LiME and Volatility 2 Setup for Unix and Linux Forensics
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime='2021-09-13T00:00:00Z'>
+                September 13, 2021
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              3-minute read
+            </span>
+          </div>
+          <div class="categories">
+  <i class="fa fa-folder" aria-hidden="true"></i>
+    <a href="/categories/blog/">blog</a></div>
+
+          <div class="tags">
+  <i class="fa fa-tag" aria-hidden="true"></i>
+    <span class="tag">
+      <a href="/tags/forensics/">forensics</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/lime/">LiME</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/unix/">unix</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/linux/">linux</a>
+    </span>
+      <span class="separator">•</span>
+    <span class="tag">
+      <a href="/tags/rit/">rit</a>
+    </span></div>
+
+        </div>
+      </header>
+
+      <div>
+        
+        <h1 id="introduction">
+  Introduction
+  <a class="heading-link" href="#introduction">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>Volatility 2 is a powerful python volatile memory extraction utility framework. Volatility 2 uses operating system &ldquo;profiles&rdquo; when analyzing a memory dump, which can be specified at runtime. Windows profiles are included in the base Volatility 2 repository, while Linux profiles can be found externally and sometimes require custom initialization.</p>
+<p>This guide will specify the additional steps required to analyze a memory dump taken from a Linux machine, including how to create the profile Volatility requires for analysis.</p>
+<p><img src="/images/blog/2021_09_13/vol_thumb.jpg" alt=""><br>
+<em>Volatility 2 directory cloned</em></p>
+<p><em>note: this blog post was inspired by an assignment in CSEC 464 (Computer System Forensics) @ RIT</em></p>
+<h1 id="memory-collection-with-lime">
+  Memory Collection with LiME
+  <a class="heading-link" href="#memory-collection-with-lime">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p><strong>1. Acquire the LiME source code</strong><br>
+Acquire the source code for LiME on the target device or on a USB to be attached to the target device. This can be done by cloning the github repository:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git clone https://github.com/504ensicsLabs/LiME
+</code></pre></div><p>USB users should ensure that the host device has the same configuration (Linux flavor, headers, etc) as the target device.</p>
+<p><strong>2. Build LiME</strong><br>
+To build LiME, enter the <em>LiME/src/</em> folder, and type <em>make</em>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd LiME/src/
+make
+</code></pre></div><p><img src="/images/blog/2021_09_13/lime_make.jpg" alt=""></p>
+<p>A file named <code>lime-[VERISON]-generic.ko</code> should appear. USB users should ensure that [VERSION] matches the <code>uname -a</code> of the target device.</p>
+<p><strong>3. Insert LiME into the kernel and dump the memory</strong><br>
+<em>Note: USB users should insert their USB into the target device prior to beginning step 3</em></p>
+<p>Load the compiled LiME file into the kernel by executing the following command:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo insmod lime-[VERISON]-generic.ko &#34;path=/path/to/dump/memory.bin format=padded&#34;
+</code></pre></div><p><img src="/images/blog/2021_09_13/insmod_lime.jpg" alt=""></p>
+<p>Optionally verify that LiME is loaded by using the lsmod command.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">lsmod | grep lime
+</code></pre></div><p><img src="/images/blog/2021_09_13/lsmod_lime.jpg" alt=""></p>
+<p>Note: The error <code>ERROR: could not insert module lime-5.4.0-80-generic.ko: Unknown symbol in module</code> could indicate that the path parameter <code>path=PATH</code> does not exist, or is misspelled.</p>
+<h1 id="volatility-profile-creation">
+  Volatility Profile Creation
+  <a class="heading-link" href="#volatility-profile-creation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p><strong>1. Acquire Volatility 2 source code</strong><br>
+Acquire the source code for Volatility 2 by cloning the Volatility 2 github repository:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">git clone https://github.com/volatilityfoundation/volatility
+</code></pre></div><p>Install the <em>dwarfdump</em> library if needed:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">sudo apt install dwarfdump
+</code></pre></div><p>Optionally, you may install <em>pycrypto</em> and <em>distorm3</em> for python2 to ensure full functionality of Volatility.</p>
+<p><strong>2. Build the custom linux profile</strong><br>
+On the system with the same configuration as the target device, switch to the <em>tools/linux/</em> folder and execute <em>make</em> to create a dwarffile:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd tools/linux/
+make
+</code></pre></div><p>Locate the <em>System.map</em> file at <code>/boot/System.map-[header-version]-generic</code>.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">locate System.map
+</code></pre></div><p><img src="/images/blog/2021_09_13/system_map.jpg" alt=""></p>
+<p>Finally, zip the the <em>module.dwarf</em> file and the <em>System.map</em> together, into the <em>volatility/plugins/overlays/linux</em> directory, to create the custom linux profile.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">cd ../..
+sudo zip volatility/plugins/overlays/linux/[profilename].zip tools/linux/module.dwarf /boot/System.map-[headers]
+</code></pre></div><p><img src="/images/blog/2021_09_13/vol_zip.jpg" alt=""></p>
+<p>Execute the following command to ensure that the custom profile is located by Volatility:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">python2 vol.py --info | grep Linux
+</code></pre></div><p><img src="/images/blog/2021_09_13/vol_profile.jpg" alt=""></p>
+<p><strong>3. Running Volatility 2</strong><br>
+Ensure that the Volatility code is directly executed from the folder it was downloaded into. Execute <code>python2 vol.py</code> rather than <code>vol.py</code>.</p>
+<p>For example:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">python2 vol.py -f parallels_ubuntu.bin --profile=LinuxUbuntu-5_4_0-80-genericx64 linux_arp
+</code></pre></div><p>Note: Some users may receive a &ldquo;KeyError: &lsquo;__int128 unsigned&rsquo;&rdquo; error. To fix this, insert <code>'__int128 unsigned': 'unsigned long long',</code> into the <code>tp2vol</code> definition under <code>volatility/dwarf.py</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<h1 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<p>The duo of LiME and Volatility provide an imense amount of power, once the hurdles of setup are cleared. Volatility 3<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, released in 2019, is a complete rewrite of Volatility 2, scraping the idea of profiles all together.</p>
+<p>The following guides give information and examples on Volatility 2 commands for Linux. Ensure to specify the custom profile created when attempting the commands found.</p>
+<ul>
+<li>
+<p><a href="https://github.com/volatilityfoundation/volatility/wiki/Linux-Command-Reference" target="_blank" rel="noreferrer noopener">https://github.com/volatilityfoundation/volatility/wiki/Linux-Command-Reference</a>
+</p>
+</li>
+<li>
+<p><a href="https://stuxnet999.github.io/dfir/2020/09/20/Linux-Memory-Forensics.html" target="_blank" rel="noreferrer noopener">https://stuxnet999.github.io/dfir/2020/09/20/Linux-Memory-Forensics.html</a>
+</p>
+</li>
+<li>
+<p><a href="https://book.hacktricks.xyz/forensics/basic-forensic-methodology/memory-dump-analysis/volatility-examples" target="_blank" rel="noreferrer noopener">https://book.hacktricks.xyz/forensics/basic-forensic-methodology/memory-dump-analysis/volatility-examples</a>
+</p>
+</li>
+</ul>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p><a href="https://github.com/volatilityfoundation/volatility/issues/478" target="_blank" rel="noreferrer noopener">https://github.com/volatilityfoundation/volatility/issues/478</a>
+&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="https://github.com/volatilityfoundation/volatility3" target="_blank" rel="noreferrer noopener">https://github.com/volatilityfoundation/volatility3</a>
+&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+      </div>
+
+
+      <footer>
+
+      </footer>
+    </article>
+
+    
+  </section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+      2020 -
+    
+    2021
+     Adin Drabkin 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.03b17769f4f91ae35667e1f2a1ca8c16f50562576cf90ff32b3179926914daa5.js" integrity="sha256-A7F3afT5GuNWZ&#43;HyocqMFvUFYlds&#43;Q/zKzF5kmkU2qU="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
