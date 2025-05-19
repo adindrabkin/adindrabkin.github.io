@@ -6,7 +6,16 @@
     <description>Recent content in Blogs on Adin Drabkin</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Solving the age-old ClickOnce VSTO System.ArgumentException Value does not fall within the expected range error</title>
+      <link>https://adindrabkin.com/blog/clickonce-vsto-system-argumentexception-fix/</link>
+      <pubDate>Mon, 19 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/blog/clickonce-vsto-system-argumentexception-fix/</guid>
+      <description>I recently encountered a situation in which I updated and upgraded a ClickOnce VSTO application.</description>
+    </item>
+    
     <item>
       <title>What does your work look like as a Red Team Consultant?</title>
       <link>https://adindrabkin.com/blog/what-does-your-work-look-like-as-a-red-team-consultant/</link>

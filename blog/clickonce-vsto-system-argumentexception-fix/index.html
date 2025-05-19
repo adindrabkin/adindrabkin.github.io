@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Adin Drabkin">
+    <meta name="description" content="I recently encountered a situation in which I updated and upgraded a ClickOnce VSTO application.">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Solving the age-old ClickOnce VSTO System.ArgumentException Value does not fall within the expected range error"/>
+<meta name="twitter:description" content="I recently encountered a situation in which I updated and upgraded a ClickOnce VSTO application."/>
+
+    <meta property="og:title" content="Solving the age-old ClickOnce VSTO System.ArgumentException Value does not fall within the expected range error" />
+<meta property="og:description" content="I recently encountered a situation in which I updated and upgraded a ClickOnce VSTO application." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adindrabkin.com/blog/clickonce-vsto-system-argumentexception-fix/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2025-05-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-05-19T00:00:00+00:00" />
+
+
+    <title>
+  Solving the age-old ClickOnce VSTO System.ArgumentException Value does not fall within the expected range error · Adin Drabkin
+</title>
+
+    
+      <link rel="canonical" href="https://adindrabkin.com/blog/clickonce-vsto-system-argumentexception-fix/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.7b314bd953f9bf97050dc5a58a3bc9cea394b9438d373447ddfe7365d5efe091.css" integrity="sha256-ezFL2VP5v5cFDcWlijvJzqOUuUONNzRH3f5zZdXv4JE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.111.3">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Adin Drabkin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/" >Home</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/" >About</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/" >Blog</a>
+          </li>
+        
+      
+        
+    </ul>
+  
+</section>
+</nav>
+
+      <div class="content">
+        
+  <section class="container page">
+  <article>
+    <header>
+      <h1 class="title">
+        <a class="title-link" href="https://adindrabkin.com/blog/clickonce-vsto-system-argumentexception-fix/">
+          Solving the age-old ClickOnce VSTO System.ArgumentException Value does not fall within the expected range error
+        </a>
+      </h1>
+    </header>
+
+    <p>I recently encountered a situation in which I updated and upgraded a ClickOnce VSTO application. I was able to build the application with only minor warnings. Uninstalling the old version and installing the new version worked fine on my computer, but errored when installing on my coworker&rsquo;s devices.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>************** Exception Text **************
+</span></span><span style="display:flex;"><span>System.ArgumentException: Value does not fall within the expected range.
+</span></span><span style="display:flex;"><span>   at System.Deployment.Internal.Isolation.IActContext.ApplicationBasePath(UInt32 Flags, String&amp; ApplicationPath)
+</span></span><span style="display:flex;"><span>   at System.ActivationContext.get_ApplicationDirectory()
+</span></span><span style="display:flex;"><span>   at System.AppDomainSetup..ctor(ActivationArguments activationArguments)
+</span></span><span style="display:flex;"><span>   at Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.CreateAppDomainSetup(ActivationContext context, Uri deploymentManifestUri, AddInInstallationStatus installStatus)
+</span></span><span style="display:flex;"><span>   at Microsoft.VisualStudio.Tools.Applications.Deployment.ClickOnceAddInDeploymentManager.InstallAddIn()
+</span></span></code></pre></div><p>For SEO purposes: VSTO System.ArgumentException: Value does not fall within the expected range.</p>
+<p>The internet recommended I do the following:</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>rundll32 %windir%\system32\dfshim.dll CleanOnlineAppCache
+</span></span><span style="display:flex;"><span>del C:\users\USER\AppData\Local\Apps\2.0\
+</span></span></code></pre></div><p>This alone unfortunately did not resolve my issue.</p>
+<p>After hours of debugging, I learned that C# projects do not automatically remove old dependencies from <code>properties.csproj</code> files. As a result, there could be overlapping versions of the same dependency, which would cause the ClickOnce installation to fail.</p>
+<p>I manually edited my <code>properties.csproj</code> and removed the specific versions of libraries that were no longer needed for my project. These libraries could also be identified by looking at the dependency-related warnings when reading the debug build output from the C# project in Visual Studio.</p>
+<p>One of the problematic package references within the <code>properties.csproj</code> is shown below. It was formatted slightly differently than the other package references, although that may have just been a coincidence.</p>
+<div class="highlight"><pre tabindex="0" style="color:#e5e5e5;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>      &lt;HintPath&gt;..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll&lt;/HintPath&gt;
+</span></span></code></pre></div><p>Hopefully this post helps resolve your issue!</p>
+<p>Massive shoutout to this StackOverflow post for leading me down the right path to solving this problem: <a href="https://stackoverflow.com/a/39068355" target="_blank" rel="noreferrer noopener">https://stackoverflow.com/a/39068355</a>
+</p>
+
+  </article>
+</section>
+
+  
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2025
+     Adin Drabkin 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
