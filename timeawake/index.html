@@ -161,14 +161,14 @@
         }
     </style>
         </header>
-          <p>Time Awake Calculator. Tested to handle up to 30 hours flying east. You should probably sleep if going above that.</p>
+          <p>Time Awake Calculator. Tested to handle up to 30 hours flying west/east. You should probably sleep if going above that.</p>
 
     <form id="travel-form">
         <fieldset>
             <legend>Departure</legend>
             <label for="departure-airport">Departure Airport:</label>
             <div class="autocomplete-container">
-                <input type="text" id="departure-airport" name="departure-airport" placeholder="Search IATA, Name, or City" required autocomplete="off">
+                <input type="text" id="departure-airport" name="departure-airport" placeholder="Search IATA or Name" required autocomplete="off">
                 <div id="departure-results" class="autocomplete-results"></div>
             </div>
             <label for="wakeup-time">Wakeup Time:</label>
@@ -179,7 +179,7 @@
             <legend>Arrival</legend>
             <label for="arrival-airport">Arrival Airport:</label>
             <div class="autocomplete-container">
-                <input type="text" id="arrival-airport" name="arrival-airport" placeholder="Search IATA, Name, or City" required autocomplete="off">
+                <input type="text" id="arrival-airport" name="arrival-airport" placeholder="Search IATA or Name" required autocomplete="off">
                 <div id="arrival-results" class="autocomplete-results"></div>
             </div>
             <label for="arrival-time">Arrival Time:</label>
