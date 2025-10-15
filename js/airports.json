@@ -2664,12 +2664,6 @@
     "s": "0"
   },
   {
-    "i": "TGD",
-    "tz": "Europe/Podgorica",
-    "a": "Podgorica Airport / Podgorica Golubovci Airbase",
-    "s": "0"
-  },
-  {
     "i": "THR",
     "tz": "Asia/Tehran",
     "a": "Mehrabad International Airport",
@@ -3465,12 +3459,6 @@
     "i": "AGH",
     "tz": "Europe/Stockholm",
     "a": "Ãngelholm-Helsingborg Airport",
-    "s": "1"
-  },
-  {
-    "i": "AGR",
-    "tz": "Asia/Kolkata",
-    "a": "Agra Airport / Agra Air Force Station",
     "s": "1"
   },
   {
@@ -4398,12 +4386,6 @@
     "s": "1"
   },
   {
-    "i": "AYP",
-    "tz": "America/Lima",
-    "a": "Air Force Colonel Alfredo Mendivil Duarte Airport",
-    "s": "1"
-  },
-  {
     "i": "AYQ",
     "tz": "Australia/Darwin",
     "a": "Ayers Rock Connellan Airport",
@@ -4455,18 +4437,6 @@
     "i": "AZS",
     "tz": "America/Santo_Domingo",
     "a": "SamanÃ¡ El Catey International Airport",
-    "s": "1"
-  },
-  {
-    "i": "BAB",
-    "tz": "America/Los_Angeles",
-    "a": "Beale Air Force Base",
-    "s": "1"
-  },
-  {
-    "i": "BAD",
-    "tz": "America/Chicago",
-    "a": "Barksdale Air Force Base",
     "s": "1"
   },
   {
@@ -4743,12 +4713,6 @@
     "i": "BEF",
     "tz": "America/Managua",
     "a": "Bluefields Airport",
-    "s": "1"
-  },
-  {
-    "i": "BEK",
-    "tz": "Asia/Kolkata",
-    "a": "Bareilly Air Force Station",
     "s": "1"
   },
   {
@@ -5085,12 +5049,6 @@
     "i": "BIS",
     "tz": "America/Chicago",
     "a": "Bismarck Municipal Airport",
-    "s": "1"
-  },
-  {
-    "i": "BIX",
-    "tz": "America/Chicago",
-    "a": "Keesler Air Force Base",
     "s": "1"
   },
   {
@@ -5736,12 +5694,6 @@
     "s": "1"
   },
   {
-    "i": "BUP",
-    "tz": "Asia/Kolkata",
-    "a": "Bhatinda Air Force Station",
-    "s": "1"
-  },
-  {
     "i": "BUQ",
     "tz": "Africa/Harare",
     "a": "Joshua Mqabuko Nkomo International Airport",
@@ -5943,12 +5895,6 @@
     "i": "BYI",
     "tz": "America/Boise",
     "a": "Burley Municipal Airport",
-    "s": "1"
-  },
-  {
-    "i": "BYJ",
-    "tz": "Europe/Lisbon",
-    "a": "Beja Airport / Airbase",
     "s": "1"
   },
   {
@@ -6156,12 +6102,6 @@
     "s": "1"
   },
   {
-    "i": "CBD",
-    "tz": "Asia/Kolkata",
-    "a": "Car Nicobar Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "CBG",
     "tz": "Europe/London",
     "a": "Cambridge City Airport",
@@ -6183,12 +6123,6 @@
     "i": "CBL",
     "tz": "America/Caracas",
     "a": "General Tomas de Heres Airport",
-    "s": "1"
-  },
-  {
-    "i": "CBM",
-    "tz": "America/Chicago",
-    "a": "Columbus Air Force Base",
     "s": "1"
   },
   {
@@ -6645,12 +6579,6 @@
     "i": "CIW",
     "tz": "America/St_Vincent",
     "a": "Canouan Airport",
-    "s": "1"
-  },
-  {
-    "i": "CIX",
-    "tz": "America/Lima",
-    "a": "Air Force Captain Jose A Quinones Gonzales International Airport",
     "s": "1"
   },
   {
@@ -7362,12 +7290,6 @@
     "s": "1"
   },
   {
-    "i": "CVS",
-    "tz": "America/Denver",
-    "a": "Cannon Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "CVT",
     "tz": "Europe/London",
     "a": "Coventry Airport",
@@ -7890,12 +7812,6 @@
     "s": "1"
   },
   {
-    "i": "DLF",
-    "tz": "America/Chicago",
-    "a": "Laughlin Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "DLG",
     "tz": "America/Anchorage",
     "a": "Dillingham Airport",
@@ -7929,12 +7845,6 @@
     "i": "DLZ",
     "tz": "Asia/Ulaanbaatar",
     "a": "Dalanzadgad Airport",
-    "s": "1"
-  },
-  {
-    "i": "DMA",
-    "tz": "America/Phoenix",
-    "a": "Davis Monthan Air Force Base",
     "s": "1"
   },
   {
@@ -8019,12 +7929,6 @@
     "i": "DOM",
     "tz": "America/Dominica",
     "a": "Douglas-Charles Airport",
-    "s": "1"
-  },
-  {
-    "i": "DOV",
-    "tz": "America/New_York",
-    "a": "Dover Air Force Base",
     "s": "1"
   },
   {
@@ -8232,12 +8136,6 @@
     "s": "1"
   },
   {
-    "i": "DYS",
-    "tz": "America/Chicago",
-    "a": "Dyess Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "DYU",
     "tz": "Asia/Dushanbe",
     "a": "Dushanbe International Airport",
@@ -8364,12 +8262,6 @@
     "s": "1"
   },
   {
-    "i": "EDF",
-    "tz": "America/Anchorage",
-    "a": "Elmendorf Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "EDL",
     "tz": "Africa/Nairobi",
     "a": "Eldoret International Airport",
@@ -8385,12 +8277,6 @@
     "i": "EDO",
     "tz": "Europe/Istanbul",
     "a": "BalÄ±kesir Koca Seyit Airport",
-    "s": "1"
-  },
-  {
-    "i": "EDW",
-    "tz": "America/Los_Angeles",
-    "a": "Edwards Air Force Base",
     "s": "1"
   },
   {
@@ -8487,12 +8373,6 @@
     "i": "EIK",
     "tz": "Europe/Moscow",
     "a": "Yeysk Airport",
-    "s": "1"
-  },
-  {
-    "i": "EIL",
-    "tz": "America/Anchorage",
-    "a": "Eielson Air Force Base",
     "s": "1"
   },
   {
@@ -8649,12 +8529,6 @@
     "i": "ENC",
     "tz": "Europe/Paris",
     "a": "Nancy-Essey Airport",
-    "s": "1"
-  },
-  {
-    "i": "END",
-    "tz": "America/Chicago",
-    "a": "Vance Air Force Base",
     "s": "1"
   },
   {
@@ -9093,12 +8967,6 @@
     "i": "FFD",
     "tz": "Europe/London",
     "a": "RAF Fairford",
-    "s": "1"
-  },
-  {
-    "i": "FFO",
-    "tz": "America/New_York",
-    "a": "Wright-Patterson Air Force Base",
     "s": "1"
   },
   {
@@ -10182,12 +10050,6 @@
     "s": "1"
   },
   {
-    "i": "GSB",
-    "tz": "America/New_York",
-    "a": "Seymour Johnson Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "GSE",
     "tz": "Europe/Stockholm",
     "a": "SÃ¤ve Airport",
@@ -10686,12 +10548,6 @@
     "s": "1"
   },
   {
-    "i": "HIF",
-    "tz": "America/Denver",
-    "a": "Hill Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "HII",
     "tz": "America/Phoenix",
     "a": "Lake Havasu City International Airport",
@@ -10701,12 +10557,6 @@
     "i": "HIJ",
     "tz": "Asia/Tokyo",
     "a": "Hiroshima Airport",
-    "s": "1"
-  },
-  {
-    "i": "HIM",
-    "tz": "Asia/Colombo",
-    "a": "Hingurakgoda Air Force Base",
     "s": "1"
   },
   {
@@ -10827,12 +10677,6 @@
     "i": "HMJ",
     "tz": "Europe/Kiev",
     "a": "Khmelnytskyi Airport",
-    "s": "1"
-  },
-  {
-    "i": "HMN",
-    "tz": "America/Denver",
-    "a": "Holloman Air Force Base",
     "s": "1"
   },
   {
@@ -11280,12 +11124,6 @@
     "s": "1"
   },
   {
-    "i": "IAB",
-    "tz": "America/Chicago",
-    "a": "McConnell Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "IAG",
     "tz": "America/New_York",
     "a": "Niagara Falls International Airport",
@@ -11409,12 +11247,6 @@
     "i": "IGD",
     "tz": "Europe/Istanbul",
     "a": "IÄdÄ±r Airport",
-    "s": "1"
-  },
-  {
-    "i": "IGL",
-    "tz": "Europe/Istanbul",
-    "a": "ÃiÄli Airbase",
     "s": "1"
   },
   {
@@ -11904,12 +11736,6 @@
     "s": "1"
   },
   {
-    "i": "IWO",
-    "tz": "Asia/Tokyo",
-    "a": "Ioto (Iwo Jima) Airbase",
-    "s": "1"
-  },
-  {
     "i": "IXA",
     "tz": "Asia/Kolkata",
     "a": "Agartala - Maharaja Bir Bikram Airport",
@@ -12015,12 +11841,6 @@
     "i": "IXW",
     "tz": "Asia/Kolkata",
     "a": "Sonari Airport",
-    "s": "1"
-  },
-  {
-    "i": "IXX",
-    "tz": "Asia/Kolkata",
-    "a": "Bidar Airport / Bidar Air Force Station",
     "s": "1"
   },
   {
@@ -13998,12 +13818,6 @@
     "s": "1"
   },
   {
-    "i": "LFI",
-    "tz": "America/New_York",
-    "a": "Langley Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "LFK",
     "tz": "America/Chicago",
     "a": "Angelina County Airport",
@@ -14466,12 +14280,6 @@
     "s": "1"
   },
   {
-    "i": "LRF",
-    "tz": "America/Chicago",
-    "a": "Little Rock Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "LRH",
     "tz": "Europe/Paris",
     "a": "La Rochelle-Ãle de RÃ© Airport",
@@ -14550,12 +14358,6 @@
     "s": "1"
   },
   {
-    "i": "LSV",
-    "tz": "America/Los_Angeles",
-    "a": "Nellis Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "LSX",
     "tz": "Asia/Jakarta",
     "a": "Lhok Sukon Airport",
@@ -14610,12 +14412,6 @@
     "s": "1"
   },
   {
-    "i": "LTS",
-    "tz": "America/Chicago",
-    "a": "Altus Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "LTU",
     "tz": "Asia/Kolkata",
     "a": "Murod Kond Airport",
@@ -14631,12 +14427,6 @@
     "i": "LUD",
     "tz": "Africa/Windhoek",
     "a": "Luderitz Airport",
-    "s": "1"
-  },
-  {
-    "i": "LUF",
-    "tz": "America/Phoenix",
-    "a": "Luke Air Force Base",
     "s": "1"
   },
   {
@@ -15042,12 +14832,6 @@
     "s": "1"
   },
   {
-    "i": "MCF",
-    "tz": "America/New_York",
-    "a": "MacDill Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "MCG",
     "tz": "America/Anchorage",
     "a": "McGrath Airport",
@@ -15246,12 +15030,6 @@
     "s": "1"
   },
   {
-    "i": "MES",
-    "tz": "Asia/Jakarta",
-    "a": "Soewondo Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "MEU",
     "tz": "America/Santarem",
     "a": "Monte Dourado - Serra do AreÃ£o Airport",
@@ -15417,12 +15195,6 @@
     "i": "MHZ",
     "tz": "Europe/London",
     "a": "RAF Mildenhall",
-    "s": "1"
-  },
-  {
-    "i": "MIB",
-    "tz": "America/Chicago",
-    "a": "Minot Air Force Base",
     "s": "1"
   },
   {
@@ -16194,12 +15966,6 @@
     "s": "1"
   },
   {
-    "i": "MUO",
-    "tz": "America/Boise",
-    "a": "Mountain Home Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "MUR",
     "tz": "Asia/Kuching",
     "a": "Marudi Airport",
@@ -16287,12 +16053,6 @@
     "i": "MWZ",
     "tz": "Africa/Dar_es_Salaam",
     "a": "Mwanza Airport",
-    "s": "1"
-  },
-  {
-    "i": "MXF",
-    "tz": "America/Chicago",
-    "a": "Maxwell Air Force Base",
     "s": "1"
   },
   {
@@ -17310,12 +17070,6 @@
     "s": "1"
   },
   {
-    "i": "OFF",
-    "tz": "America/Chicago",
-    "a": "Offutt Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "OFK",
     "tz": "America/Chicago",
     "a": "Karl Stefan Memorial Airport",
@@ -17928,12 +17682,6 @@
     "s": "1"
   },
   {
-    "i": "PAM",
-    "tz": "America/Chicago",
-    "a": "Tyndall Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "PAN",
     "tz": "Asia/Bangkok",
     "a": "Pattani Airport",
@@ -18366,12 +18114,6 @@
     "s": "1"
   },
   {
-    "i": "PIX",
-    "tz": "Atlantic/Azores",
-    "a": "Pico Airport",
-    "s": "1"
-  },
-  {
     "i": "PIZ",
     "tz": "America/Anchorage",
     "a": "Point Lay LRRS Airport",
@@ -18444,51 +18186,9 @@
     "s": "1"
   },
   {
-    "i": "PKY",
-    "tz": "Asia/Jakarta",
-    "a": "Tjilik Riwut Airport",
-    "s": "1"
-  },
-  {
-    "i": "PKZ",
-    "tz": "Asia/Vientiane",
-    "a": "Pakse International Airport",
-    "s": "1"
-  },
-  {
     "i": "PLJ",
     "tz": "America/Belize",
     "a": "Placencia Airport",
-    "s": "1"
-  },
-  {
-    "i": "PLL",
-    "tz": "America/Manaus",
-    "a": "Ponta Pelada Airport / Manaus Air Base",
-    "s": "1"
-  },
-  {
-    "i": "PLM",
-    "tz": "Asia/Jakarta",
-    "a": "Sultan Mahmud Badaruddin II Airport",
-    "s": "1"
-  },
-  {
-    "i": "PLN",
-    "tz": "America/Detroit",
-    "a": "Pellston Regional Airport of Emmet County Airport",
-    "s": "1"
-  },
-  {
-    "i": "PLO",
-    "tz": "Australia/Adelaide",
-    "a": "Port Lincoln Airport",
-    "s": "1"
-  },
-  {
-    "i": "PLQ",
-    "tz": "Europe/Vilnius",
-    "a": "Palanga International Airport",
     "s": "1"
   },
   {
@@ -18633,12 +18333,6 @@
     "i": "PNP",
     "tz": "Pacific/Port_Moresby",
     "a": "Girua Airport",
-    "s": "1"
-  },
-  {
-    "i": "PNQ",
-    "tz": "Asia/Kolkata",
-    "a": "Pune Airport / Lohagaon Air Force Station",
     "s": "1"
   },
   {
@@ -19392,12 +19086,6 @@
     "s": "1"
   },
   {
-    "i": "RCA",
-    "tz": "America/Denver",
-    "a": "Ellsworth Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "RCB",
     "tz": "Africa/Johannesburg",
     "a": "Richards Bay Airport",
@@ -19455,12 +19143,6 @@
     "i": "RDP",
     "tz": "Asia/Kolkata",
     "a": "Kazi Nazrul Islam Airport",
-    "s": "1"
-  },
-  {
-    "i": "RDR",
-    "tz": "America/Chicago",
-    "a": "Grand Forks Air Force Base",
     "s": "1"
   },
   {
@@ -19581,12 +19263,6 @@
     "i": "RGS",
     "tz": "Europe/Madrid",
     "a": "Burgos Airport",
-    "s": "1"
-  },
-  {
-    "i": "RGT",
-    "tz": "Asia/Jakarta",
-    "a": "Japura",
     "s": "1"
   },
   {
@@ -19815,12 +19491,6 @@
     "i": "RNB",
     "tz": "Europe/Stockholm",
     "a": "Ronneby Airport",
-    "s": "1"
-  },
-  {
-    "i": "RND",
-    "tz": "America/Chicago",
-    "a": "Randolph Air Force Base",
     "s": "1"
   },
   {
@@ -20718,12 +20388,6 @@
     "s": "1"
   },
   {
-    "i": "SKA",
-    "tz": "America/Los_Angeles",
-    "a": "Fairchild Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "SKB",
     "tz": "America/St_Kitts",
     "a": "Robert L. Bradshaw International Airport",
@@ -20733,12 +20397,6 @@
     "i": "SKD",
     "tz": "Asia/Samarkand",
     "a": "Samarkand Airport",
-    "s": "1"
-  },
-  {
-    "i": "SKF",
-    "tz": "America/Chicago",
-    "a": "Lackland Air Force Base",
     "s": "1"
   },
   {
@@ -21000,24 +20658,6 @@
     "s": "1"
   },
   {
-    "i": "SNZ",
-    "tz": "America/Fortaleza",
-    "a": "Santa Cruz Air Force Base",
-    "s": "1"
-  },
-  {
-    "i": "SOB",
-    "tz": "Europe/Budapest",
-    "a": "HÃ©vÃ­zâBalaton Airport",
-    "s": "1"
-  },
-  {
-    "i": "SOC",
-    "tz": "Asia/Jakarta",
-    "a": "Adi Sumarmo",
-    "s": "1"
-  },
-  {
     "i": "SOJ",
     "tz": "Europe/Oslo",
     "a": "SÃ¸rkjosen Airport",
@@ -21114,12 +20754,6 @@
     "s": "1"
   },
   {
-    "i": "SPS",
-    "tz": "America/Chicago",
-    "a": "Wichita Falls Municipal Airport / Sheppard Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "SPU",
     "tz": "Europe/Zagreb",
     "a": "Split Airport",
@@ -21210,12 +20844,6 @@
     "s": "1"
   },
   {
-    "i": "SRX",
-    "tz": "Africa/Tripoli",
-    "a": "Sirt International Airport / Ghardabiya Airbase",
-    "s": "1"
-  },
-  {
     "i": "SRY",
     "tz": "Asia/Tehran",
     "a": "Sari Dasht-e Naz International Airport",
@@ -21225,12 +20853,6 @@
     "i": "SRZ",
     "tz": "America/La_Paz",
     "a": "El Trompillo Airport",
-    "s": "1"
-  },
-  {
-    "i": "SSC",
-    "tz": "America/New_York",
-    "a": "Shaw Air Force Base",
     "s": "1"
   },
   {
@@ -21417,12 +21039,6 @@
     "i": "SUS",
     "tz": "America/Chicago",
     "a": "Spirit of St Louis Airport",
-    "s": "1"
-  },
-  {
-    "i": "SUU",
-    "tz": "America/Los_Angeles",
-    "a": "Travis Air Force Base",
     "s": "1"
   },
   {
@@ -21720,12 +21336,6 @@
     "s": "1"
   },
   {
-    "i": "SZL",
-    "tz": "America/Chicago",
-    "a": "Whiteman Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "SZV",
     "tz": "Asia/Shanghai",
     "a": "Suzhou Guangfu Airport",
@@ -21927,12 +21537,6 @@
     "i": "TCL",
     "tz": "America/Chicago",
     "a": "Tuscaloosa National Airport",
-    "s": "1"
-  },
-  {
-    "i": "TCM",
-    "tz": "America/Los_Angeles",
-    "a": "McChord Air Force Base",
     "s": "1"
   },
   {
@@ -22239,12 +21843,6 @@
     "i": "TIH",
     "tz": "Pacific/Tahiti",
     "a": "Tikehau Airport",
-    "s": "1"
-  },
-  {
-    "i": "TIK",
-    "tz": "America/Chicago",
-    "a": "Tinker Air Force Base",
     "s": "1"
   },
   {
@@ -23130,12 +22728,6 @@
     "s": "1"
   },
   {
-    "i": "UAM",
-    "tz": "Pacific/Guam",
-    "a": "Andersen Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "UAQ",
     "tz": "America/Argentina/San_Juan",
     "a": "Domingo Faustino Sarmiento Airport",
@@ -23619,12 +23211,6 @@
     "i": "VAA",
     "tz": "Europe/Helsinki",
     "a": "Vaasa Airport",
-    "s": "1"
-  },
-  {
-    "i": "VAD",
-    "tz": "America/New_York",
-    "a": "Moody Air Force Base",
     "s": "1"
   },
   {
@@ -24366,12 +23952,6 @@
     "s": "1"
   },
   {
-    "i": "WKF",
-    "tz": "Africa/Johannesburg",
-    "a": "Waterkloof Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "WKJ",
     "tz": "Asia/Tokyo",
     "a": "Wakkanai Airport",
@@ -24498,12 +24078,6 @@
     "s": "1"
   },
   {
-    "i": "WRB",
-    "tz": "America/New_York",
-    "a": "Robins Air Force Base",
-    "s": "1"
-  },
-  {
     "i": "WRE",
     "tz": "Pacific/Auckland",
     "a": "Whangarei Airport",
@@ -24513,12 +24087,6 @@
     "i": "WRG",
     "tz": "America/Anchorage",
     "a": "Wrangell Airport",
-    "s": "1"
-  },
-  {
-    "i": "WRI",
-    "tz": "America/New_York",
-    "a": "Mc Guire Air Force Base",
     "s": "1"
   },
   {
@@ -25074,12 +24642,6 @@
     "s": "1"
   },
   {
-    "i": "YEC",
-    "tz": "Asia/Seoul",
-    "a": "Yecheon Airbase",
-    "s": "1"
-  },
-  {
     "i": "YEI",
     "tz": "Europe/Istanbul",
     "a": "Bursa YeniÅehir Airport",
@@ -25539,12 +25101,6 @@
     "i": "YND",
     "tz": "America/Toronto",
     "a": "Ottawa / Gatineau Airport",
-    "s": "1"
-  },
-  {
-    "i": "YNJ",
-    "tz": "Asia/Shanghai",
-    "a": "Yanji Chaoyangchuan Airport",
     "s": "1"
   },
   {
