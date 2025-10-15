@@ -8,6 +8,16 @@
     <language>en</language>
     <lastBuildDate>Mon, 19 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://adindrabkin.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://adindrabkin.com/about/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://adindrabkin.com/about/</guid>
+      <description>Public Speaking Engagements
+&amp;ldquo;Vishing in 2025 - How We Get Your Interns to Download Our Malware&amp;rdquo; - Offensive security voice phishing focused talk.</description>
+    </item>
+    
+    <item>
       <title>Time Awake Calculator</title>
       <link>https://adindrabkin.com/timeawake/</link>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
@@ -17,13 +27,12 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>https://adindrabkin.com/about/</link>
-      <pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate>
+      <title>Tools</title>
+      <link>https://adindrabkin.com/tools/</link>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://adindrabkin.com/about/</guid>
-      <description>Public Speaking Engagements
-&amp;ldquo;Vishing in 2025 - How We Get Your Interns to Download Our Malware&amp;rdquo; - Offensive security voice phishing focused talk.</description>
+      <guid>https://adindrabkin.com/tools/</guid>
+      <description>Time Awake Calculator Calculate how long between wakeup, departure, landing, and sleep accounting for time zones.</description>
     </item>
     
     <item>

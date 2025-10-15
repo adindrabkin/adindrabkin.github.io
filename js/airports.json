@@ -7776,12 +7776,6 @@
     "s": "1"
   },
   {
-    "i": "DHR",
-    "tz": "Europe/Amsterdam",
-    "a": "De Kooy Airfield / Den Helder Naval Air Station",
-    "s": "1"
-  },
-  {
     "i": "DHT",
     "tz": "America/Chicago",
     "a": "Dalhart Municipal Airport",
@@ -9063,18 +9057,6 @@
     "i": "FCB",
     "tz": "Africa/Johannesburg",
     "a": "Ficksburg Sentraoes Airport",
-    "s": "1"
-  },
-  {
-    "i": "FCN",
-    "tz": "Europe/Berlin",
-    "a": "Sea-Airport Cuxhaven/Nordholz / Nordholz Naval Airbase",
-    "s": "1"
-  },
-  {
-    "i": "FCS",
-    "tz": "America/Denver",
-    "a": "Butts AAF (Fort Carson) Air Field",
     "s": "1"
   },
   {
@@ -16734,12 +16716,6 @@
     "s": "1"
   },
   {
-    "i": "NGP",
-    "tz": "America/Chicago",
-    "a": "Naval Air Station Corpus Christi Truax Field",
-    "s": "1"
-  },
-  {
     "i": "NGQ",
     "tz": "Asia/Shanghai",
     "a": "Ngari Gunsa Airport",
@@ -16752,21 +16728,9 @@
     "s": "1"
   },
   {
-    "i": "NGU",
-    "tz": "America/New_York",
-    "a": "Norfolk Naval Station (Chambers Field)",
-    "s": "1"
-  },
-  {
     "i": "NHD",
     "tz": "Asia/Dubai",
     "a": "Al Minhad Air Base",
-    "s": "1"
-  },
-  {
-    "i": "NHK",
-    "tz": "America/New_York",
-    "a": "Patuxent River Naval Air Station (Trapnell Field)",
     "s": "1"
   },
   {
@@ -16788,21 +16752,9 @@
     "s": "1"
   },
   {
-    "i": "NIP",
-    "tz": "America/New_York",
-    "a": "Jacksonville Naval Air Station (Towers Field)",
-    "s": "1"
-  },
-  {
     "i": "NIT",
     "tz": "Europe/Paris",
     "a": "Niort - Marais Poitevin Airport",
-    "s": "1"
-  },
-  {
-    "i": "NJA",
-    "tz": "Asia/Tokyo",
-    "a": "JMSDF Atsugi Air Base / Naval Air Facility Atsugi",
     "s": "1"
   },
   {
@@ -16839,12 +16791,6 @@
     "i": "NKX",
     "tz": "America/Los_Angeles",
     "a": "Miramar Marine Corps Air Station - Mitscher Field",
-    "s": "1"
-  },
-  {
-    "i": "NLC",
-    "tz": "America/Los_Angeles",
-    "a": "Lemoore Naval Air Station (Reeves Field) Airport",
     "s": "1"
   },
   {
@@ -16932,12 +16878,6 @@
     "s": "1"
   },
   {
-    "i": "NOA",
-    "tz": "Australia/Sydney",
-    "a": "Naval Air Station Nowra - HMAS Albatross",
-    "s": "1"
-  },
-  {
     "i": "NOB",
     "tz": "America/Costa_Rica",
     "a": "Nosara Airport",
@@ -16986,12 +16926,6 @@
     "s": "1"
   },
   {
-    "i": "NPA",
-    "tz": "America/Chicago",
-    "a": "Naval Air Station Pensacola Forrest Sherman Field",
-    "s": "1"
-  },
-  {
     "i": "NPE",
     "tz": "Pacific/Auckland",
     "a": "Hawke's Bay Airport",
@@ -17016,12 +16950,6 @@
     "s": "1"
   },
   {
-    "i": "NQI",
-    "tz": "America/Chicago",
-    "a": "Kingsville Naval Air Station",
-    "s": "1"
-  },
-  {
     "i": "NQN",
     "tz": "America/Argentina/Salta",
     "a": "Presidente Peron Airport",
@@ -17034,12 +16962,6 @@
     "s": "1"
   },
   {
-    "i": "NQX",
-    "tz": "America/New_York",
-    "a": "Naval Air Station Key West/Boca Chica Field",
-    "s": "1"
-  },
-  {
     "i": "NQY",
     "tz": "Europe/London",
     "a": "Cornwall Airport Newquay",
@@ -17049,12 +16971,6 @@
     "i": "NRA",
     "tz": "Australia/Sydney",
     "a": "Narrandera Airport",
-    "s": "1"
-  },
-  {
-    "i": "NRB",
-    "tz": "America/Chicago",
-    "a": "Naval Station Mayport / Admiral David L McDonald Field",
     "s": "1"
   },
   {
@@ -17073,12 +16989,6 @@
     "i": "NRR",
     "tz": "America/Puerto_Rico",
     "a": "JosÃ© Aponte de la Torre Airport",
-    "s": "1"
-  },
-  {
-    "i": "NSE",
-    "tz": "America/Chicago",
-    "a": "Whiting Field Naval Air Station - North",
     "s": "1"
   },
   {
@@ -17118,12 +17028,6 @@
     "s": "1"
   },
   {
-    "i": "NTD",
-    "tz": "America/Los_Angeles",
-    "a": "Point Mugu Naval Air Station (Naval Base Ventura Co)",
-    "s": "1"
-  },
-  {
     "i": "NTE",
     "tz": "Europe/Paris",
     "a": "Nantes Atlantique Airport",
@@ -17157,12 +17061,6 @@
     "i": "NTR",
     "tz": "America/Monterrey",
     "a": "Del Norte International Airport",
-    "s": "1"
-  },
-  {
-    "i": "NTU",
-    "tz": "America/New_York",
-    "a": "Oceana Naval Air Station",
     "s": "1"
   },
   {
@@ -18045,12 +17943,6 @@
     "i": "PAO",
     "tz": "America/Los_Angeles",
     "a": "Palo Alto Airport",
-    "s": "1"
-  },
-  {
-    "i": "PAQ",
-    "tz": "America/Anchorage",
-    "a": "Warren \"Bud\" Woods Palmer Municipal Airport",
     "s": "1"
   },
   {
@@ -25572,12 +25464,6 @@
     "s": "1"
   },
   {
-    "i": "YLY",
-    "tz": "America/Vancouver",
-    "a": "Langley Airport",
-    "s": "1"
-  },
-  {
     "i": "YMA",
     "tz": "America/Whitehorse",
     "a": "Mayo Airport",
@@ -25653,12 +25539,6 @@
     "i": "YND",
     "tz": "America/Toronto",
     "a": "Ottawa / Gatineau Airport",
-    "s": "1"
-  },
-  {
-    "i": "YNG",
-    "tz": "America/New_York",
-    "a": "Youngstown Warren Regional Airport",
     "s": "1"
   },
   {
@@ -25815,12 +25695,6 @@
     "i": "YQD",
     "tz": "America/Winnipeg",
     "a": "The Pas Airport",
-    "s": "1"
-  },
-  {
-    "i": "YQF",
-    "tz": "America/Edmonton",
-    "a": "Red Deer Regional Airport",
     "s": "1"
   },
   {
@@ -26136,12 +26010,6 @@
     "s": "1"
   },
   {
-    "i": "YVE",
-    "tz": "America/Vancouver",
-    "a": "Vernon Regional Airport",
-    "s": "1"
-  },
-  {
     "i": "YVO",
     "tz": "America/Montreal",
     "a": "Val-d'Or Airport",
@@ -26334,12 +26202,6 @@
     "s": "1"
   },
   {
-    "i": "YYU",
-    "tz": "America/Toronto",
-    "a": "Kapuskasing Airport",
-    "s": "1"
-  },
-  {
     "i": "YYW",
     "tz": "America/Toronto",
     "a": "Armstrong Airport",
@@ -26367,18 +26229,6 @@
     "i": "YZF",
     "tz": "America/Yellowknife",
     "a": "Yellowknife International Airport",
-    "s": "1"
-  },
-  {
-    "i": "YZH",
-    "tz": "America/Edmonton",
-    "a": "Slave Lake Airport",
-    "s": "1"
-  },
-  {
-    "i": "YZP",
-    "tz": "America/Vancouver",
-    "a": "Sandspit Airport",
     "s": "1"
   },
   {
