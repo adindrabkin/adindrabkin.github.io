@@ -31,7 +31,7 @@
   },
   {
     "i": "ADD",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Addis Ababa Bole International Airport",
     "s": "0"
   },
@@ -43,13 +43,13 @@
   },
   {
     "i": "ADW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Joint Base Andrews",
     "s": "0"
   },
   {
     "i": "AEP",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Jorge Newbery Airpark",
     "s": "0"
   },
@@ -157,7 +157,7 @@
   },
   {
     "i": "ATL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hartsfield Jackson Atlanta International Airport",
     "s": "0"
   },
@@ -199,7 +199,7 @@
   },
   {
     "i": "BDL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Bradley International Airport",
     "s": "0"
   },
@@ -361,7 +361,7 @@
   },
   {
     "i": "BOS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Logan International Airport",
     "s": "0"
   },
@@ -397,7 +397,7 @@
   },
   {
     "i": "BSB",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Presidente Juscelino Kubitschek International Airport",
     "s": "0"
   },
@@ -421,13 +421,13 @@
   },
   {
     "i": "BUF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Buffalo Niagara International Airport",
     "s": "0"
   },
   {
     "i": "BWI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Baltimore/Washington International Thurgood Marshall Airport",
     "s": "0"
   },
@@ -535,13 +535,13 @@
   },
   {
     "i": "CLE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cleveland Hopkins International Airport",
     "s": "0"
   },
   {
     "i": "CLT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Charlotte Douglas International Airport",
     "s": "0"
   },
@@ -553,7 +553,7 @@
   },
   {
     "i": "CMH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "John Glenn Columbus International Airport",
     "s": "0"
   },
@@ -565,7 +565,7 @@
   },
   {
     "i": "CNF",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Tancredo Neves International Airport",
     "s": "0"
   },
@@ -643,7 +643,7 @@
   },
   {
     "i": "CVG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cincinnati Northern Kentucky International Airport",
     "s": "0"
   },
@@ -667,13 +667,13 @@
   },
   {
     "i": "DAR",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Julius Nyerere International Airport",
     "s": "0"
   },
   {
     "i": "DCA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Ronald Reagan Washington National Airport",
     "s": "0"
   },
@@ -895,13 +895,13 @@
   },
   {
     "i": "EWR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Newark Liberty International Airport",
     "s": "0"
   },
   {
     "i": "EZE",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Minister Pistarini International Airport",
     "s": "0"
   },
@@ -937,13 +937,13 @@
   },
   {
     "i": "FLL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Fort Lauderdale Hollywood International Airport",
     "s": "0"
   },
   {
     "i": "FLN",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "HercÃ­lio Luz International Airport",
     "s": "0"
   },
@@ -1027,7 +1027,7 @@
   },
   {
     "i": "GDL",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Guadalajara International Airport",
     "s": "0"
   },
@@ -1045,7 +1045,7 @@
   },
   {
     "i": "GIG",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Rio GaleÃ£o â Tom Jobim International Airport",
     "s": "0"
   },
@@ -1087,7 +1087,7 @@
   },
   {
     "i": "GRU",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Guarulhos - Governador AndrÃ© Franco Montoro International Airport",
     "s": "0"
   },
@@ -1147,7 +1147,7 @@
   },
   {
     "i": "HAN",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Noi Bai International Airport",
     "s": "0"
   },
@@ -1195,7 +1195,7 @@
   },
   {
     "i": "HKG",
-    "tz": "Asia/Hong_Kong",
+    "tz": "Asia/Hong Kong",
     "a": "Hong Kong International Airport",
     "s": "0"
   },
@@ -1267,7 +1267,7 @@
   },
   {
     "i": "IAD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Washington Dulles International Airport",
     "s": "0"
   },
@@ -1321,7 +1321,7 @@
   },
   {
     "i": "JAX",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Jacksonville International Airport",
     "s": "0"
   },
@@ -1333,7 +1333,7 @@
   },
   {
     "i": "JFK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "John F Kennedy International Airport",
     "s": "0"
   },
@@ -1453,7 +1453,7 @@
   },
   {
     "i": "KUL",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Kuala Lumpur International Airport",
     "s": "0"
   },
@@ -1489,13 +1489,13 @@
   },
   {
     "i": "LAS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Harry Reid International Airport",
     "s": "0"
   },
   {
     "i": "LAX",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Los Angeles International Airport",
     "s": "0"
   },
@@ -1519,7 +1519,7 @@
   },
   {
     "i": "LGA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "LaGuardia Airport",
     "s": "0"
   },
@@ -1561,7 +1561,7 @@
   },
   {
     "i": "LIR",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Guanacaste Airport",
     "s": "0"
   },
@@ -1591,7 +1591,7 @@
   },
   {
     "i": "LRM",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Casa De Campo International Airport",
     "s": "0"
   },
@@ -1663,7 +1663,7 @@
   },
   {
     "i": "MCO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Orlando International Airport",
     "s": "0"
   },
@@ -1705,7 +1705,7 @@
   },
   {
     "i": "MEX",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Benito JuÃ¡rez International Airport",
     "s": "0"
   },
@@ -1729,7 +1729,7 @@
   },
   {
     "i": "MIA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Miami International Airport",
     "s": "0"
   },
@@ -1891,7 +1891,7 @@
   },
   {
     "i": "NHA",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Nha Trang Air Base",
     "s": "0"
   },
@@ -1915,7 +1915,7 @@
   },
   {
     "i": "NLU",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Felipe Ãngeles International Airport",
     "s": "0"
   },
@@ -1957,7 +1957,7 @@
   },
   {
     "i": "OAK",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "San Francisco Bay Oakland International Airport",
     "s": "0"
   },
@@ -1993,7 +1993,7 @@
   },
   {
     "i": "ONT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Ontario International Airport",
     "s": "0"
   },
@@ -2011,7 +2011,7 @@
   },
   {
     "i": "ORF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Norfolk International Airport",
     "s": "0"
   },
@@ -2041,7 +2041,7 @@
   },
   {
     "i": "OVB",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Novosibirsk Tolmachevo Airport",
     "s": "0"
   },
@@ -2053,7 +2053,7 @@
   },
   {
     "i": "PBI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Palm Beach International Airport",
     "s": "0"
   },
@@ -2077,7 +2077,7 @@
   },
   {
     "i": "PDX",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Portland International Airport",
     "s": "0"
   },
@@ -2101,7 +2101,7 @@
   },
   {
     "i": "PHL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Philadelphia International Airport",
     "s": "0"
   },
@@ -2113,7 +2113,7 @@
   },
   {
     "i": "PIT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Pittsburgh International Airport",
     "s": "0"
   },
@@ -2131,7 +2131,7 @@
   },
   {
     "i": "PLS",
-    "tz": "America/Grand_Turk",
+    "tz": "America/Grand Turk",
     "a": "Providenciales International Airport",
     "s": "0"
   },
@@ -2149,13 +2149,13 @@
   },
   {
     "i": "PNH",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Phnom Penh International Airport",
     "s": "0"
   },
   {
     "i": "POM",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Port Moresby Jacksons International Airport",
     "s": "0"
   },
@@ -2197,7 +2197,7 @@
   },
   {
     "i": "PUJ",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Punta Cana International Airport",
     "s": "0"
   },
@@ -2209,7 +2209,7 @@
   },
   {
     "i": "PVD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Theodore Francis Green State Airport",
     "s": "0"
   },
@@ -2221,19 +2221,19 @@
   },
   {
     "i": "PVR",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Puerto Vallarta International Airport",
     "s": "0"
   },
   {
     "i": "PWM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Portland International Jetport",
     "s": "0"
   },
   {
     "i": "RAI",
-    "tz": "Atlantic/Cape_Verde",
+    "tz": "Atlantic/Cape Verde",
     "a": "Nelson Mandela International Airport",
     "s": "0"
   },
@@ -2251,13 +2251,13 @@
   },
   {
     "i": "RDU",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Raleigh Durham International Airport",
     "s": "0"
   },
   {
     "i": "REP",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Siem Reap International Airport",
     "s": "0"
   },
@@ -2269,7 +2269,7 @@
   },
   {
     "i": "RIC",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Richmond International Airport",
     "s": "0"
   },
@@ -2281,7 +2281,7 @@
   },
   {
     "i": "RNO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Reno Tahoe International Airport",
     "s": "0"
   },
@@ -2299,13 +2299,13 @@
   },
   {
     "i": "RSJ",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Rosario Seaplane Base",
     "s": "0"
   },
   {
     "i": "RSW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Southwest Florida International Airport",
     "s": "0"
   },
@@ -2329,19 +2329,19 @@
   },
   {
     "i": "SAI",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Siem Reap-Angkor International Airport",
     "s": "0"
   },
   {
     "i": "SAL",
-    "tz": "America/El_Salvador",
+    "tz": "America/El Salvador",
     "a": "MonseÃ±or Ãscar Arnulfo Romero International Airport",
     "s": "0"
   },
   {
     "i": "SAN",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "San Diego International Airport",
     "s": "0"
   },
@@ -2353,7 +2353,7 @@
   },
   {
     "i": "SAV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Savannah Hilton Head International Airport",
     "s": "0"
   },
@@ -2389,7 +2389,7 @@
   },
   {
     "i": "SDQ",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Las AmÃ©ricas International Airport",
     "s": "0"
   },
@@ -2401,7 +2401,7 @@
   },
   {
     "i": "SEA",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "SeattleâTacoma International Airport",
     "s": "0"
   },
@@ -2413,19 +2413,19 @@
   },
   {
     "i": "SFB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Orlando Sanford International Airport",
     "s": "0"
   },
   {
     "i": "SFO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "San Francisco International Airport",
     "s": "0"
   },
   {
     "i": "SGN",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Tan Son Nhat International Airport",
     "s": "0"
   },
@@ -2455,7 +2455,7 @@
   },
   {
     "i": "SID",
-    "tz": "Atlantic/Cape_Verde",
+    "tz": "Atlantic/Cape Verde",
     "a": "AmÃ­lcar Cabral International Airport",
     "s": "0"
   },
@@ -2467,7 +2467,7 @@
   },
   {
     "i": "SJC",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Norman Y. Mineta San Jose International Airport",
     "s": "0"
   },
@@ -2485,13 +2485,13 @@
   },
   {
     "i": "SJO",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Juan SantamarÃ­a International Airport",
     "s": "0"
   },
   {
     "i": "SJU",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Luis Munoz Marin International Airport",
     "s": "0"
   },
@@ -2515,13 +2515,13 @@
   },
   {
     "i": "SMF",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Sacramento International Airport",
     "s": "0"
   },
   {
     "i": "SNA",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "John Wayne Orange County International Airport",
     "s": "0"
   },
@@ -2539,7 +2539,7 @@
   },
   {
     "i": "SRQ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Sarasota Bradenton International Airport",
     "s": "0"
   },
@@ -2599,7 +2599,7 @@
   },
   {
     "i": "SXM",
-    "tz": "America/Lower_Princes",
+    "tz": "America/Lower Princes",
     "a": "Princess Juliana International Airport",
     "s": "0"
   },
@@ -2611,7 +2611,7 @@
   },
   {
     "i": "SYR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Syracuse Hancock International Airport",
     "s": "0"
   },
@@ -2707,7 +2707,7 @@
   },
   {
     "i": "TMS",
-    "tz": "Africa/Sao_Tome",
+    "tz": "Africa/Sao Tome",
     "a": "SÃ£o TomÃ© International Airport",
     "s": "0"
   },
@@ -2737,7 +2737,7 @@
   },
   {
     "i": "TPA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Tampa International Airport",
     "s": "0"
   },
@@ -2827,7 +2827,7 @@
   },
   {
     "i": "UVF",
-    "tz": "America/St_Lucia",
+    "tz": "America/St Lucia",
     "a": "Hewanorra International Airport",
     "s": "0"
   },
@@ -2851,7 +2851,7 @@
   },
   {
     "i": "VIX",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Eurico de Aguiar Salles Airport",
     "s": "0"
   },
@@ -2893,7 +2893,7 @@
   },
   {
     "i": "VVI",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Viru Viru International Airport",
     "s": "0"
   },
@@ -3013,7 +3013,7 @@
   },
   {
     "i": "YYT",
-    "tz": "America/St_Johns",
+    "tz": "America/St Johns",
     "a": "St. John's International Airport",
     "s": "0"
   },
@@ -3037,7 +3037,7 @@
   },
   {
     "i": "ZNZ",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Abeid Amani Karume International Airport",
     "s": "0"
   },
@@ -3121,7 +3121,7 @@
   },
   {
     "i": "AAX",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Romeu Zema Airport",
     "s": "1"
   },
@@ -3157,7 +3157,7 @@
   },
   {
     "i": "ABE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lehigh Valley International Airport",
     "s": "1"
   },
@@ -3175,7 +3175,7 @@
   },
   {
     "i": "ABK",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Kebri Dahar Airport",
     "s": "1"
   },
@@ -3187,7 +3187,7 @@
   },
   {
     "i": "ABP",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Atkamba Airport",
     "s": "1"
   },
@@ -3217,7 +3217,7 @@
   },
   {
     "i": "ABY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Southwest Georgia Regional Airport",
     "s": "1"
   },
@@ -3229,7 +3229,7 @@
   },
   {
     "i": "ACA",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Juan N. Ãlvarez International Airport",
     "s": "1"
   },
@@ -3253,7 +3253,7 @@
   },
   {
     "i": "ACK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Nantucket Memorial Airport",
     "s": "1"
   },
@@ -3271,7 +3271,7 @@
   },
   {
     "i": "ACV",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "California Redwood Coast-Humboldt County Airport",
     "s": "1"
   },
@@ -3283,7 +3283,7 @@
   },
   {
     "i": "ACY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Atlantic City International Airport",
     "s": "1"
   },
@@ -3445,7 +3445,7 @@
   },
   {
     "i": "AGC",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Allegheny County Airport",
     "s": "1"
   },
@@ -3463,13 +3463,13 @@
   },
   {
     "i": "AGS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Augusta Regional At Bush Field",
     "s": "1"
   },
   {
     "i": "AGU",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "JesÃºs TerÃ¡n Peredo International Airport",
     "s": "1"
   },
@@ -3505,7 +3505,7 @@
   },
   {
     "i": "AHN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Athens Ben Epps Airport",
     "s": "1"
   },
@@ -3583,7 +3583,7 @@
   },
   {
     "i": "AKC",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Akron Fulton International Airport",
     "s": "1"
   },
@@ -3661,7 +3661,7 @@
   },
   {
     "i": "ALB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Albany International Airport",
     "s": "1"
   },
@@ -3727,7 +3727,7 @@
   },
   {
     "i": "ALW",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Walla Walla Regional Airport",
     "s": "1"
   },
@@ -3745,7 +3745,7 @@
   },
   {
     "i": "AMH",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Arba Minch Airport",
     "s": "1"
   },
@@ -3775,7 +3775,7 @@
   },
   {
     "i": "AND",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Anderson Regional Airport",
     "s": "1"
   },
@@ -3889,13 +3889,13 @@
   },
   {
     "i": "AOO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Altoona Blair County Airport",
     "s": "1"
   },
   {
     "i": "AOR",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Sultan Abdul Halim Airport",
     "s": "1"
   },
@@ -3913,13 +3913,13 @@
   },
   {
     "i": "APF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Naples Municipal Airport",
     "s": "1"
   },
   {
     "i": "APG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Phillips Army Air Field",
     "s": "1"
   },
@@ -3961,7 +3961,7 @@
   },
   {
     "i": "AQA",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Araraquara Airport",
     "s": "1"
   },
@@ -4003,7 +4003,7 @@
   },
   {
     "i": "ARE",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Antonio Nery Juarbe Pol Airport",
     "s": "1"
   },
@@ -4021,7 +4021,7 @@
   },
   {
     "i": "ARK",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Arusha Airport",
     "s": "1"
   },
@@ -4033,13 +4033,13 @@
   },
   {
     "i": "ART",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Watertown International Airport",
     "s": "1"
   },
   {
     "i": "ARU",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "AraÃ§atuba Airport",
     "s": "1"
   },
@@ -4051,7 +4051,7 @@
   },
   {
     "i": "ARX",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Aracati DragÃ£o do Mar Regional Airport",
     "s": "1"
   },
@@ -4087,7 +4087,7 @@
   },
   {
     "i": "ASI",
-    "tz": "Atlantic/St_Helena",
+    "tz": "Atlantic/St Helena",
     "a": "RAF Ascension Island",
     "s": "1"
   },
@@ -4111,7 +4111,7 @@
   },
   {
     "i": "ASO",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Asosa Airport",
     "s": "1"
   },
@@ -4129,7 +4129,7 @@
   },
   {
     "i": "AST",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Astoria Regional Airport",
     "s": "1"
   },
@@ -4225,7 +4225,7 @@
   },
   {
     "i": "AUG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Augusta State Airport",
     "s": "1"
   },
@@ -4279,7 +4279,7 @@
   },
   {
     "i": "AVL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Asheville Regional Airport",
     "s": "1"
   },
@@ -4291,7 +4291,7 @@
   },
   {
     "i": "AVP",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Wilkes Barre Scranton International Airport",
     "s": "1"
   },
@@ -4303,7 +4303,7 @@
   },
   {
     "i": "AWA",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Hawassa International Airport",
     "s": "1"
   },
@@ -4375,7 +4375,7 @@
   },
   {
     "i": "AXU",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Axum Airport",
     "s": "1"
   },
@@ -4435,13 +4435,13 @@
   },
   {
     "i": "AZS",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "SamanÃ¡ El Catey International Airport",
     "s": "1"
   },
   {
     "i": "BAF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Westfield-Barnes Regional Airport",
     "s": "1"
   },
@@ -4453,7 +4453,7 @@
   },
   {
     "i": "BAI",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Buenos Aires Airport",
     "s": "1"
   },
@@ -4477,7 +4477,7 @@
   },
   {
     "i": "BAT",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Chafei Amsei Airport",
     "s": "1"
   },
@@ -4525,7 +4525,7 @@
   },
   {
     "i": "BBM",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Battambang Airport",
     "s": "1"
   },
@@ -4597,7 +4597,7 @@
   },
   {
     "i": "BCL",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Barra del Colorado Airport",
     "s": "1"
   },
@@ -4615,7 +4615,7 @@
   },
   {
     "i": "BCT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Boca Raton Airport",
     "s": "1"
   },
@@ -4681,7 +4681,7 @@
   },
   {
     "i": "BDR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Igor I Sikorsky Memorial Airport",
     "s": "1"
   },
@@ -4705,7 +4705,7 @@
   },
   {
     "i": "BED",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Laurence G Hanscom Field",
     "s": "1"
   },
@@ -4765,7 +4765,7 @@
   },
   {
     "i": "BFD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Bradford Regional Airport",
     "s": "1"
   },
@@ -4777,13 +4777,13 @@
   },
   {
     "i": "BFH",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Bacacheri Airport",
     "s": "1"
   },
   {
     "i": "BFI",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Boeing Field King County International Airport",
     "s": "1"
   },
@@ -4801,7 +4801,7 @@
   },
   {
     "i": "BFL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Meadows Field",
     "s": "1"
   },
@@ -4825,7 +4825,7 @@
   },
   {
     "i": "BFP",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Beaver County Airport",
     "s": "1"
   },
@@ -4879,7 +4879,7 @@
   },
   {
     "i": "BGM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Greater Binghamton/Edwin A Link field",
     "s": "1"
   },
@@ -4891,19 +4891,19 @@
   },
   {
     "i": "BGR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Bangor International Airport",
     "s": "1"
   },
   {
     "i": "BGX",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Comandante Gustavo Kraemer Airport",
     "s": "1"
   },
   {
     "i": "BHB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hancock County-Bar Harbor Airport",
     "s": "1"
   },
@@ -4927,7 +4927,7 @@
   },
   {
     "i": "BHI",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Comandante Espora Airport",
     "s": "1"
   },
@@ -4957,7 +4957,7 @@
   },
   {
     "i": "BHQ",
-    "tz": "Australia/Broken_Hill",
+    "tz": "Australia/Broken Hill",
     "a": "Broken Hill Airport",
     "s": "1"
   },
@@ -5005,7 +5005,7 @@
   },
   {
     "i": "BIH",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Eastern Sierra Regional Airport",
     "s": "1"
   },
@@ -5095,19 +5095,19 @@
   },
   {
     "i": "BJO",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Bermejo Airport",
     "s": "1"
   },
   {
     "i": "BJR",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Bahir Dar Airport",
     "s": "1"
   },
   {
     "i": "BJX",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Del BajÃ­o International Airport",
     "s": "1"
   },
@@ -5131,7 +5131,7 @@
   },
   {
     "i": "BKE",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Baker City Municipal Airport",
     "s": "1"
   },
@@ -5155,7 +5155,7 @@
   },
   {
     "i": "BKL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Burke Lakefront Airport",
     "s": "1"
   },
@@ -5173,7 +5173,7 @@
   },
   {
     "i": "BKW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Raleigh County Memorial Airport",
     "s": "1"
   },
@@ -5185,7 +5185,7 @@
   },
   {
     "i": "BLD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Boulder City Municipal Airport",
     "s": "1"
   },
@@ -5197,19 +5197,19 @@
   },
   {
     "i": "BLF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Mercer County Airport",
     "s": "1"
   },
   {
     "i": "BLH",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Blythe Airport",
     "s": "1"
   },
   {
     "i": "BLI",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Bellingham International Airport",
     "s": "1"
   },
@@ -5281,7 +5281,7 @@
   },
   {
     "i": "BMV",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Buon Ma Thuot Airport",
     "s": "1"
   },
@@ -5311,7 +5311,7 @@
   },
   {
     "i": "BNO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Burns Municipal Airport",
     "s": "1"
   },
@@ -5443,7 +5443,7 @@
   },
   {
     "i": "BQK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Brunswick Golden Isles Airport",
     "s": "1"
   },
@@ -5455,7 +5455,7 @@
   },
   {
     "i": "BQN",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Rafael HernÃ¡ndez International Airport",
     "s": "1"
   },
@@ -5473,7 +5473,7 @@
   },
   {
     "i": "BQU",
-    "tz": "America/St_Vincent",
+    "tz": "America/St Vincent",
     "a": "J F Mitchell Airport",
     "s": "1"
   },
@@ -5557,7 +5557,7 @@
   },
   {
     "i": "BRX",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Maria Montez International Airport",
     "s": "1"
   },
@@ -5665,13 +5665,13 @@
   },
   {
     "i": "BTV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Burlington International Airport",
     "s": "1"
   },
   {
     "i": "BUA",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Buka Airport",
     "s": "1"
   },
@@ -5701,7 +5701,7 @@
   },
   {
     "i": "BUR",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Hollywood Burbank Airport",
     "s": "1"
   },
@@ -5731,13 +5731,13 @@
   },
   {
     "i": "BVB",
-    "tz": "America/Boa_Vista",
+    "tz": "America/Boa Vista",
     "a": "Atlas Brasil Cantanhede Airport",
     "s": "1"
   },
   {
     "i": "BVC",
-    "tz": "Atlantic/Cape_Verde",
+    "tz": "Atlantic/Cape Verde",
     "a": "Rabil Airport",
     "s": "1"
   },
@@ -5755,7 +5755,7 @@
   },
   {
     "i": "BVH",
-    "tz": "America/Porto_Velho",
+    "tz": "America/Porto Velho",
     "a": "Brigadeiro CamarÃ£o Airport",
     "s": "1"
   },
@@ -5773,7 +5773,7 @@
   },
   {
     "i": "BVY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Beverly Regional Airport",
     "s": "1"
   },
@@ -5803,7 +5803,7 @@
   },
   {
     "i": "BWH",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "RMAF Butterworth Air Base",
     "s": "1"
   },
@@ -5881,7 +5881,7 @@
   },
   {
     "i": "BYC",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Yacuiba Airport",
     "s": "1"
   },
@@ -5917,7 +5917,7 @@
   },
   {
     "i": "BYS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Bicycle Lake Army Air Field",
     "s": "1"
   },
@@ -5935,7 +5935,7 @@
   },
   {
     "i": "BZC",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Umberto Modiano Airport",
     "s": "1"
   },
@@ -6019,19 +6019,19 @@
   },
   {
     "i": "CAC",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Coronel Adalberto Mendes da Silva Airport",
     "s": "1"
   },
   {
     "i": "CAE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Columbia Metropolitan Airport",
     "s": "1"
   },
   {
     "i": "CAH",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "CÃ  Mau Airport",
     "s": "1"
   },
@@ -6043,7 +6043,7 @@
   },
   {
     "i": "CAK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Akron Canton Regional Airport",
     "s": "1"
   },
@@ -6067,7 +6067,7 @@
   },
   {
     "i": "CAR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Caribou Municipal Airport",
     "s": "1"
   },
@@ -6079,7 +6079,7 @@
   },
   {
     "i": "CAW",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Bartolomeu Lisandro Airport",
     "s": "1"
   },
@@ -6097,7 +6097,7 @@
   },
   {
     "i": "CBB",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Jorge Wilsterman International Airport",
     "s": "1"
   },
@@ -6115,7 +6115,7 @@
   },
   {
     "i": "CBJ",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Cabo Rojo Airport",
     "s": "1"
   },
@@ -6205,7 +6205,7 @@
   },
   {
     "i": "CCM",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Forquilhinha - CriciÃºma Airport",
     "s": "1"
   },
@@ -6217,7 +6217,7 @@
   },
   {
     "i": "CCR",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Buchanan Field",
     "s": "1"
   },
@@ -6295,7 +6295,7 @@
   },
   {
     "i": "CEC",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Jack Mc Namara Field Airport",
     "s": "1"
   },
@@ -6313,7 +6313,7 @@
   },
   {
     "i": "CEF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Westover Metropolitan Airport / Westover Air Reserve Base",
     "s": "1"
   },
@@ -6421,13 +6421,13 @@
   },
   {
     "i": "CGF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cuyahoga County Airport",
     "s": "1"
   },
   {
     "i": "CGH",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Congonhas Airport",
     "s": "1"
   },
@@ -6457,7 +6457,7 @@
   },
   {
     "i": "CGR",
-    "tz": "America/Campo_Grande",
+    "tz": "America/Campo Grande",
     "a": "Campo Grande Airport",
     "s": "1"
   },
@@ -6469,7 +6469,7 @@
   },
   {
     "i": "CHA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Chattanooga Metropolitan Airport (Lovell Field)",
     "s": "1"
   },
@@ -6493,7 +6493,7 @@
   },
   {
     "i": "CHO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Charlottesville Albemarle Airport",
     "s": "1"
   },
@@ -6511,7 +6511,7 @@
   },
   {
     "i": "CHS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Charleston International Airport",
     "s": "1"
   },
@@ -6547,7 +6547,7 @@
   },
   {
     "i": "CIJ",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "CapitÃ¡n AnÃ­bal Arab Airport",
     "s": "1"
   },
@@ -6577,7 +6577,7 @@
   },
   {
     "i": "CIW",
-    "tz": "America/St_Vincent",
+    "tz": "America/St Vincent",
     "a": "Canouan Airport",
     "s": "1"
   },
@@ -6631,7 +6631,7 @@
   },
   {
     "i": "CKB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "North Central West Virginia Airport",
     "s": "1"
   },
@@ -6679,7 +6679,7 @@
   },
   {
     "i": "CLD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "McClellan-Palomar Airport",
     "s": "1"
   },
@@ -6697,7 +6697,7 @@
   },
   {
     "i": "CLM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "William R Fairchild International Airport",
     "s": "1"
   },
@@ -6715,7 +6715,7 @@
   },
   {
     "i": "CLQ",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Licenciado Miguel de la Madrid International Airport",
     "s": "1"
   },
@@ -6763,7 +6763,7 @@
   },
   {
     "i": "CMG",
-    "tz": "America/Campo_Grande",
+    "tz": "America/Campo Grande",
     "a": "CorumbÃ¡ International Airport",
     "s": "1"
   },
@@ -6787,7 +6787,7 @@
   },
   {
     "i": "CMU",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Chimbu Airport",
     "s": "1"
   },
@@ -6895,13 +6895,13 @@
   },
   {
     "i": "COE",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Coeur D'Alene Airport - Pappy Boyington Field",
     "s": "1"
   },
   {
     "i": "COF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Patrick Space Force Base",
     "s": "1"
   },
@@ -6913,7 +6913,7 @@
   },
   {
     "i": "CON",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Concord Municipal Airport",
     "s": "1"
   },
@@ -6985,7 +6985,7 @@
   },
   {
     "i": "CPX",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Benjamin Rivera Noriega Airport",
     "s": "1"
   },
@@ -7033,13 +7033,13 @@
   },
   {
     "i": "CRE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Grand Strand Airport",
     "s": "1"
   },
   {
     "i": "CRG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Jacksonville Executive at Craig Airport",
     "s": "1"
   },
@@ -7087,7 +7087,7 @@
   },
   {
     "i": "CRW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Yeager Airport",
     "s": "1"
   },
@@ -7111,7 +7111,7 @@
   },
   {
     "i": "CSG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Columbus Metropolitan Airport",
     "s": "1"
   },
@@ -7183,7 +7183,7 @@
   },
   {
     "i": "CUB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Jim Hamilton L.B. Owens Airport",
     "s": "1"
   },
@@ -7261,7 +7261,7 @@
   },
   {
     "i": "CVJ",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Mariano Matamoros International Airport",
     "s": "1"
   },
@@ -7279,7 +7279,7 @@
   },
   {
     "i": "CVO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Corvallis Municipal Airport",
     "s": "1"
   },
@@ -7303,7 +7303,7 @@
   },
   {
     "i": "CWB",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Afonso Pena Airport",
     "s": "1"
   },
@@ -7357,7 +7357,7 @@
   },
   {
     "i": "CXJ",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Hugo Cantergiani Regional Airport",
     "s": "1"
   },
@@ -7375,7 +7375,7 @@
   },
   {
     "i": "CXR",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Cam Ranh International Airport / Cam Ranh Air Base",
     "s": "1"
   },
@@ -7423,7 +7423,7 @@
   },
   {
     "i": "CYW",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Captain Rogelio Castillo National Airport",
     "s": "1"
   },
@@ -7459,7 +7459,7 @@
   },
   {
     "i": "CZS",
-    "tz": "America/Rio_Branco",
+    "tz": "America/Rio Branco",
     "a": "Cruzeiro do Sul Airport",
     "s": "1"
   },
@@ -7477,25 +7477,25 @@
   },
   {
     "i": "DAA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Davison Army Air Field",
     "s": "1"
   },
   {
     "i": "DAB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Daytona Beach International Airport",
     "s": "1"
   },
   {
     "i": "DAD",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Da Nang International Airport",
     "s": "1"
   },
   {
     "i": "DAG",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Barstow Daggett Airport",
     "s": "1"
   },
@@ -7507,13 +7507,13 @@
   },
   {
     "i": "DAN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Danville Regional Airport",
     "s": "1"
   },
   {
     "i": "DAU",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Daru Airport",
     "s": "1"
   },
@@ -7525,7 +7525,7 @@
   },
   {
     "i": "DAY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "James M Cox Dayton International Airport",
     "s": "1"
   },
@@ -7747,13 +7747,13 @@
   },
   {
     "i": "DIN",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Dien Bien Phu Airport",
     "s": "1"
   },
   {
     "i": "DIR",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Aba Tenna Dejazmach Yilma International Airport",
     "s": "1"
   },
@@ -7825,13 +7825,13 @@
   },
   {
     "i": "DLI",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Lien Khuong Airport",
     "s": "1"
   },
   {
     "i": "DLS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Columbia Gorge Regional Airport",
     "s": "1"
   },
@@ -7885,7 +7885,7 @@
   },
   {
     "i": "DNL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Daniel Field",
     "s": "1"
   },
@@ -7909,7 +7909,7 @@
   },
   {
     "i": "DOD",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Dodoma Airport",
     "s": "1"
   },
@@ -7957,7 +7957,7 @@
   },
   {
     "i": "DRA",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Desert Rock Airport",
     "s": "1"
   },
@@ -8083,7 +8083,7 @@
   },
   {
     "i": "DUJ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "DuBois Regional Airport",
     "s": "1"
   },
@@ -8119,7 +8119,7 @@
   },
   {
     "i": "DXR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Danbury Municipal Airport",
     "s": "1"
   },
@@ -8185,7 +8185,7 @@
   },
   {
     "i": "EAT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Pangborn Memorial Airport",
     "s": "1"
   },
@@ -8239,7 +8239,7 @@
   },
   {
     "i": "ECG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Elizabeth City Regional Airport & Coast Guard Air Station",
     "s": "1"
   },
@@ -8287,13 +8287,13 @@
   },
   {
     "i": "EED",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Needles Airport",
     "s": "1"
   },
   {
     "i": "EEN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Dillant Hopkins Airport",
     "s": "1"
   },
@@ -8395,7 +8395,7 @@
   },
   {
     "i": "EKA",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Murray Field",
     "s": "1"
   },
@@ -8407,13 +8407,13 @@
   },
   {
     "i": "EKN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Elkins-Randolph County Regional Airport",
     "s": "1"
   },
   {
     "i": "EKO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Elko Regional Airport",
     "s": "1"
   },
@@ -8461,7 +8461,7 @@
   },
   {
     "i": "ELM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Elmira Corning Regional Airport",
     "s": "1"
   },
@@ -8491,7 +8491,7 @@
   },
   {
     "i": "ELY",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Ely Airport Yelland Field",
     "s": "1"
   },
@@ -8611,7 +8611,7 @@
   },
   {
     "i": "EPA",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "El Palomar Airport",
     "s": "1"
   },
@@ -8665,7 +8665,7 @@
   },
   {
     "i": "ERI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Erie International Tom Ridge Field",
     "s": "1"
   },
@@ -8695,7 +8695,7 @@
   },
   {
     "i": "ESD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Orcas Island Airport",
     "s": "1"
   },
@@ -8755,7 +8755,7 @@
   },
   {
     "i": "EUG",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Mahlon Sweet Field",
     "s": "1"
   },
@@ -8803,13 +8803,13 @@
   },
   {
     "i": "EWB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "New Bedford Regional Airport",
     "s": "1"
   },
   {
     "i": "EWN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Coastal Carolina Regional Airport",
     "s": "1"
   },
@@ -8833,7 +8833,7 @@
   },
   {
     "i": "EYW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Key West International Airport",
     "s": "1"
   },
@@ -8863,7 +8863,7 @@
   },
   {
     "i": "FAF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Felker Army Air Field",
     "s": "1"
   },
@@ -8881,7 +8881,7 @@
   },
   {
     "i": "FAT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Fresno Yosemite International Airport",
     "s": "1"
   },
@@ -8893,7 +8893,7 @@
   },
   {
     "i": "FAY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Fayetteville Regional Airport - Grannis Field",
     "s": "1"
   },
@@ -8905,7 +8905,7 @@
   },
   {
     "i": "FBG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Simmons Army Air Field",
     "s": "1"
   },
@@ -8947,7 +8947,7 @@
   },
   {
     "i": "FDY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Findlay Airport",
     "s": "1"
   },
@@ -9013,7 +9013,7 @@
   },
   {
     "i": "FKL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Venango Regional Airport",
     "s": "1"
   },
@@ -9043,7 +9043,7 @@
   },
   {
     "i": "FLO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Florence Regional Airport",
     "s": "1"
   },
@@ -9067,7 +9067,7 @@
   },
   {
     "i": "FME",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Tipton Airport",
     "s": "1"
   },
@@ -9097,7 +9097,7 @@
   },
   {
     "i": "FMY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Page Field",
     "s": "1"
   },
@@ -9163,7 +9163,7 @@
   },
   {
     "i": "FPR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "St Lucie County International Airport",
     "s": "1"
   },
@@ -9175,13 +9175,13 @@
   },
   {
     "i": "FRD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Friday Harbor Airport",
     "s": "1"
   },
   {
     "i": "FRG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Republic Airport",
     "s": "1"
   },
@@ -9265,7 +9265,7 @@
   },
   {
     "i": "FTE",
-    "tz": "America/Buenos_Aires",
+    "tz": "America/Buenos Aires",
     "a": "Comandante A. Tola",
     "s": "1"
   },
@@ -9295,7 +9295,7 @@
   },
   {
     "i": "FTY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Fulton County Airport Brown Field",
     "s": "1"
   },
@@ -9337,7 +9337,7 @@
   },
   {
     "i": "FXE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Fort Lauderdale Executive Airport",
     "s": "1"
   },
@@ -9493,7 +9493,7 @@
   },
   {
     "i": "GDE",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Gode Airport",
     "s": "1"
   },
@@ -9505,13 +9505,13 @@
   },
   {
     "i": "GDQ",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Gondar Airport",
     "s": "1"
   },
   {
     "i": "GDT",
-    "tz": "America/Grand_Turk",
+    "tz": "America/Grand Turk",
     "a": "JAGS McCartney International Airport",
     "s": "1"
   },
@@ -9547,13 +9547,13 @@
   },
   {
     "i": "GEG",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Spokane International Airport",
     "s": "1"
   },
   {
     "i": "GEL",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Santo Ãngelo Airport",
     "s": "1"
   },
@@ -9601,7 +9601,7 @@
   },
   {
     "i": "GFL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Floyd Bennett Memorial Airport",
     "s": "1"
   },
@@ -9715,7 +9715,7 @@
   },
   {
     "i": "GJM",
-    "tz": "America/Porto_Velho",
+    "tz": "America/Porto Velho",
     "a": "GuajarÃ¡-Mirim Airport",
     "s": "1"
   },
@@ -9727,7 +9727,7 @@
   },
   {
     "i": "GKA",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Goroka Airport",
     "s": "1"
   },
@@ -9751,7 +9751,7 @@
   },
   {
     "i": "GLF",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Golfito Airport",
     "s": "1"
   },
@@ -9805,7 +9805,7 @@
   },
   {
     "i": "GMB",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Gambela Airport",
     "s": "1"
   },
@@ -9835,7 +9835,7 @@
   },
   {
     "i": "GMU",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Greenville Downtown Airport",
     "s": "1"
   },
@@ -9871,7 +9871,7 @@
   },
   {
     "i": "GNV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Gainesville Regional Airport",
     "s": "1"
   },
@@ -9901,7 +9901,7 @@
   },
   {
     "i": "GON",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Groton New London Airport",
     "s": "1"
   },
@@ -9949,7 +9949,7 @@
   },
   {
     "i": "GPL",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Guapiles Airport",
     "s": "1"
   },
@@ -9979,7 +9979,7 @@
   },
   {
     "i": "GRF",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Gray Army Air Field",
     "s": "1"
   },
@@ -10063,13 +10063,13 @@
   },
   {
     "i": "GSO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Piedmont Triad International Airport",
     "s": "1"
   },
   {
     "i": "GSP",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Greenville Spartanburg International Airport",
     "s": "1"
   },
@@ -10123,7 +10123,7 @@
   },
   {
     "i": "GUJ",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Edu Chaves Field",
     "s": "1"
   },
@@ -10147,7 +10147,7 @@
   },
   {
     "i": "GUR",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Gurney Airport",
     "s": "1"
   },
@@ -10177,7 +10177,7 @@
   },
   {
     "i": "GVR",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Coronel Altino Machado Airport",
     "s": "1"
   },
@@ -10261,7 +10261,7 @@
   },
   {
     "i": "GYN",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Santa Genoveva Airport",
     "s": "1"
   },
@@ -10447,7 +10447,7 @@
   },
   {
     "i": "HFD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hartford Brainard Airport",
     "s": "1"
   },
@@ -10489,13 +10489,13 @@
   },
   {
     "i": "HGR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hagerstown Regional Richard A Henson Field",
     "s": "1"
   },
   {
     "i": "HGU",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Mount Hagen Kagamuga Airport",
     "s": "1"
   },
@@ -10507,7 +10507,7 @@
   },
   {
     "i": "HHH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hilton Head Airport",
     "s": "1"
   },
@@ -10525,7 +10525,7 @@
   },
   {
     "i": "HHR",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Jack Northrop Field Hawthorne Municipal Airport",
     "s": "1"
   },
@@ -10567,7 +10567,7 @@
   },
   {
     "i": "HIO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Portland Hillsboro Airport",
     "s": "1"
   },
@@ -10597,13 +10597,13 @@
   },
   {
     "i": "HKN",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Hoskins Airport",
     "s": "1"
   },
   {
     "i": "HKY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hickory Regional Airport",
     "s": "1"
   },
@@ -10621,7 +10621,7 @@
   },
   {
     "i": "HLG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Wheeling Ohio County Airport",
     "s": "1"
   },
@@ -10789,19 +10789,19 @@
   },
   {
     "i": "HPH",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Cat Bi International Airport",
     "s": "1"
   },
   {
     "i": "HPN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Westchester County Airport",
     "s": "1"
   },
   {
     "i": "HQM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Bowerman Airport",
     "s": "1"
   },
@@ -10873,7 +10873,7 @@
   },
   {
     "i": "HST",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Homestead ARB Airport",
     "s": "1"
   },
@@ -10915,7 +10915,7 @@
   },
   {
     "i": "HTS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Tri-State Airport / Milton J. Ferguson Field",
     "s": "1"
   },
@@ -10963,13 +10963,13 @@
   },
   {
     "i": "HUI",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Phu Bai International Airport",
     "s": "1"
   },
   {
     "i": "HUL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Houlton International Airport",
     "s": "1"
   },
@@ -10999,7 +10999,7 @@
   },
   {
     "i": "HUX",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "BahÃ­as de Huatulco International Airport",
     "s": "1"
   },
@@ -11041,7 +11041,7 @@
   },
   {
     "i": "HVN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Tweed New Haven Airport",
     "s": "1"
   },
@@ -11065,7 +11065,7 @@
   },
   {
     "i": "HYA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cape Cod Gateway Airport",
     "s": "1"
   },
@@ -11125,7 +11125,7 @@
   },
   {
     "i": "IAG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Niagara Falls International Airport",
     "s": "1"
   },
@@ -11275,7 +11275,7 @@
   },
   {
     "i": "IGU",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Cataratas International Airport",
     "s": "1"
   },
@@ -11335,7 +11335,7 @@
   },
   {
     "i": "ILG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Wilmington Airport",
     "s": "1"
   },
@@ -11347,13 +11347,13 @@
   },
   {
     "i": "ILM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Wilmington International Airport",
     "s": "1"
   },
   {
     "i": "ILN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Wilmington Airpark",
     "s": "1"
   },
@@ -11383,7 +11383,7 @@
   },
   {
     "i": "ILS",
-    "tz": "America/El_Salvador",
+    "tz": "America/El Salvador",
     "a": "Ilopango International Airport",
     "s": "1"
   },
@@ -11467,7 +11467,7 @@
   },
   {
     "i": "INT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Smith Reynolds Airport",
     "s": "1"
   },
@@ -11503,7 +11503,7 @@
   },
   {
     "i": "IOM",
-    "tz": "Europe/Isle_of_Man",
+    "tz": "Europe/Isle of Man",
     "a": "Isle of Man Airport",
     "s": "1"
   },
@@ -11521,7 +11521,7 @@
   },
   {
     "i": "IPH",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Sultan Azlan Shah Airport",
     "s": "1"
   },
@@ -11533,19 +11533,19 @@
   },
   {
     "i": "IPL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Imperial County Airport",
     "s": "1"
   },
   {
     "i": "IPN",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Usiminas Airport",
     "s": "1"
   },
   {
     "i": "IPT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Williamsport Regional Airport",
     "s": "1"
   },
@@ -11593,13 +11593,13 @@
   },
   {
     "i": "IRI",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Iringa Airport",
     "s": "1"
   },
   {
     "i": "IRJ",
-    "tz": "America/Argentina/La_Rioja",
+    "tz": "America/Argentina/La Rioja",
     "a": "Capitan V A Almonacid Airport",
     "s": "1"
   },
@@ -11647,19 +11647,19 @@
   },
   {
     "i": "ISM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Kissimmee Gateway Airport",
     "s": "1"
   },
   {
     "i": "ISO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Kinston Regional Jetport At Stallings Field",
     "s": "1"
   },
   {
     "i": "ISP",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Long Island Mac Arthur Airport",
     "s": "1"
   },
@@ -11683,7 +11683,7 @@
   },
   {
     "i": "ITH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Ithaca Tompkins Regional Airport",
     "s": "1"
   },
@@ -11857,7 +11857,7 @@
   },
   {
     "i": "IZA",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Presidente Itamar Franco Airport",
     "s": "1"
   },
@@ -11869,7 +11869,7 @@
   },
   {
     "i": "IZT",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Antonio CÃ¡rdenas RodrÃ­guez National Airport / Ixtepec Air Base",
     "s": "1"
   },
@@ -11893,7 +11893,7 @@
   },
   {
     "i": "JAE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Shumba Airport",
     "s": "1"
   },
@@ -11923,7 +11923,7 @@
   },
   {
     "i": "JAL",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "El Lencero Airport",
     "s": "1"
   },
@@ -11953,7 +11953,7 @@
   },
   {
     "i": "JBQ",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "La Isabela International Airport",
     "s": "1"
   },
@@ -11977,7 +11977,7 @@
   },
   {
     "i": "JDF",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Francisco de Assis Airport",
     "s": "1"
   },
@@ -12019,7 +12019,7 @@
   },
   {
     "i": "JFN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Northeast Ohio Regional Airport",
     "s": "1"
   },
@@ -12043,13 +12043,13 @@
   },
   {
     "i": "JHB",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Senai International Airport",
     "s": "1"
   },
   {
     "i": "JHF",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "SÃ£o Paulo Catarina Executive Airport",
     "s": "1"
   },
@@ -12073,19 +12073,19 @@
   },
   {
     "i": "JHW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Chautauqua County-Jamestown Airport",
     "s": "1"
   },
   {
     "i": "JIJ",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Wilwal International Airport",
     "s": "1"
   },
   {
     "i": "JIM",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Jimma Airport",
     "s": "1"
   },
@@ -12205,7 +12205,7 @@
   },
   {
     "i": "JOI",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Lauro Carneiro de Loyola Airport",
     "s": "1"
   },
@@ -12247,7 +12247,7 @@
   },
   {
     "i": "JRO",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Kilimanjaro International Airport",
     "s": "1"
   },
@@ -12283,13 +12283,13 @@
   },
   {
     "i": "JST",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "John Murtha Johnstown Cambria County Airport",
     "s": "1"
   },
   {
     "i": "JTC",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Bauru/ArealvaâMoussa Nakhal Tobias State Airport",
     "s": "1"
   },
@@ -12439,7 +12439,7 @@
   },
   {
     "i": "KBR",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Sultan Ismail Petra Airport",
     "s": "1"
   },
@@ -12865,7 +12865,7 @@
   },
   {
     "i": "KLS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Southwest Washington Regional Airport",
     "s": "1"
   },
@@ -12901,7 +12901,7 @@
   },
   {
     "i": "KMA",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Kerema Airport",
     "s": "1"
   },
@@ -13237,7 +13237,7 @@
   },
   {
     "i": "KTE",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Kerteh Airport",
     "s": "1"
   },
@@ -13297,7 +13297,7 @@
   },
   {
     "i": "KUA",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Kuantan Airport",
     "s": "1"
   },
@@ -13363,7 +13363,7 @@
   },
   {
     "i": "KVG",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Kavieng Airport",
     "s": "1"
   },
@@ -13471,7 +13471,7 @@
   },
   {
     "i": "KZC",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Kampong Chhnang Airport",
     "s": "1"
   },
@@ -13489,7 +13489,7 @@
   },
   {
     "i": "LAE",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Nadzab Airport",
     "s": "1"
   },
@@ -13507,13 +13507,13 @@
   },
   {
     "i": "LAJ",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Lages Airport",
     "s": "1"
   },
   {
     "i": "LAL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lakeland Linder International Airport",
     "s": "1"
   },
@@ -13597,7 +13597,7 @@
   },
   {
     "i": "LBE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Arnold Palmer Regional Airport",
     "s": "1"
   },
@@ -13639,7 +13639,7 @@
   },
   {
     "i": "LBT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lumberton Regional Airport",
     "s": "1"
   },
@@ -13699,7 +13699,7 @@
   },
   {
     "i": "LCK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Rickenbacker International Airport",
     "s": "1"
   },
@@ -13723,7 +13723,7 @@
   },
   {
     "i": "LDB",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Governor JosÃ© Richa Airport",
     "s": "1"
   },
@@ -13765,13 +13765,13 @@
   },
   {
     "i": "LEB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lebanon Municipal Airport",
     "s": "1"
   },
   {
     "i": "LEE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Leesburg International Airport",
     "s": "1"
   },
@@ -13807,7 +13807,7 @@
   },
   {
     "i": "LEX",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Blue Grass Airport",
     "s": "1"
   },
@@ -13855,7 +13855,7 @@
   },
   {
     "i": "LGB",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Long Beach Airport (Daugherty Field)",
     "s": "1"
   },
@@ -13879,7 +13879,7 @@
   },
   {
     "i": "LGK",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Langkawi International Airport",
     "s": "1"
   },
@@ -13921,7 +13921,7 @@
   },
   {
     "i": "LHS",
-    "tz": "America/Argentina/Rio_Gallegos",
+    "tz": "America/Argentina/Rio Gallegos",
     "a": "Las Heras Airport",
     "s": "1"
   },
@@ -13957,13 +13957,13 @@
   },
   {
     "i": "LIO",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Limon International Airport",
     "s": "1"
   },
   {
     "i": "LIP",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Lins Airport",
     "s": "1"
   },
@@ -14023,7 +14023,7 @@
   },
   {
     "i": "LKY",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Lake Manyara Airport",
     "s": "1"
   },
@@ -14107,7 +14107,7 @@
   },
   {
     "i": "LMT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Crater Lake-Klamath Regional Airport",
     "s": "1"
   },
@@ -14143,7 +14143,7 @@
   },
   {
     "i": "LNS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lancaster Airport",
     "s": "1"
   },
@@ -14173,7 +14173,7 @@
   },
   {
     "i": "LOL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Derby Field",
     "s": "1"
   },
@@ -14203,13 +14203,13 @@
   },
   {
     "i": "LOZ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "London-Corbin Airport/Magee Field",
     "s": "1"
   },
   {
     "i": "LPB",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "El Alto International Airport",
     "s": "1"
   },
@@ -14221,7 +14221,7 @@
   },
   {
     "i": "LPG",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "La Plata Airport",
     "s": "1"
   },
@@ -14323,7 +14323,7 @@
   },
   {
     "i": "LSF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lawson Army Air Field",
     "s": "1"
   },
@@ -14341,7 +14341,7 @@
   },
   {
     "i": "LSL",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Los Chiles Airport",
     "s": "1"
   },
@@ -14443,7 +14443,7 @@
   },
   {
     "i": "LUK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cincinnati Municipal Airport Lunken Field",
     "s": "1"
   },
@@ -14461,7 +14461,7 @@
   },
   {
     "i": "LUQ",
-    "tz": "America/Argentina/San_Luis",
+    "tz": "America/Argentina/San Luis",
     "a": "Brigadier Mayor D Cesar Raul Ojeda Airport",
     "s": "1"
   },
@@ -14521,13 +14521,13 @@
   },
   {
     "i": "LWB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Greenbrier Valley Airport",
     "s": "1"
   },
   {
     "i": "LWM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lawrence Municipal Airport",
     "s": "1"
   },
@@ -14545,7 +14545,7 @@
   },
   {
     "i": "LWS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Lewiston Nez Perce County Airport",
     "s": "1"
   },
@@ -14593,7 +14593,7 @@
   },
   {
     "i": "LYH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lynchburg Regional Airport - Preston Glenn Field",
     "s": "1"
   },
@@ -14635,7 +14635,7 @@
   },
   {
     "i": "LZC",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "LÃ¡zaro CÃ¡rdenas Airport",
     "s": "1"
   },
@@ -14677,7 +14677,7 @@
   },
   {
     "i": "MAG",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Madang Airport",
     "s": "1"
   },
@@ -14725,7 +14725,7 @@
   },
   {
     "i": "MAS",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Momote Airport",
     "s": "1"
   },
@@ -14749,7 +14749,7 @@
   },
   {
     "i": "MAZ",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Eugenio Maria De Hostos Airport",
     "s": "1"
   },
@@ -14773,7 +14773,7 @@
   },
   {
     "i": "MBI",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Songwe Airport",
     "s": "1"
   },
@@ -14821,13 +14821,13 @@
   },
   {
     "i": "MCC",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "McClellan Airfield",
     "s": "1"
   },
   {
     "i": "MCE",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Merced Regional Macready Field",
     "s": "1"
   },
@@ -14851,7 +14851,7 @@
   },
   {
     "i": "MCN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Middle Georgia Regional Airport",
     "s": "1"
   },
@@ -14935,19 +14935,19 @@
   },
   {
     "i": "MDQ",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Ãstor Piazzola International Airport",
     "s": "1"
   },
   {
     "i": "MDT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Harrisburg International Airport",
     "s": "1"
   },
   {
     "i": "MDU",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Mendi Airport",
     "s": "1"
   },
@@ -14965,7 +14965,7 @@
   },
   {
     "i": "MEA",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "MacaÃ© Benedito Lacerda Airport",
     "s": "1"
   },
@@ -15025,7 +15025,7 @@
   },
   {
     "i": "MER",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Castle Airport",
     "s": "1"
   },
@@ -15037,7 +15037,7 @@
   },
   {
     "i": "MFD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Mansfield Lahm Regional Airport",
     "s": "1"
   },
@@ -15055,7 +15055,7 @@
   },
   {
     "i": "MFH",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Mesquite Airport",
     "s": "1"
   },
@@ -15073,7 +15073,7 @@
   },
   {
     "i": "MFR",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Rogue Valley International Medford Airport",
     "s": "1"
   },
@@ -15097,13 +15097,13 @@
   },
   {
     "i": "MGE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Dobbins Air Reserve Base",
     "s": "1"
   },
   {
     "i": "MGF",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Regional de MaringÃ¡ - SÃ­lvio Name JÃºnior Airport",
     "s": "1"
   },
@@ -15139,7 +15139,7 @@
   },
   {
     "i": "MGW",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Morgantown Municipal Airport Walter L. (Bill) Hart Field",
     "s": "1"
   },
@@ -15175,13 +15175,13 @@
   },
   {
     "i": "MHR",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Sacramento Mather Airport",
     "s": "1"
   },
   {
     "i": "MHT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Manchester-Boston Regional Airport",
     "s": "1"
   },
@@ -15211,7 +15211,7 @@
   },
   {
     "i": "MII",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Frank Miloye MilenkowichiâMarÃ­lia State Airport",
     "s": "1"
   },
@@ -15241,7 +15241,7 @@
   },
   {
     "i": "MIV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Millville Municipal Airport",
     "s": "1"
   },
@@ -15367,13 +15367,13 @@
   },
   {
     "i": "MKZ",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Malacca International Airport",
     "s": "1"
   },
   {
     "i": "MLB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Melbourne Orlando International Airport",
     "s": "1"
   },
@@ -15397,7 +15397,7 @@
   },
   {
     "i": "MLM",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Francisco J. Mujica International Airport",
     "s": "1"
   },
@@ -15469,19 +15469,19 @@
   },
   {
     "i": "MMO",
-    "tz": "Atlantic/Cape_Verde",
+    "tz": "Atlantic/Cape Verde",
     "a": "Maio Airport",
     "s": "1"
   },
   {
     "i": "MMT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Mc Entire Joint National Guard Base",
     "s": "1"
   },
   {
     "i": "MMU",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Morristown Municipal Airport",
     "s": "1"
   },
@@ -15541,7 +15541,7 @@
   },
   {
     "i": "MNZ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Manassas Regional Airport/Harry P. Davis Field",
     "s": "1"
   },
@@ -15559,13 +15559,13 @@
   },
   {
     "i": "MOC",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "MÃ¡rio Ribeiro Airport",
     "s": "1"
   },
   {
     "i": "MOD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Modesto City Co-Harry Sham Field",
     "s": "1"
   },
@@ -15643,7 +15643,7 @@
   },
   {
     "i": "MPV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Edward F Knapp State Airport",
     "s": "1"
   },
@@ -15661,7 +15661,7 @@
   },
   {
     "i": "MQH",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "MinaÃ§u Airport",
     "s": "1"
   },
@@ -15703,7 +15703,7 @@
   },
   {
     "i": "MQS",
-    "tz": "America/St_Vincent",
+    "tz": "America/St Vincent",
     "a": "Mustique Airport",
     "s": "1"
   },
@@ -15721,7 +15721,7 @@
   },
   {
     "i": "MQX",
-    "tz": "Africa/Addis_Ababa",
+    "tz": "Africa/Addis Ababa",
     "a": "Alula Aba Nega Airport",
     "s": "1"
   },
@@ -15733,7 +15733,7 @@
   },
   {
     "i": "MRB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Eastern WV Regional Airport/Shepherd Field",
     "s": "1"
   },
@@ -15799,7 +15799,7 @@
   },
   {
     "i": "MRY",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Monterey Peninsula Airport",
     "s": "1"
   },
@@ -15847,7 +15847,7 @@
   },
   {
     "i": "MSS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Massena International Airport Richards Field",
     "s": "1"
   },
@@ -15883,7 +15883,7 @@
   },
   {
     "i": "MTH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "The Florida Keys Marathon Airport",
     "s": "1"
   },
@@ -15895,7 +15895,7 @@
   },
   {
     "i": "MTN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Martin State Airport",
     "s": "1"
   },
@@ -15913,7 +15913,7 @@
   },
   {
     "i": "MTT",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "MinatitlÃ¡n/Coatzacoalcos International Airport",
     "s": "1"
   },
@@ -15955,7 +15955,7 @@
   },
   {
     "i": "MUI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Muir Army Air Field (Fort Indiantown Gap) Airport",
     "s": "1"
   },
@@ -16045,13 +16045,13 @@
   },
   {
     "i": "MWH",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Grant County International Airport",
     "s": "1"
   },
   {
     "i": "MWZ",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Mwanza Airport",
     "s": "1"
   },
@@ -16147,7 +16147,7 @@
   },
   {
     "i": "MYR",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Myrtle Beach International Airport",
     "s": "1"
   },
@@ -16165,13 +16165,13 @@
   },
   {
     "i": "MYV",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Yuba County Airport",
     "s": "1"
   },
   {
     "i": "MYW",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Mtwara Airport",
     "s": "1"
   },
@@ -16339,7 +16339,7 @@
   },
   {
     "i": "NCA",
-    "tz": "America/Grand_Turk",
+    "tz": "America/Grand Turk",
     "a": "North Caicos Airport",
     "s": "1"
   },
@@ -16351,7 +16351,7 @@
   },
   {
     "i": "NCO",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Quonset State Airport",
     "s": "1"
   },
@@ -16411,13 +16411,13 @@
   },
   {
     "i": "NEC",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Necochea Airport",
     "s": "1"
   },
   {
     "i": "NEL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lakehurst Maxfield Field Airport",
     "s": "1"
   },
@@ -16435,7 +16435,7 @@
   },
   {
     "i": "NEV",
-    "tz": "America/St_Kitts",
+    "tz": "America/St Kitts",
     "a": "Vance W. Amory International Airport",
     "s": "1"
   },
@@ -16453,7 +16453,7 @@
   },
   {
     "i": "NFL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Fallon Naval Air Station",
     "s": "1"
   },
@@ -16507,7 +16507,7 @@
   },
   {
     "i": "NHZ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Brunswick Executive Airport",
     "s": "1"
   },
@@ -16531,7 +16531,7 @@
   },
   {
     "i": "NJK",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "El Centro NAF Airport (Vraciu Field)",
     "s": "1"
   },
@@ -16549,7 +16549,7 @@
   },
   {
     "i": "NKX",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Miramar Marine Corps Air Station - Mitscher Field",
     "s": "1"
   },
@@ -16639,7 +16639,7 @@
   },
   {
     "i": "NOB",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Nosara Airport",
     "s": "1"
   },
@@ -16747,7 +16747,7 @@
   },
   {
     "i": "NRR",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "JosÃ© Aponte de la Torre Airport",
     "s": "1"
   },
@@ -16849,13 +16849,13 @@
   },
   {
     "i": "NUQ",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Moffett Federal Airfield",
     "s": "1"
   },
   {
     "i": "NUW",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Whidbey Island Naval Air Station (Ault Field)",
     "s": "1"
   },
@@ -16885,7 +16885,7 @@
   },
   {
     "i": "NVT",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Ministro Victor Konder International Airport",
     "s": "1"
   },
@@ -16909,7 +16909,7 @@
   },
   {
     "i": "NYG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Quantico Marine Corps Airfield / Turner Field",
     "s": "1"
   },
@@ -16963,7 +16963,7 @@
   },
   {
     "i": "NZY",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "North Island Naval Air Station-Halsey Field",
     "s": "1"
   },
@@ -16981,7 +16981,7 @@
   },
   {
     "i": "OAJ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Albert J Ellis Airport",
     "s": "1"
   },
@@ -16993,7 +16993,7 @@
   },
   {
     "i": "OAX",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "XoxocotlÃ¡n International Airport",
     "s": "1"
   },
@@ -17077,7 +17077,7 @@
   },
   {
     "i": "OGB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Orangeburg Municipal Airport",
     "s": "1"
   },
@@ -17101,7 +17101,7 @@
   },
   {
     "i": "OGS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Ogdensburg International Airport",
     "s": "1"
   },
@@ -17233,7 +17233,7 @@
   },
   {
     "i": "OLM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Olympia Regional Airport",
     "s": "1"
   },
@@ -17323,7 +17323,7 @@
   },
   {
     "i": "ONP",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Newport Municipal Airport",
     "s": "1"
   },
@@ -17353,13 +17353,13 @@
   },
   {
     "i": "OPF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Miami-Opa Locka Executive Airport",
     "s": "1"
   },
   {
     "i": "OPU",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Balimo Airport",
     "s": "1"
   },
@@ -17377,7 +17377,7 @@
   },
   {
     "i": "ORH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Worcester Regional Airport",
     "s": "1"
   },
@@ -17401,7 +17401,7 @@
   },
   {
     "i": "ORU",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Juan Mendoza Airport",
     "s": "1"
   },
@@ -17461,7 +17461,7 @@
   },
   {
     "i": "OSU",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "The Ohio State University Airport - Don Scott Field",
     "s": "1"
   },
@@ -17473,7 +17473,7 @@
   },
   {
     "i": "OTH",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Southwest Oregon Regional Airport",
     "s": "1"
   },
@@ -17491,7 +17491,7 @@
   },
   {
     "i": "OTR",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Coto 47 Airport",
     "s": "1"
   },
@@ -17551,7 +17551,7 @@
   },
   {
     "i": "OWD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Norwood Memorial Airport",
     "s": "1"
   },
@@ -17569,7 +17569,7 @@
   },
   {
     "i": "OXR",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Oxnard Airport",
     "s": "1"
   },
@@ -17593,7 +17593,7 @@
   },
   {
     "i": "OYO",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Tres Arroyos Airport",
     "s": "1"
   },
@@ -17659,7 +17659,7 @@
   },
   {
     "i": "PAE",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Seattle Paine Field International Airport",
     "s": "1"
   },
@@ -17689,7 +17689,7 @@
   },
   {
     "i": "PAO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Palo Alto Airport",
     "s": "1"
   },
@@ -17713,13 +17713,13 @@
   },
   {
     "i": "PAZ",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "El TajÃ­n National Airport",
     "s": "1"
   },
   {
     "i": "PBC",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Hermanos SerdÃ¡n International Airport",
     "s": "1"
   },
@@ -17737,7 +17737,7 @@
   },
   {
     "i": "PBG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Plattsburgh International Airport",
     "s": "1"
   },
@@ -17797,7 +17797,7 @@
   },
   {
     "i": "PCP",
-    "tz": "Africa/Sao_Tome",
+    "tz": "Africa/Sao Tome",
     "a": "Principe Airport",
     "s": "1"
   },
@@ -17821,7 +17821,7 @@
   },
   {
     "i": "PDK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "DeKalb Peachtree Airport",
     "s": "1"
   },
@@ -17845,7 +17845,7 @@
   },
   {
     "i": "PDT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Eastern Oregon Regional Airport at Pendleton",
     "s": "1"
   },
@@ -17881,7 +17881,7 @@
   },
   {
     "i": "PEH",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Comodoro Pedro Zanni Airport",
     "s": "1"
   },
@@ -17899,7 +17899,7 @@
   },
   {
     "i": "PEN",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Penang International Airport",
     "s": "1"
   },
@@ -17911,7 +17911,7 @@
   },
   {
     "i": "PET",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "JoÃ£o SimÃµes Lopes Neto International Airport",
     "s": "1"
   },
@@ -17941,7 +17941,7 @@
   },
   {
     "i": "PFB",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Lauro Kurtz Airport",
     "s": "1"
   },
@@ -17959,7 +17959,7 @@
   },
   {
     "i": "PGD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Punta Gorda Airport",
     "s": "1"
   },
@@ -17989,7 +17989,7 @@
   },
   {
     "i": "PGV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Pitt-Greenville Airport",
     "s": "1"
   },
@@ -18001,7 +18001,7 @@
   },
   {
     "i": "PGZ",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Ponta Grossa Airport - Comandante Antonio Amilton Beraldo",
     "s": "1"
   },
@@ -18025,7 +18025,7 @@
   },
   {
     "i": "PHF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Newport News Williamsburg International Airport",
     "s": "1"
   },
@@ -18061,7 +18061,7 @@
   },
   {
     "i": "PIE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "St. Petersburg Clearwater International Airport",
     "s": "1"
   },
@@ -18133,13 +18133,13 @@
   },
   {
     "i": "PJM",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Puerto Jimenez Airport",
     "s": "1"
   },
   {
     "i": "PKB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Mid Ohio Valley Regional Airport",
     "s": "1"
   },
@@ -18193,7 +18193,7 @@
   },
   {
     "i": "PLU",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Pampulha - Carlos Drummond de Andrade Airport",
     "s": "1"
   },
@@ -18217,7 +18217,7 @@
   },
   {
     "i": "PMA",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Pemba Airport",
     "s": "1"
   },
@@ -18229,7 +18229,7 @@
   },
   {
     "i": "PMD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Palmdale Regional Airport / USAF Plant 42 Airport",
     "s": "1"
   },
@@ -18241,13 +18241,13 @@
   },
   {
     "i": "PMG",
-    "tz": "America/Campo_Grande",
+    "tz": "America/Campo Grande",
     "a": "Ponta PorÃ£ Airport",
     "s": "1"
   },
   {
     "i": "PMQ",
-    "tz": "America/Argentina/Rio_Gallegos",
+    "tz": "America/Argentina/Rio Gallegos",
     "a": "Perito Moreno Jalil Hamer Airport",
     "s": "1"
   },
@@ -18283,7 +18283,7 @@
   },
   {
     "i": "PMZ",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Palmar Sur Airport",
     "s": "1"
   },
@@ -18307,7 +18307,7 @@
   },
   {
     "i": "PNE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Northeast Philadelphia Airport",
     "s": "1"
   },
@@ -18331,7 +18331,7 @@
   },
   {
     "i": "PNP",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Girua Airport",
     "s": "1"
   },
@@ -18379,13 +18379,13 @@
   },
   {
     "i": "POA",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Salgado Filho International Airport",
     "s": "1"
   },
   {
     "i": "POB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Pope Field",
     "s": "1"
   },
@@ -18403,7 +18403,7 @@
   },
   {
     "i": "POI",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Capitan Nicolas Rojas Airport",
     "s": "1"
   },
@@ -18415,13 +18415,13 @@
   },
   {
     "i": "POO",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "PoÃ§os de Caldas - Embaixador Walther Moreira Salles Airport",
     "s": "1"
   },
   {
     "i": "POP",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Gregorio Luperon International Airport",
     "s": "1"
   },
@@ -18433,7 +18433,7 @@
   },
   {
     "i": "POS",
-    "tz": "America/Port_of_Spain",
+    "tz": "America/Port of Spain",
     "a": "Piarco International Airport",
     "s": "1"
   },
@@ -18445,7 +18445,7 @@
   },
   {
     "i": "POU",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Dutchess County Airport",
     "s": "1"
   },
@@ -18469,13 +18469,13 @@
   },
   {
     "i": "PPB",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Presidente Prudente Airport",
     "s": "1"
   },
   {
     "i": "PPG",
-    "tz": "Pacific/Pago_Pago",
+    "tz": "Pacific/Pago Pago",
     "a": "Pago Pago International Airport",
     "s": "1"
   },
@@ -18517,13 +18517,13 @@
   },
   {
     "i": "PQC",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Phu Quoc International Airport",
     "s": "1"
   },
   {
     "i": "PQI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Presque Isle International Airport",
     "s": "1"
   },
@@ -18541,7 +18541,7 @@
   },
   {
     "i": "PRB",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Paso Robles Municipal Airport",
     "s": "1"
   },
@@ -18595,7 +18595,7 @@
   },
   {
     "i": "PSC",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Tri Cities Airport",
     "s": "1"
   },
@@ -18607,7 +18607,7 @@
   },
   {
     "i": "PSE",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Mercedita Airport",
     "s": "1"
   },
@@ -18625,7 +18625,7 @@
   },
   {
     "i": "PSM",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Portsmouth International at Pease Airport",
     "s": "1"
   },
@@ -18637,7 +18637,7 @@
   },
   {
     "i": "PSP",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Palm Springs International Airport",
     "s": "1"
   },
@@ -18667,7 +18667,7 @@
   },
   {
     "i": "PSZ",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "CapitÃ¡n Av. Salvador Ogaya G. airport",
     "s": "1"
   },
@@ -18721,7 +18721,7 @@
   },
   {
     "i": "PUD",
-    "tz": "America/Argentina/Rio_Gallegos",
+    "tz": "America/Argentina/Rio Gallegos",
     "a": "Puerto Deseado Airport",
     "s": "1"
   },
@@ -18757,7 +18757,7 @@
   },
   {
     "i": "PUW",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Pullman-Moscow Regional Airport",
     "s": "1"
   },
@@ -18781,7 +18781,7 @@
   },
   {
     "i": "PVH",
-    "tz": "America/Porto_Velho",
+    "tz": "America/Porto Velho",
     "a": "Governador Jorge Teixeira de Oliveira Airport",
     "s": "1"
   },
@@ -18829,7 +18829,7 @@
   },
   {
     "i": "PWT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Bremerton National Airport",
     "s": "1"
   },
@@ -18841,7 +18841,7 @@
   },
   {
     "i": "PXM",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Puerto Escondido International Airport",
     "s": "1"
   },
@@ -18859,7 +18859,7 @@
   },
   {
     "i": "PXU",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Pleiku Airport",
     "s": "1"
   },
@@ -18967,7 +18967,7 @@
   },
   {
     "i": "QRO",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "QuerÃ©taro Intercontinental Airport",
     "s": "1"
   },
@@ -19003,7 +19003,7 @@
   },
   {
     "i": "RAB",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Tokua Airport",
     "s": "1"
   },
@@ -19027,13 +19027,13 @@
   },
   {
     "i": "RAL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Riverside Municipal Airport",
     "s": "1"
   },
   {
     "i": "RAO",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Leite Lopes Airport",
     "s": "1"
   },
@@ -19063,19 +19063,19 @@
   },
   {
     "i": "RBE",
-    "tz": "Asia/Phnom_Penh",
+    "tz": "Asia/Phnom Penh",
     "a": "Ratanakiri Airport",
     "s": "1"
   },
   {
     "i": "RBL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Red Bluff Municipal Airport",
     "s": "1"
   },
   {
     "i": "RBR",
-    "tz": "America/Rio_Branco",
+    "tz": "America/Rio Branco",
     "a": "Rio Branco-PlÃ¡cido de Castro International Airport",
     "s": "1"
   },
@@ -19117,19 +19117,19 @@
   },
   {
     "i": "RDD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Redding Municipal Airport",
     "s": "1"
   },
   {
     "i": "RDG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Reading Regional Airport (Carl A Spaatz Field)",
     "s": "1"
   },
   {
     "i": "RDM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Roberts Field",
     "s": "1"
   },
@@ -19249,7 +19249,7 @@
   },
   {
     "i": "RGL",
-    "tz": "America/Argentina/Rio_Gallegos",
+    "tz": "America/Argentina/Rio Gallegos",
     "a": "Piloto Civil N. FernÃ¡ndez Airport",
     "s": "1"
   },
@@ -19285,13 +19285,13 @@
   },
   {
     "i": "RIA",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Santa Maria Airport",
     "s": "1"
   },
   {
     "i": "RIB",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "CapitÃ¡n Av. Selin Zeitun Lopez Airport",
     "s": "1"
   },
@@ -19315,7 +19315,7 @@
   },
   {
     "i": "RIV",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "March Air Reserve Base",
     "s": "1"
   },
@@ -19369,7 +19369,7 @@
   },
   {
     "i": "RKD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Knox County Regional Airport",
     "s": "1"
   },
@@ -19423,7 +19423,7 @@
   },
   {
     "i": "RME",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Griffiss International Airport",
     "s": "1"
   },
@@ -19435,7 +19435,7 @@
   },
   {
     "i": "RMG",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Richard B Russell Airport",
     "s": "1"
   },
@@ -19525,13 +19525,13 @@
   },
   {
     "i": "ROA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "RoanokeâBlacksburg Regional Airport",
     "s": "1"
   },
   {
     "i": "ROC",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Frederick Douglass Greater Rochester International Airport",
     "s": "1"
   },
@@ -19723,7 +19723,7 @@
   },
   {
     "i": "RUT",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Rutland - Southern Vermont Regional Airport",
     "s": "1"
   },
@@ -19759,7 +19759,7 @@
   },
   {
     "i": "RWI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Rocky Mount Wilson Regional Airport",
     "s": "1"
   },
@@ -19801,7 +19801,7 @@
   },
   {
     "i": "RZA",
-    "tz": "America/Argentina/Rio_Gallegos",
+    "tz": "America/Argentina/Rio Gallegos",
     "a": "Santa Cruz Airport",
     "s": "1"
   },
@@ -19831,7 +19831,7 @@
   },
   {
     "i": "SAC",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Sacramento Executive Airport",
     "s": "1"
   },
@@ -19867,7 +19867,7 @@
   },
   {
     "i": "SBA",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Santa Barbara Municipal Airport",
     "s": "1"
   },
@@ -19879,7 +19879,7 @@
   },
   {
     "i": "SBH",
-    "tz": "America/St_Barthelemy",
+    "tz": "America/St Barthelemy",
     "a": "Saint BarthÃ©lemy - Gustaf III Airport",
     "s": "1"
   },
@@ -19891,7 +19891,7 @@
   },
   {
     "i": "SBL",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Santa Ana del Yacuma Airport",
     "s": "1"
   },
@@ -19903,7 +19903,7 @@
   },
   {
     "i": "SBP",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "San Luis County Regional Airport",
     "s": "1"
   },
@@ -19927,7 +19927,7 @@
   },
   {
     "i": "SBY",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Salisbury Ocean City Wicomico Regional Airport",
     "s": "1"
   },
@@ -19945,13 +19945,13 @@
   },
   {
     "i": "SCE",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "State College Regional Airport",
     "s": "1"
   },
   {
     "i": "SCH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Schenectady County Airport",
     "s": "1"
   },
@@ -19963,7 +19963,7 @@
   },
   {
     "i": "SCK",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Stockton Metropolitan Airport",
     "s": "1"
   },
@@ -20047,7 +20047,7 @@
   },
   {
     "i": "SDM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Brown Field Municipal Airport",
     "s": "1"
   },
@@ -20077,7 +20077,7 @@
   },
   {
     "i": "SDU",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Santos Dumont Airport",
     "s": "1"
   },
@@ -20131,7 +20131,7 @@
   },
   {
     "i": "SFF",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Felts Field",
     "s": "1"
   },
@@ -20191,7 +20191,7 @@
   },
   {
     "i": "SGH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Springfield-Beckley Municipal Airport",
     "s": "1"
   },
@@ -20233,7 +20233,7 @@
   },
   {
     "i": "SHD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Shenandoah Valley Regional Airport",
     "s": "1"
   },
@@ -20293,7 +20293,7 @@
   },
   {
     "i": "SIG",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Fernando Luis Ribas Dominicci Airport",
     "s": "1"
   },
@@ -20347,7 +20347,7 @@
   },
   {
     "i": "SJK",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Professor Urbano Ernesto Stumpf Airport",
     "s": "1"
   },
@@ -20359,7 +20359,7 @@
   },
   {
     "i": "SJP",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Prof. Eribelto Manoel Reino State Airport",
     "s": "1"
   },
@@ -20389,7 +20389,7 @@
   },
   {
     "i": "SKB",
-    "tz": "America/St_Kitts",
+    "tz": "America/St Kitts",
     "a": "Robert L. Bradshaw International Airport",
     "s": "1"
   },
@@ -20455,13 +20455,13 @@
   },
   {
     "i": "SLE",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Salem-Willamette Valley Airport/McNary Field",
     "s": "1"
   },
   {
     "i": "SLK",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Adirondack Regional Airport",
     "s": "1"
   },
@@ -20485,13 +20485,13 @@
   },
   {
     "i": "SLP",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Ponciano Arriaga International Airport",
     "s": "1"
   },
   {
     "i": "SLU",
-    "tz": "America/St_Lucia",
+    "tz": "America/St Lucia",
     "a": "George F. L. Charles Airport",
     "s": "1"
   },
@@ -20521,7 +20521,7 @@
   },
   {
     "i": "SME",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Lake Cumberland Regional Airport",
     "s": "1"
   },
@@ -20545,7 +20545,7 @@
   },
   {
     "i": "SMO",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Santa Monica Municipal Airport",
     "s": "1"
   },
@@ -20575,7 +20575,7 @@
   },
   {
     "i": "SMX",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Santa Maria Public Airport Captain G Allan Hancock Field",
     "s": "1"
   },
@@ -20593,7 +20593,7 @@
   },
   {
     "i": "SNE",
-    "tz": "Atlantic/Cape_Verde",
+    "tz": "Atlantic/Cape Verde",
     "a": "PreguiÃ§a Airport",
     "s": "1"
   },
@@ -20629,7 +20629,7 @@
   },
   {
     "i": "SNS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Salinas Municipal Airport",
     "s": "1"
   },
@@ -20791,7 +20791,7 @@
   },
   {
     "i": "SQL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "San Carlos Airport",
     "s": "1"
   },
@@ -20821,7 +20821,7 @@
   },
   {
     "i": "SRE",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "AlcantarÃ­ Airport",
     "s": "1"
   },
@@ -20851,7 +20851,7 @@
   },
   {
     "i": "SRZ",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "El Trompillo Airport",
     "s": "1"
   },
@@ -20875,7 +20875,7 @@
   },
   {
     "i": "SSI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "St Simons Island Airport",
     "s": "1"
   },
@@ -20893,7 +20893,7 @@
   },
   {
     "i": "SST",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Santa Teresita Airport",
     "s": "1"
   },
@@ -20905,7 +20905,7 @@
   },
   {
     "i": "SSZ",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Santos Nero Moura Air Base / GuarujÃ¡ Airport",
     "s": "1"
   },
@@ -20941,7 +20941,7 @@
   },
   {
     "i": "STI",
-    "tz": "America/Santo_Domingo",
+    "tz": "America/Santo Domingo",
     "a": "Cibao International Airport",
     "s": "1"
   },
@@ -20965,13 +20965,13 @@
   },
   {
     "i": "STS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Charles M. Schulz Sonoma County Airport",
     "s": "1"
   },
   {
     "i": "STT",
-    "tz": "America/St_Thomas",
+    "tz": "America/St Thomas",
     "a": "Cyril E. King Airport",
     "s": "1"
   },
@@ -20989,7 +20989,7 @@
   },
   {
     "i": "STX",
-    "tz": "America/St_Thomas",
+    "tz": "America/St Thomas",
     "a": "Henry E Rohlsen Airport",
     "s": "1"
   },
@@ -21073,7 +21073,7 @@
   },
   {
     "i": "SVD",
-    "tz": "America/St_Vincent",
+    "tz": "America/St Vincent",
     "a": "Argyle International Airport",
     "s": "1"
   },
@@ -21097,7 +21097,7 @@
   },
   {
     "i": "SVN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Hunter Army Air Field",
     "s": "1"
   },
@@ -21145,7 +21145,7 @@
   },
   {
     "i": "SWF",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "New York Stewart International Airport",
     "s": "1"
   },
@@ -21271,7 +21271,7 @@
   },
   {
     "i": "SYQ",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "TobÃ­as BolaÃ±os International Airport",
     "s": "1"
   },
@@ -21307,7 +21307,7 @@
   },
   {
     "i": "SZB",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Sultan Abdul Aziz Shah International Airport",
     "s": "1"
   },
@@ -21361,7 +21361,7 @@
   },
   {
     "i": "TAB",
-    "tz": "America/Port_of_Spain",
+    "tz": "America/Port of Spain",
     "a": "A.N.R. Robinson International Airport",
     "s": "1"
   },
@@ -21415,7 +21415,7 @@
   },
   {
     "i": "TAP",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Tapachula International Airport",
     "s": "1"
   },
@@ -21445,7 +21445,7 @@
   },
   {
     "i": "TBB",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Dong Tac Airport",
     "s": "1"
   },
@@ -21577,7 +21577,7 @@
   },
   {
     "i": "TDD",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Teniente Av. Jorge Henrich Arauz Airport",
     "s": "1"
   },
@@ -21595,7 +21595,7 @@
   },
   {
     "i": "TDL",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "HÃ©roes de Malvinas Airport",
     "s": "1"
   },
@@ -21613,13 +21613,13 @@
   },
   {
     "i": "TEB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Teterboro Airport",
     "s": "1"
   },
   {
     "i": "TEC",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "TelÃªmaco Borba Airport",
     "s": "1"
   },
@@ -21715,7 +21715,7 @@
   },
   {
     "i": "TGG",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Sultan Mahmud Airport",
     "s": "1"
   },
@@ -21763,7 +21763,7 @@
   },
   {
     "i": "TGT",
-    "tz": "Africa/Dar_es_Salaam",
+    "tz": "Africa/Dar es Salaam",
     "a": "Tanga Airport",
     "s": "1"
   },
@@ -21775,7 +21775,7 @@
   },
   {
     "i": "TGZ",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Angel Albino Corzo International Airport",
     "s": "1"
   },
@@ -21877,19 +21877,19 @@
   },
   {
     "i": "TIW",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Tacoma Narrows Airport",
     "s": "1"
   },
   {
     "i": "TIX",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Space Coast Regional Airport",
     "s": "1"
   },
   {
     "i": "TJA",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Capitan Oriel Lea Plaza Airport",
     "s": "1"
   },
@@ -21949,7 +21949,7 @@
   },
   {
     "i": "TKF",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Truckee Tahoe Airport",
     "s": "1"
   },
@@ -22009,7 +22009,7 @@
   },
   {
     "i": "TLC",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Adolfo LÃ³pez Mateos International Airport",
     "s": "1"
   },
@@ -22021,7 +22021,7 @@
   },
   {
     "i": "TLH",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Tallahassee Regional Airport",
     "s": "1"
   },
@@ -22057,7 +22057,7 @@
   },
   {
     "i": "TMB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Miami Executive Airport",
     "s": "1"
   },
@@ -22165,7 +22165,7 @@
   },
   {
     "i": "TOD",
-    "tz": "Asia/Kuala_Lumpur",
+    "tz": "Asia/Kuala Lumpur",
     "a": "Tioman Airport",
     "s": "1"
   },
@@ -22195,7 +22195,7 @@
   },
   {
     "i": "TOL",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Eugene F. Kranz Toledo Express Airport",
     "s": "1"
   },
@@ -22237,7 +22237,7 @@
   },
   {
     "i": "TPH",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Tonopah Airport",
     "s": "1"
   },
@@ -22321,7 +22321,7 @@
   },
   {
     "i": "TRI",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Tri-Cities Regional TN/VA Airport",
     "s": "1"
   },
@@ -22333,7 +22333,7 @@
   },
   {
     "i": "TRM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Jacqueline Cochran Regional Airport",
     "s": "1"
   },
@@ -22345,7 +22345,7 @@
   },
   {
     "i": "TRQ",
-    "tz": "America/Rio_Branco",
+    "tz": "America/Rio Branco",
     "a": "TarauacÃ¡ Airport",
     "s": "1"
   },
@@ -22441,7 +22441,7 @@
   },
   {
     "i": "TTD",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Portland Troutdale Airport",
     "s": "1"
   },
@@ -22471,7 +22471,7 @@
   },
   {
     "i": "TTN",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Trenton Mercer Airport",
     "s": "1"
   },
@@ -22591,7 +22591,7 @@
   },
   {
     "i": "TVL",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Lake Tahoe Airport",
     "s": "1"
   },
@@ -22681,7 +22681,7 @@
   },
   {
     "i": "TYS",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "McGhee Tyson Airport",
     "s": "1"
   },
@@ -22729,7 +22729,7 @@
   },
   {
     "i": "UAQ",
-    "tz": "America/Argentina/San_Juan",
+    "tz": "America/Argentina/San Juan",
     "a": "Domingo Faustino Sarmiento Airport",
     "s": "1"
   },
@@ -22741,7 +22741,7 @@
   },
   {
     "i": "UBA",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "MÃ¡rio de Almeida Franco Airport",
     "s": "1"
   },
@@ -22777,7 +22777,7 @@
   },
   {
     "i": "UDI",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Ten. Cel. Aviador CÃ©sar Bombonato Airport",
     "s": "1"
   },
@@ -22849,7 +22849,7 @@
   },
   {
     "i": "UIH",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Phu Cat Airport",
     "s": "1"
   },
@@ -22873,7 +22873,7 @@
   },
   {
     "i": "UKI",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Ukiah Municipal Airport",
     "s": "1"
   },
@@ -22897,7 +22897,7 @@
   },
   {
     "i": "ULA",
-    "tz": "America/Argentina/Rio_Gallegos",
+    "tz": "America/Argentina/Rio Gallegos",
     "a": "Capitan D Daniel Vazquez Airport",
     "s": "1"
   },
@@ -22969,7 +22969,7 @@
   },
   {
     "i": "UNI",
-    "tz": "America/St_Vincent",
+    "tz": "America/St Vincent",
     "a": "Union Island International Airport",
     "s": "1"
   },
@@ -22999,13 +22999,13 @@
   },
   {
     "i": "UPL",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Upala Airport",
     "s": "1"
   },
   {
     "i": "UPN",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Uruapan - Licenciado y General Ignacio Lopez Rayon International Airport",
     "s": "1"
   },
@@ -23023,7 +23023,7 @@
   },
   {
     "i": "URG",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Rubem Berta Airport",
     "s": "1"
   },
@@ -23059,7 +23059,7 @@
   },
   {
     "i": "USA",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Concord-Padgett Regional Airport",
     "s": "1"
   },
@@ -23101,7 +23101,7 @@
   },
   {
     "i": "UST",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Northeast Florida Regional Airport",
     "s": "1"
   },
@@ -23221,13 +23221,13 @@
   },
   {
     "i": "VAG",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Major Brigadeiro Trompowsky Airport",
     "s": "1"
   },
   {
     "i": "VAI",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Vanimo Airport",
     "s": "1"
   },
@@ -23257,7 +23257,7 @@
   },
   {
     "i": "VBG",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Vandenberg Space Force Base",
     "s": "1"
   },
@@ -23275,19 +23275,19 @@
   },
   {
     "i": "VCA",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Can Tho International Airport",
     "s": "1"
   },
   {
     "i": "VCP",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Viracopos International Airport",
     "s": "1"
   },
   {
     "i": "VCS",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Con Dao Airport",
     "s": "1"
   },
@@ -23311,7 +23311,7 @@
   },
   {
     "i": "VDH",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Dong Hoi Airport",
     "s": "1"
   },
@@ -23323,7 +23323,7 @@
   },
   {
     "i": "VDO",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Van Don International Airport",
     "s": "1"
   },
@@ -23359,7 +23359,7 @@
   },
   {
     "i": "VER",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Heriberto Jara International Airport",
     "s": "1"
   },
@@ -23395,7 +23395,7 @@
   },
   {
     "i": "VGT",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "North Las Vegas Metropolitan International Airport",
     "s": "1"
   },
@@ -23425,7 +23425,7 @@
   },
   {
     "i": "VII",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Vinh Airport",
     "s": "1"
   },
@@ -23449,7 +23449,7 @@
   },
   {
     "i": "VIS",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Visalia Municipal Airport",
     "s": "1"
   },
@@ -23467,7 +23467,7 @@
   },
   {
     "i": "VKG",
-    "tz": "Asia/Ho_Chi_Minh",
+    "tz": "Asia/Ho Chi Minh",
     "a": "Rach Gia Airport",
     "s": "1"
   },
@@ -23485,13 +23485,13 @@
   },
   {
     "i": "VLD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Valdosta Regional Airport",
     "s": "1"
   },
   {
     "i": "VLG",
-    "tz": "America/Argentina/Buenos_Aires",
+    "tz": "America/Argentina/Buenos Aires",
     "a": "Villa Gesell Airport",
     "s": "1"
   },
@@ -23503,7 +23503,7 @@
   },
   {
     "i": "VLM",
-    "tz": "America/La_Paz",
+    "tz": "America/La Paz",
     "a": "Teniente Coronel Rafael PabÃ³n Airport",
     "s": "1"
   },
@@ -23533,13 +23533,13 @@
   },
   {
     "i": "VME",
-    "tz": "America/Argentina/San_Luis",
+    "tz": "America/Argentina/San Luis",
     "a": "Villa Reynolds Airport",
     "s": "1"
   },
   {
     "i": "VMU",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Baimuru Airport",
     "s": "1"
   },
@@ -23563,7 +23563,7 @@
   },
   {
     "i": "VNY",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Van Nuys Airport",
     "s": "1"
   },
@@ -23629,19 +23629,19 @@
   },
   {
     "i": "VQQ",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cecil Airport",
     "s": "1"
   },
   {
     "i": "VQS",
-    "tz": "America/Puerto_Rico",
+    "tz": "America/Puerto Rico",
     "a": "Antonio Rivera Rodriguez Airport",
     "s": "1"
   },
   {
     "i": "VRB",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Vero Beach Regional Airport",
     "s": "1"
   },
@@ -23683,7 +23683,7 @@
   },
   {
     "i": "VSA",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Carlos Rovirosa PÃ©rez International Airport",
     "s": "1"
   },
@@ -23767,7 +23767,7 @@
   },
   {
     "i": "VXE",
-    "tz": "Atlantic/Cape_Verde",
+    "tz": "Atlantic/Cape Verde",
     "a": "SÃ£o Pedro Airport",
     "s": "1"
   },
@@ -23815,7 +23815,7 @@
   },
   {
     "i": "WBM",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Wapenamanda Airport",
     "s": "1"
   },
@@ -23923,7 +23923,7 @@
   },
   {
     "i": "WJF",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "General William J Fox Airfield",
     "s": "1"
   },
@@ -23971,7 +23971,7 @@
   },
   {
     "i": "WMC",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Winnemucca Municipal Airport",
     "s": "1"
   },
@@ -24109,7 +24109,7 @@
   },
   {
     "i": "WST",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Westerly State Airport",
     "s": "1"
   },
@@ -24181,13 +24181,13 @@
   },
   {
     "i": "WWD",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Cape May County Airport",
     "s": "1"
   },
   {
     "i": "WWK",
-    "tz": "Pacific/Port_Moresby",
+    "tz": "Pacific/Port Moresby",
     "a": "Wewak International Airport",
     "s": "1"
   },
@@ -24229,7 +24229,7 @@
   },
   {
     "i": "XAP",
-    "tz": "America/Sao_Paulo",
+    "tz": "America/Sao Paulo",
     "a": "Serafin Enoss Bertaso Airport",
     "s": "1"
   },
@@ -24355,7 +24355,7 @@
   },
   {
     "i": "XQP",
-    "tz": "America/Costa_Rica",
+    "tz": "America/Costa Rica",
     "a": "Quepos Managua Airport",
     "s": "1"
   },
@@ -24391,7 +24391,7 @@
   },
   {
     "i": "XSC",
-    "tz": "America/Grand_Turk",
+    "tz": "America/Grand Turk",
     "a": "South Caicos Airport",
     "s": "1"
   },
@@ -24469,7 +24469,7 @@
   },
   {
     "i": "YAY",
-    "tz": "America/St_Johns",
+    "tz": "America/St Johns",
     "a": "St. Anthony Airport",
     "s": "1"
   },
@@ -24493,7 +24493,7 @@
   },
   {
     "i": "YBK",
-    "tz": "America/Rankin_Inlet",
+    "tz": "America/Rankin Inlet",
     "a": "Baker Lake Airport",
     "s": "1"
   },
@@ -24529,7 +24529,7 @@
   },
   {
     "i": "YCB",
-    "tz": "America/Cambridge_Bay",
+    "tz": "America/Cambridge Bay",
     "a": "Cambridge Bay Airport",
     "s": "1"
   },
@@ -24583,7 +24583,7 @@
   },
   {
     "i": "YCQ",
-    "tz": "America/Dawson_Creek",
+    "tz": "America/Dawson Creek",
     "a": "Chetwynd Airport",
     "s": "1"
   },
@@ -24607,7 +24607,7 @@
   },
   {
     "i": "YDF",
-    "tz": "America/St_Johns",
+    "tz": "America/St Johns",
     "a": "Deer Lake Airport",
     "s": "1"
   },
@@ -24631,7 +24631,7 @@
   },
   {
     "i": "YDQ",
-    "tz": "America/Dawson_Creek",
+    "tz": "America/Dawson Creek",
     "a": "Dawson Creek Airport",
     "s": "1"
   },
@@ -24889,7 +24889,7 @@
   },
   {
     "i": "YJT",
-    "tz": "America/St_Johns",
+    "tz": "America/St Johns",
     "a": "Dymond Airport",
     "s": "1"
   },
@@ -24931,7 +24931,7 @@
   },
   {
     "i": "YKM",
-    "tz": "America/Los_Angeles",
+    "tz": "America/Los Angeles",
     "a": "Yakima Air Terminal McAllister Field",
     "s": "1"
   },
@@ -25315,7 +25315,7 @@
   },
   {
     "i": "YQT",
-    "tz": "America/Thunder_Bay",
+    "tz": "America/Thunder Bay",
     "a": "Thunder Bay Airport",
     "s": "1"
   },
@@ -25339,13 +25339,13 @@
   },
   {
     "i": "YQX",
-    "tz": "America/St_Johns",
+    "tz": "America/St Johns",
     "a": "Gander International Airport / CFB Gander",
     "s": "1"
   },
   {
     "i": "YQY",
-    "tz": "America/Glace_Bay",
+    "tz": "America/Glace Bay",
     "a": "Sydney / J.A. Douglas McCurdy Airport",
     "s": "1"
   },
@@ -25393,7 +25393,7 @@
   },
   {
     "i": "YRT",
-    "tz": "America/Rankin_Inlet",
+    "tz": "America/Rankin Inlet",
     "a": "Rankin Inlet Airport",
     "s": "1"
   },
@@ -25591,7 +25591,7 @@
   },
   {
     "i": "YWK",
-    "tz": "America/Goose_Bay",
+    "tz": "America/Goose Bay",
     "a": "Wabush Airport",
     "s": "1"
   },
@@ -25627,7 +25627,7 @@
   },
   {
     "i": "YXJ",
-    "tz": "America/Dawson_Creek",
+    "tz": "America/Dawson Creek",
     "a": "Fort St John / North Peace Regional Airport",
     "s": "1"
   },
@@ -25741,7 +25741,7 @@
   },
   {
     "i": "YYN",
-    "tz": "America/Swift_Current",
+    "tz": "America/Swift Current",
     "a": "Swift Current Airport",
     "s": "1"
   },
@@ -25753,7 +25753,7 @@
   },
   {
     "i": "YYR",
-    "tz": "America/Goose_Bay",
+    "tz": "America/Goose Bay",
     "a": "CFB Goose Bay",
     "s": "1"
   },
@@ -25795,7 +25795,7 @@
   },
   {
     "i": "YZS",
-    "tz": "America/Coral_Harbour",
+    "tz": "America/Coral Harbour",
     "a": "Coral Harbour Airport",
     "s": "1"
   },
@@ -25891,7 +25891,7 @@
   },
   {
     "i": "ZCL",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "General Leobardo C. Ruiz International Airport",
     "s": "1"
   },
@@ -25963,7 +25963,7 @@
   },
   {
     "i": "ZIH",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Ixtapa-Zihuatanejo International Airport",
     "s": "1"
   },
@@ -25993,7 +25993,7 @@
   },
   {
     "i": "ZLO",
-    "tz": "America/Mexico_City",
+    "tz": "America/Mexico City",
     "a": "Playa de Oro International Airport",
     "s": "1"
   },
@@ -26131,7 +26131,7 @@
   },
   {
     "i": "ZZV",
-    "tz": "America/New_York",
+    "tz": "America/New York",
     "a": "Zanesville Municipal Airport",
     "s": "1"
   }
