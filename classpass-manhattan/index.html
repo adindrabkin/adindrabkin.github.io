@@ -167,18 +167,6 @@
       color: var(--fg-color, #333);
     }
 
-    #cp-search {
-      flex: 1;
-      min-width: 160px;
-      max-width: 280px;
-      padding: 5px 10px;
-      border: 1px solid var(--border-color, #ccc);
-      border-radius: 4px;
-      font-size: 0.875rem;
-      background: var(--bg-color, #fff);
-      color: var(--fg-color, #333);
-    }
-
      
     .cp-day-label {
       display: inline-flex;
@@ -364,10 +352,8 @@
 
       
       <div class="cp-filter-row">
-        <span class="cp-filter-label">Search</span>
-        <input type="text" id="cp-search" placeholder="Venue name…" autocomplete="off">
         <div id="cp-status">
-          <span id="cp-count">—</span>
+          <span id="cp-count">0/0 venues</span>
           <button id="cp-clear">Clear all</button>
         </div>
       </div>
