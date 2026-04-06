@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="color-scheme" content="light dark">
+
+    
+
+    <meta name="author" content="Adin Drabkin">
+    <meta name="description" content="Interactive map of ClassPass food and drink venues in Manhattan with filtering by day, cuisine, and credits">
+    <meta name="keywords" content="">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ClassPass Manhattan Food Map"/>
+<meta name="twitter:description" content="Interactive map of ClassPass food and drink venues in Manhattan with filtering by day, cuisine, and credits"/>
+
+    <meta property="og:title" content="ClassPass Manhattan Food Map" />
+<meta property="og:description" content="Interactive map of ClassPass food and drink venues in Manhattan with filtering by day, cuisine, and credits" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://adindrabkin.com/classpass-manhattan/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2026-04-05T00:00:00+00:00" />
+<meta property="article:modified_time" content="2026-04-05T00:00:00+00:00" />
+
+
+    <title>ClassPass Manhattan Food Map · Adin Drabkin</title>
+
+    
+      <link rel="canonical" href="https://adindrabkin.com/classpass-manhattan/">
+    
+
+    <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+    
+      
+      
+      <link rel="stylesheet" href="/css/coder.min.7b314bd953f9bf97050dc5a58a3bc9cea394b9438d373447ddfe7365d5efe091.css" integrity="sha256-ezFL2VP5v5cFDcWlijvJzqOUuUONNzRH3f5zZdXv4JE=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="/css/coder-dark.min.ccbbada2e264e4fdbf9b2181cccc2cdb289a63dc9520a1e96ac2b9a45778df29.css" integrity="sha256-zLutouJk5P2/myGBzMws2yiaY9yVIKHpasK5pFd43yk=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+      
+        
+        <link rel="stylesheet" href="/css/custom.min.939856e35538ef267b9c1ec423e3dc22bc6088d0b3ca878ad4b10673720a15d3.css" integrity="sha256-k5hW41U47yZ7nB7EI&#43;PcIrxgiNCzyoeK1LEGc3IKFdM=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+    <meta name="generator" content="Hugo 0.111.3">
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-auto">
+    
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/">
+      Adin Drabkin
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/" >Home</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/about/" >About</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/blog/" >Blog</a>
+          </li>
+        
+        
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="/tools/" >Tools</a>
+          </li>
+        
+      
+        
+    </ul>
+  
+</section>
+</nav>
+
+      <div class="content">
+        
+<section class="container post">
+  <header>
+    <article>
+      <div class="post-title">
+        <h1 class="title">
+          <a class="title-link" href="https://adindrabkin.com/classpass-manhattan/">ClassPass Manhattan Food Map</a>
+        </h1>
+      </div>
+    </article>
+  </header>
+
+  
+  <link rel="stylesheet" href="/js/leaflet/leaflet.css">
+
+  <style>
+     
+    #cp-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-top: 16px;
+    }
+
+     
+    #cp-filters {
+      background: var(--bg-secondary, #f5f5f5);
+      border: 1px solid var(--border-color, #ddd);
+      border-radius: 8px;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      font-size: 0.875rem;
+    }
+
+    .cp-filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cp-filter-label {
+      font-weight: 600;
+      min-width: 70px;
+      color: var(--fg-color, #333);
+    }
+
+    #cp-search {
+      flex: 1;
+      min-width: 160px;
+      max-width: 280px;
+      padding: 5px 10px;
+      border: 1px solid var(--border-color, #ccc);
+      border-radius: 4px;
+      font-size: 0.875rem;
+      background: var(--bg-color, #fff);
+      color: var(--fg-color, #333);
+    }
+
+     
+    .cp-day-label {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      padding: 3px 0;
+      border: 1px solid var(--border-color, #ccc);
+      border-radius: 99px;
+      cursor: pointer;
+      user-select: none;
+      background: var(--bg-color, #fff);
+      color: var(--fg-color, #333);
+      transition: background 0.15s, color 0.15s;
+    }
+
+    @media (max-width: 480px) {
+      #cp-filters .cp-filter-row { flex-wrap: wrap; }
+      .cp-filter-label { width: 100%; min-width: unset; }
+      .cp-day-label { flex: 1; width: unset; }
+    }
+    .cp-day-label input { display: none; }
+    .cp-day-label:has(input:checked) {
+      background: #e63946;
+      color: #fff;
+      border-color: #e63946;
+    }
+
+    .cp-meal-btn {
+      padding: 4px 10px;
+      border: 1px solid var(--border-color, #ccc);
+      border-radius: 4px;
+      background: var(--bg-color, #fff);
+      color: var(--fg-color, #333);
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      touch-action: manipulation;
+    }
+    .cp-meal-btn:hover { background: var(--border-color, #eee); }
+    .cp-meal-btn.active {
+      background: #e63946;
+      color: #fff;
+      border-color: #e63946;
+    }
+    @media (max-width: 480px) {
+      .cp-meal-btn {
+        flex: 1;
+        padding: 10px 0;
+        font-size: 1rem;
+        text-align: center;
+      }
+      #cp-filters .cp-filter-row:has(.cp-meal-btn) {
+        flex-wrap: wrap;
+      }
+      #cp-filters .cp-filter-row:has(.cp-meal-btn) #cp-time {
+        flex: 1 1 100%;
+      }
+    }
+
+    #cp-time {
+      padding: 4px 8px;
+      border: 1px solid var(--border-color, #ccc);
+      border-radius: 4px;
+      font-size: 0.875rem;
+      background: var(--bg-color, #fff);
+      color: var(--fg-color, #333);
+      cursor: pointer;
+      width: 100px;
+    }
+
+     
+    .cp-credit-range {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .cp-credit-range input[type=range] {
+      width: 100px;
+      accent-color: #457b9d;
+    }
+    .cp-credit-range .cp-range-val {
+      min-width: 22px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+     
+    #cp-status {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.82rem;
+      color: var(--fg-secondary, #666);
+    }
+    #cp-clear {
+      padding: 3px 10px;
+      border: 1px solid var(--border-color, #ccc);
+      border-radius: 4px;
+      background: transparent;
+      color: var(--fg-color, #333);
+      cursor: pointer;
+      font-size: 0.82rem;
+    }
+    #cp-clear:hover { background: var(--border-color, #eee); }
+
+     
+    #cp-map {
+      height: 560px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color, #ddd);
+      z-index: 0;
+    }
+
+     
+    .cp-popup h3 {
+      margin: 0 0 4px;
+      font-size: 1rem;
+      line-height: 1.3;
+    }
+    .cp-popup h3 a { color: #e63946; text-decoration: none; }
+    .cp-popup h3 a:hover { text-decoration: underline; }
+    .cp-popup-addr {
+      margin: 0 0 4px;
+      font-size: 0.78rem;
+      color: #666;
+    }
+    .cp-popup-acts {
+      margin: 0 0 8px;
+      font-size: 0.78rem;
+      font-style: italic;
+      color: #555;
+    }
+    .cp-popup-sched {
+      margin-bottom: 8px;
+      font-size: 0.78rem;
+    }
+    .cp-sched-row {
+      display: flex;
+      gap: 8px;
+      line-height: 1.6;
+    }
+    .cp-sched-day {
+      font-weight: 600;
+      min-width: 28px;
+      color: #457b9d;
+    }
+    .cp-popup-menu-title {
+      margin: 0 0 4px;
+      font-size: 0.78rem;
+      font-weight: 600;
+    }
+    .cp-popup-menu {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      max-height: 140px;
+      overflow-y: auto;
+      font-size: 0.78rem;
+    }
+    .cp-popup-menu li {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 6px;
+      padding: 2px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .cp-credit-badge {
+      flex-shrink: 0;
+      background: #457b9d;
+      color: #fff;
+      border-radius: 99px;
+      padding: 1px 6px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+  </style>
+
+  <div id="cp-wrap">
+    
+    <div id="cp-filters">
+
+      
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">Search</span>
+        <input type="text" id="cp-search" placeholder="Venue name…" autocomplete="off">
+        <div id="cp-status">
+          <span id="cp-count">—</span>
+          <button id="cp-clear">Clear all</button>
+        </div>
+      </div>
+
+      
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">Open on</span>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Monday">
+          Mon
+        </label>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Tuesday">
+          Tue
+        </label>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Wednesday">
+          Wed
+        </label>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Thursday">
+          Thu
+        </label>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Friday">
+          Fri
+        </label>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Saturday">
+          Sat
+        </label>
+        
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-day-cb" value="Sunday">
+          Sun
+        </label>
+        
+      </div>
+
+      
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">At time</span>
+        <div class="autocomplete-container">
+          <input type="text" id="cp-time" placeholder="Any time" autocomplete="off" readonly>
+          <div id="cp-time-results" class="autocomplete-results"></div>
+        </div>
+        <button class="cp-meal-btn" data-mins="480"  title="Breakfast">B</button>
+        <button class="cp-meal-btn" data-mins="720"  title="Lunch">L</button>
+        <button class="cp-meal-btn" data-mins="1080" title="Dinner">D</button>
+        <button class="cp-meal-btn" id="cp-now-btn" title="Current time">Now</button>
+      </div>
+
+      
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">Max credits</span>
+        <div class="cp-credit-range">
+          <span>1</span>
+          <input type="range" id="cp-credits-max" min="1" max="21" value="21">
+          <span class="cp-range-val" id="cp-credits-max-label">21</span>
+        </div>
+      </div>
+
+      
+      <div class="cp-filter-row">
+        <span class="cp-filter-label">Category</span>
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-cat-cb" value="protein"> Protein
+        </label>
+        <label class="cp-day-label">
+          <input type="checkbox" class="cp-cat-cb" value="cafe"> Cafe
+        </label>
+      </div>
+
+      <div class="cp-filter-row">
+        <span style="font-size:0.75rem;color:var(--fg-secondary,#888);font-style:italic;">Data last refreshed April 6th, 2026. Does not reflect holidays.</span>
+      </div>
+
+    </div>
+
+    
+    <div id="cp-map"></div>
+
+  </div>
+
+  
+  <script src="/js/leaflet/leaflet.js"></script>
+
+  
+  
+  <script src="/js/classpass-map.min.js" defer></script>
+
+</section>
+
+      </div>
+
+      <footer class="footer">
+  <section class="container">
+    ©
+    
+    2026
+     Adin Drabkin 
+    ·
+    Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
+    
+  </section>
+</footer>
+
+    </main>
+
+    
+      
+      <script src="/js/coder.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
